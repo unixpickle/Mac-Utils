@@ -1,0 +1,760 @@
+TKeyShot
+v7
+r0
+t313459991.671008
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist KeyShot-Info.plist
+cCopyStringsFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib
+cCpResource build/Debug/KeyShot.app/Contents/Resources/favicon.png favicon.png
+cCopyPlistFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist keys.plist
+cCpResource build/Debug/KeyShot.app/Contents/Resources/icon.icns icon.icns
+cCpResource build/Debug/KeyShot.app/Contents/Resources/iconthumb.png iconthumb.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o /Users/alex/xCode/KeyShot/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o /Users/alex/xCode/KeyShot/KeyShotAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o /Users/alex/xCode/KeyShot/ANKeyEvent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o /Users/alex/xCode/KeyShot/ANApplicationHotKey.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o /Users/alex/xCode/KeyShot/Mainwindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot normal x86_64
+cTouch /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004BF4700E0000000000003A54
+t1274310670
+s14932
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B4834EA00000000000005FF
+t1263023338
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/KeyShot/ANApplicationHotKey.h
+c000000004BB22E84000000000000024B
+t1269968516
+s587
+i<Cocoa/Cocoa.h>
+i"ANKeyEvent.h"
+
+N/Users/alex/Desktop/KeyShot/ANApplicationHotKey.m
+c000000004BB23287000000000000048B
+t1269969543
+s1163
+i"ANApplicationHotKey.h"
+
+N/Users/alex/Desktop/KeyShot/ANKeyEvent.h
+c000000004BB220BC000000000000037A
+t1269964988
+s890
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/Desktop/KeyShot/ANKeyEvent.m
+c000000004BB2212C000000000000094D
+t1269965100
+s2381
+i"ANKeyEvent.h"
+
+N/Users/alex/Desktop/KeyShot/English.lproj/InfoPlist.strings
+c000000004BB192E0000000000000002D
+t1269928672
+s45
+
+N/Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib
+c000000004BB22D83000000000003DF6B
+t1269968259
+s253803
+
+N/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.h
+c000000004BB22B1B000000000000036B
+t1269967643
+s875
+i<Cocoa/Cocoa.h>
+i"ANKeyEvent.h"
+i"ANApplicationHotKey.h"
+
+N/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m
+c000000004BB240CF0000000000002248
+t1269973199
+s8776
+i"KeyShotAppDelegate.h"
+
+N/Users/alex/Desktop/KeyShot/KeyShot_Prefix.pch
+c000000004BB192E00000000000000091
+t1269928672
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/KeyShot/Mainwindow.h
+c000000004BB228B700000000000000C7
+t1269967031
+s199
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/KeyShot/Mainwindow.m
+c000000004BB228C600000000000001C4
+t1269967046
+s452
+i"Mainwindow.h"
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app
+t1269973632
+s102
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist
+t1269973627
+s968
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot
+t1269973632
+s53800
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/PkgInfo
+t1269973628
+s8
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1269973628
+s92
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/MainMenu.nib
+t1269973628
+s51816
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/favicon.png
+t1269973628
+s1480
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/foo.icns
+t1269973628
+s33334
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/icon.icns
+t1269973628
+s16485
+
+N/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist
+t1269973628
+s1736
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o
+t1269973632
+s18428
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o
+t1269973632
+s29356
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShot.LinkFileList
+c000000004BB2427B000000000000020E
+t1269973627
+s526
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o
+t1269973631
+s79476
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o
+t1269973632
+s14196
+
+N/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o
+t1269973631
+s4968
+
+N/Users/alex/Desktop/KeyShot/favicon.png
+c000000004BB19F2C00000000000005C8
+t1269931820
+s1480
+
+N/Users/alex/Desktop/KeyShot/foo.icns
+c000000004BB241B40000000000008236
+t1269973428
+s33334
+
+N/Users/alex/Desktop/KeyShot/icon.icns
+c000000004BB242450000000000004065
+t1269973573
+s16485
+
+N/Users/alex/Desktop/KeyShot/keys.plist
+c000000004BB21A3D00000000000006C8
+t1269963325
+s1736
+
+N/Users/alex/Desktop/KeyShot/main.m
+c000000004BB192E000000000000000F4
+t1269928672
+s244
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/KeyShot/ANApplicationHotKey.h
+c000000004BB22E84000000000000024B
+t1269968516
+s587
+i<Cocoa/Cocoa.h>
+i"ANKeyEvent.h"
+
+N/Users/alex/xCode/KeyShot/ANApplicationHotKey.m
+c000000004CFEAFFF0000000000000655
+t1291759615
+s1621
+i"ANApplicationHotKey.h"
+
+N/Users/alex/xCode/KeyShot/ANKeyEvent.h
+c000000004CFEA1B700000000000003CA
+t1291755959
+s970
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/KeyShot/ANKeyEvent.m
+c000000004CFEBD820000000000000D60
+t1291763074
+s3424
+i"ANKeyEvent.h"
+
+N/Users/alex/xCode/KeyShot/English.lproj/InfoPlist.strings
+c000000004BB192E0000000000000002D
+t1269928672
+s45
+
+N/Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib
+c000000004CFECD960000000000024062
+t1291767190
+s147554
+
+N/Users/alex/xCode/KeyShot/KeyShotAppDelegate.h
+c000000004CFECC6D00000000000003E8
+t1291766893
+s1000
+i<Cocoa/Cocoa.h>
+i"ANKeyEvent.h"
+i"ANApplicationHotKey.h"
+
+N/Users/alex/xCode/KeyShot/KeyShotAppDelegate.m
+c000000004CFECD430000000000002CD5
+t1291767107
+s11477
+i"KeyShotAppDelegate.h"
+
+N/Users/alex/xCode/KeyShot/KeyShot_Prefix.pch
+c000000004BB192E00000000000000091
+t1269928672
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/KeyShot/Mainwindow.h
+c000000004BB228B700000000000000C7
+t1269967031
+s199
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/KeyShot/Mainwindow.m
+c000000004BB228C600000000000001C4
+t1269967046
+s452
+i"Mainwindow.h"
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app
+t1291767191
+s102
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist
+t1269973627
+s968
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot
+t1291767109
+s59736
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/PkgInfo
+t1269973628
+s8
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1269973628
+s92
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/MainMenu.nib
+t1291767191
+s28762
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/favicon.png
+t1269973628
+s1480
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/foo.icns
+t1269973628
+s33334
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/icon.icns
+t1269973628
+s16485
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/iconthumb.png
+t1291766502
+s53053
+
+N/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist
+t1269973628
+s1736
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o
+t1291759639
+s20612
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o
+t1291763093
+s35060
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShot.LinkFileList
+c000000004BB9096B0000000000000204
+t1270417771
+s516
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o
+t1291767109
+s82816
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o
+t1291754367
+s14276
+
+N/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o
+t1291754366
+s4992
+
+N/Users/alex/xCode/KeyShot/favicon.png
+c000000004BB19F2C00000000000005C8
+t1269931820
+s1480
+
+N/Users/alex/xCode/KeyShot/foo.icns
+c000000004BB241B40000000000008236
+t1269973428
+s33334
+
+N/Users/alex/xCode/KeyShot/icon.icns
+c000000004BB242450000000000004065
+t1269973573
+s16485
+
+N/Users/alex/xCode/KeyShot/iconthumb.png
+c000000004CFECA1F000000000000CF3D
+t1291766303
+s53053
+
+N/Users/alex/xCode/KeyShot/keys.plist
+c000000004BB21A3D00000000000006C8
+t1269963325
+s1736
+
+N/Users/alex/xCode/KeyShot/main.m
+c000000004BB192E000000000000000F4
+t1269928672
+s244
+i<Cocoa/Cocoa.h>
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004CAA74040000000000003A54
+t1286239236
+s14932
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-agsuaasunbrnjpgixcfhvqhxthat/KeyShot_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch.gch
+t1291754366
+s54314768
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-chuewydsysgtynbuhdeapwpudwco/KeyShot_Prefix.pch.gch
+t1270417774
+s54208272
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-frlcnjqkzlfkhbdaetodxjqtbxqb/KeyShot_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch.gch
+t1269973631
+s54208272
+
+NKeyShot-Info.plist
+c000000004BB24278000000000000040C
+t1269973624
+s1036
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313459991#313459991#0(0"0(0#1#0"8651500736#0"0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o /Users/alex/Desktop/KeyShot/ANApplicationHotKey.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666431.928364
+e291666432.235791
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o
+x/Users/alex/Desktop/KeyShot/ANApplicationHotKey.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@57"Compile /Users/alex/Desktop/KeyShot/ANApplicationHotKey.m291666431#291666432#0(87"/Users/alex/Desktop/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used1(22@32"'_curkeyid' defined but not used291666432#0#87#0(6@40"/Users/alex/Desktop/KeyShot/ANKeyEvent.h291657788#13#0#13#0#24"'*' defined but not used0(0#0#49"/Users/alex/Desktop/KeyShot/ANApplicationHotKey.m4300903632#1359"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch -c /Users/alex/Desktop/KeyShot/ANApplicationHotKey.m -o /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o /Users/alex/xCode/KeyShot/ANApplicationHotKey.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313452436.806880
+e313452439.036783
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o
+x/Users/alex/xCode/KeyShot/ANApplicationHotKey.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@55"Compile /Users/alex/xCode/KeyShot/ANApplicationHotKey.m313452436#313452439#0(85"/Users/alex/xCode/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used1(22@32"'_curkeyid' defined but not used313452438#0#85#0(6@38"/Users/alex/xCode/KeyShot/ANKeyEvent.h313448759#13#0#13#0#24"'*' defined but not used0(0#0#47"/Users/alex/xCode/KeyShot/ANApplicationHotKey.m8646030816#1367"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch -c /Users/alex/xCode/KeyShot/ANApplicationHotKey.m -o /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANApplicationHotKey.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o /Users/alex/Desktop/KeyShot/ANKeyEvent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666431.715687
+e291666432.034929
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o
+x/Users/alex/Desktop/KeyShot/ANKeyEvent.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/alex/Desktop/KeyShot/ANKeyEvent.m291666431#291666432#0(0"0(0#0#40"/Users/alex/Desktop/KeyShot/ANKeyEvent.m4300903632#1341"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch -c /Users/alex/Desktop/KeyShot/ANKeyEvent.m -o /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o /Users/alex/xCode/KeyShot/ANKeyEvent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313455890.627766
+e313455893.486081
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o
+x/Users/alex/xCode/KeyShot/ANKeyEvent.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/alex/xCode/KeyShot/ANKeyEvent.m313455890#313455893#0(0"0(0#0#38"/Users/alex/xCode/KeyShot/ANKeyEvent.m8640760864#1349"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch -c /Users/alex/xCode/KeyShot/ANKeyEvent.m -o /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/ANKeyEvent.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o /Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666431.571080
+e291666431.928267
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o
+x/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: In function '-[KeyShotAppDelegate addShortcut:]':
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:23: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: 'KeyShotAppDelegate' may not respond to '-saveUserSettings'
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: (Messages without a matching method signature
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: will be assumed to return 'id' and accept
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: '...' as arguments.)
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:16: warning: unused variable 'sel'
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: In function '-[KeyShotAppDelegate removeShortcut:]':
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:34: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:36: warning: 'KeyShotAppDelegate' may not respond to '-saveUserSettings'
+o/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: At top level:
+o/Users/alex/Desktop/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@56"Compile /Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291666431#291666431#0(1425"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: In function '-[KeyShotAppDelegate addShortcut:]':/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:23: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: 'KeyShotAppDelegate' may not respond to '-saveUserSettings'/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: (Messages without a matching method signature/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: will be assumed to return 'id' and accept/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:24: warning: '...' as arguments.)/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:16: warning: unused variable 'sel'/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: In function '-[KeyShotAppDelegate removeShortcut:]':/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:34: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m:36: warning: 'KeyShotAppDelegate' may not respond to '-saveUserSettings'/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m: At top level:/Users/alex/Desktop/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used8(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)291666431#100#224#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#23#0#23#0#33"'*' is deprecated (declared at *)0(22@59"'KeyShotAppDelegate' may not respond to '-saveUserSettings'291666431#324#122#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)291666431#446#108#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#24#0#24#0#0"0(22@21"Unused variable 'sel'291666431#741#84#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#16#0#16#0#19"unused variable '*'0(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)291666431#928#224#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#34#0#34#0#33"'*' is deprecated (declared at *)0(22@59"'KeyShotAppDelegate' may not respond to '-saveUserSettings'291666431#1152#122#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#36#0#36#0#26"'*' may not respond to '*'0(23@13"At top level:291666431#1274#64#0(6@48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m291665999#0#0#0#0#0"0(22@32"'_curkeyid' defined but not used291666431#1338#87#0(6@40"/Users/alex/Desktop/KeyShot/ANKeyEvent.h291657788#13#0#13#0#24"'*' defined but not used0(0#0#48"/Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m4300903632#1357"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch -c /Users/alex/Desktop/KeyShot/KeyShotAppDelegate.m -o /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o /Users/alex/xCode/KeyShot/KeyShotAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313459909.027155
+e313459909.590818
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o
+x/Users/alex/xCode/KeyShot/KeyShotAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@54"Compile /Users/alex/xCode/KeyShot/KeyShotAppDelegate.m313459909#313459909#0(85"/Users/alex/xCode/KeyShot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used1(22@32"'_curkeyid' defined but not used313459909#0#85#0(6@38"/Users/alex/xCode/KeyShot/ANKeyEvent.h313448759#13#0#13#0#24"'*' defined but not used0(0#0#46"/Users/alex/xCode/KeyShot/KeyShotAppDelegate.m8608643232#1365"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch -c /Users/alex/xCode/KeyShot/KeyShotAppDelegate.m -o /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShotAppDelegate.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o /Users/alex/Desktop/KeyShot/Mainwindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666432.035028
+e291666432.186205
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o
+x/Users/alex/Desktop/KeyShot/Mainwindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/KeyShot/Mainwindow.m: In function '-[Mainwindow initWithFrame:]':
+o/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: 'NSWindow' may not respond to '-initWithFrame:'
+o/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: (Messages without a matching method signature
+o/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: will be assumed to return 'id' and accept
+o/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: '...' as arguments.)
+lSLF07#2@48"Compile /Users/alex/Desktop/KeyShot/Mainwindow.m291666432#291666432#0(459"/Users/alex/Desktop/KeyShot/Mainwindow.m: In function '-[Mainwindow initWithFrame:]':/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: 'NSWindow' may not respond to '-initWithFrame:'/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: (Messages without a matching method signature/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: will be assumed to return 'id' and accept/Users/alex/Desktop/KeyShot/Mainwindow.m:17: warning: '...' as arguments.)2(22@47"'NSWindow' may not respond to '-initWithFrame:'291666432#86#102#0(6@40"/Users/alex/Desktop/KeyShot/Mainwindow.m291659846#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)291666432#188#100#0(6@40"/Users/alex/Desktop/KeyShot/Mainwindow.m291659846#17#0#17#0#0"0(0#0#40"/Users/alex/Desktop/KeyShot/Mainwindow.m4300903632#1341"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch -c /Users/alex/Desktop/KeyShot/Mainwindow.m -o /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o /Users/alex/xCode/KeyShot/Mainwindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313447167.657649
+e313447167.868355
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o
+x/Users/alex/xCode/KeyShot/Mainwindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/KeyShot/Mainwindow.m: In function '-[Mainwindow initWithFrame:]':
+o/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: 'NSWindow' may not respond to '-initWithFrame:'
+o/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: (Messages without a matching method signature
+o/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: will be assumed to return 'id' and accept
+o/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: '...' as arguments.)
+lSLF07#2@46"Compile /Users/alex/xCode/KeyShot/Mainwindow.m313447167#313447167#0(449"/Users/alex/xCode/KeyShot/Mainwindow.m: In function '-[Mainwindow initWithFrame:]':/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: 'NSWindow' may not respond to '-initWithFrame:'/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: (Messages without a matching method signature/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: will be assumed to return 'id' and accept/Users/alex/xCode/KeyShot/Mainwindow.m:17: warning: '...' as arguments.)2(22@47"'NSWindow' may not respond to '-initWithFrame:'313447167#84#100#0(6@38"/Users/alex/xCode/KeyShot/Mainwindow.m291659846#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313447167#184#98#0(6@38"/Users/alex/xCode/KeyShot/Mainwindow.m291659846#17#0#17#0#0"0(0#0#38"/Users/alex/xCode/KeyShot/Mainwindow.m8621783968#1349"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch -c /Users/alex/xCode/KeyShot/Mainwindow.m -o /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/Mainwindow.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/KeyShot/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666431.569657
+e291666431.715593
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o
+x/Users/alex/Desktop/KeyShot/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/alex/Desktop/KeyShot/main.m291666431#291666431#0(0"0(0#0#34"/Users/alex/Desktop/KeyShot/main.m4300903632#1329"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch -c /Users/alex/Desktop/KeyShot/main.m -o /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o /Users/alex/xCode/KeyShot/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313447166.492790
+e313447166.799183
+r1
+xCompileC
+xbuild/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o
+x/Users/alex/xCode/KeyShot/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /Users/alex/xCode/KeyShot/main.m313447166#313447166#0(0"0(0#0#32"/Users/alex/xCode/KeyShot/main.m8621432864#1337"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch -c /Users/alex/xCode/KeyShot/main.m -o /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib
+s291666428.007548
+e291666428.449152
+r1
+xCompileXIB
+x/Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib:561: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib291666428#291666428#0(141"/* com.apple.ibtool.document.notices *//Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib:561: note: This view is clipping its content.1(13@34"This view is clipping its content.291666428#18446744073709551615#0#0(6@54"/Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib291661059#561#0#561#0#0"0(0#0#54"/Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib4300903632#294"    cd /Users/alex/Desktop/KeyShot    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/KeyShot/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib
+s313459991.298361
+e313459991.666882
+r1
+xCompileXIB
+x/Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib:547: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313459991#313459991#0(139"/* com.apple.ibtool.document.notices *//Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib:547: note: This view is clipping its content.1(13@34"This view is clipping its content.313459991#18446744073709551615#0#0(6@52"/Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib313459990#547#0#547#0#0"0(0#0#52"/Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib8647443680#355"    cd /Users/alex/xCode/KeyShot    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/xCode/KeyShot/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist keys.plist
+s291666428.036300
+e291666428.056426
+r1
+xCopyPlistFile
+x/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist
+xkeys.plist
+lSLF07#2@15"Copy keys.plist291666428#291666428#0(0"0(0#0#38"/Users/alex/Desktop/KeyShot/keys.plist4300903632#217"    cd /Users/alex/Desktop/KeyShot    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist keys.plist --outdir /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources0#
+
+CCopyPlistFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/keys.plist keys.plist
+r0
+
+CCopyStringsFile /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s291666428.005399
+e291666428.035537
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings291666428#291666428#0(0"0(0#0#59"/Users/alex/Desktop/KeyShot/English.lproj/InfoPlist.strings4300903632#343"    cd /Users/alex/Desktop/KeyShot    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/KeyShot.app/Contents/Resources/favicon.png favicon.png
+s291666428.035629
+e291666428.040347
+r1
+xCpResource
+xbuild/Debug/KeyShot.app/Contents/Resources/favicon.png
+xfavicon.png
+lSLF07#2@16"Copy favicon.png291666428#291666428#0(0"0(0#0#39"/Users/alex/Desktop/KeyShot/favicon.png4300903632#294"    cd /Users/alex/Desktop/KeyShot    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alex/Desktop/KeyShot/favicon.png /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources0#
+
+CCpResource build/Debug/KeyShot.app/Contents/Resources/foo.icns foo.icns
+s291666428.056513
+e291666428.061430
+r1
+xCpResource
+xbuild/Debug/KeyShot.app/Contents/Resources/foo.icns
+xfoo.icns
+lSLF07#2@13"Copy foo.icns291666428#291666428#0(0"0(0#0#36"/Users/alex/Desktop/KeyShot/foo.icns4300903632#291"    cd /Users/alex/Desktop/KeyShot    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alex/Desktop/KeyShot/foo.icns /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources0#
+
+CCpResource build/Debug/KeyShot.app/Contents/Resources/icon.icns icon.icns
+s291666428.057150
+e291666428.065222
+r1
+xCpResource
+xbuild/Debug/KeyShot.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns291666428#291666428#0(0"0(0#0#37"/Users/alex/Desktop/KeyShot/icon.icns4300903632#292"    cd /Users/alex/Desktop/KeyShot    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alex/Desktop/KeyShot/icon.icns /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Resources0#
+
+CCpResource build/Debug/KeyShot.app/Contents/Resources/iconthumb.png iconthumb.png
+s313459302.579489
+e313459302.606755
+r1
+xCpResource
+xbuild/Debug/KeyShot.app/Contents/Resources/iconthumb.png
+xiconthumb.png
+lSLF07#2@18"Copy iconthumb.png313459302#313459302#0(0"0(0#0#39"/Users/alex/xCode/KeyShot/iconthumb.png8625455392#319"    cd /Users/alex/xCode/KeyShot    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/KeyShot/iconthumb.png /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Resources0#
+
+CLd /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot normal x86_64
+s291666432.235892
+e291666432.276899
+r1
+xLd
+x/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot
+xnormal
+xx86_64
+lSLF07#2@79"Link /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot291666432#291666432#0(0"0(0#0#0"4300903632#505"    cd /Users/alex/Desktop/KeyShot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/KeyShot/build/Debug -F/Users/alex/Desktop/KeyShot/build/Debug -filelist /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShot.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot0#
+
+CLd /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot normal x86_64
+s313459909.590905
+e313459909.634508
+r1
+xLd
+x/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot
+xnormal
+xx86_64
+lSLF07#2@77"Link /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot313459909#313459909#0(0"0(0#0#0"8620299008#525"    cd /Users/alex/xCode/KeyShot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/KeyShot/build/Debug -F/Users/alex/xCode/KeyShot/build/Debug -filelist /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/Objects-normal/x86_64/KeyShot.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/MacOS/KeyShot0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist KeyShot-Info.plist
+s291666427.979293
+e291666428.005309
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist
+xKeyShot-Info.plist
+lSLF07#2@26"Process KeyShot-Info.plist291666427#291666428#0(0"0(0#0#46"/Users/alex/Desktop/KeyShot/KeyShot-Info.plist4300903632#277"    cd /Users/alex/Desktop/KeyShot    builtin-infoPlistUtility KeyShot-Info.plist -genpkginfo /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app/Contents/Info.plist KeyShot-Info.plist
+r0
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-agsuaasunbrnjpgixcfhvqhxthat/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313447158.896209
+e313447166.492453
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch.gch
+xKeyShot_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile KeyShot_Prefix.pch313447158#313447166#0(0"0(0#0#44"/Users/alex/xCode/KeyShot/KeyShot_Prefix.pch8237188672150590464#1256"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -c /Users/alex/xCode/KeyShot/KeyShot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-bfogooeodzrrzdehyxqpdoetthzr/KeyShot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-chuewydsysgtynbuhdeapwpudwco/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292110571.522965
+e292110574.733564
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-chuewydsysgtynbuhdeapwpudwco/KeyShot_Prefix.pch.gch
+xKeyShot_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile KeyShot_Prefix.pch292110571#292110574#0(0"0(0#0#44"/Users/alex/xCode/KeyShot/KeyShot_Prefix.pch4300903632#1226"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -c /Users/alex/xCode/KeyShot/KeyShot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-chuewydsysgtynbuhdeapwpudwco/KeyShot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-frlcnjqkzlfkhbdaetodxjqtbxqb/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s297822172.139006
+e297822176.334656
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-frlcnjqkzlfkhbdaetodxjqtbxqb/KeyShot_Prefix.pch.gch
+xKeyShot_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile KeyShot_Prefix.pch297822172#297822176#0(0"0(0#0#44"/Users/alex/xCode/KeyShot/KeyShot_Prefix.pch8237188672150590464#1226"    cd /Users/alex/xCode/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/xCode/KeyShot/build/Debug -I/Users/alex/xCode/KeyShot/build/Debug/include -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/xCode/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -c /Users/alex/xCode/KeyShot/KeyShot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-frlcnjqkzlfkhbdaetodxjqtbxqb/KeyShot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch.gch KeyShot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291666428.449272
+e291666431.569392
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch.gch
+xKeyShot_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile KeyShot_Prefix.pch291666428#291666431#0(0"0(0#0#46"/Users/alex/Desktop/KeyShot/KeyShot_Prefix.pch4300903632#1246"    cd /Users/alex/Desktop/KeyShot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-generated-files.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-own-target-headers.hmap -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-all-target-headers.hmap -iquote /Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/KeyShot-project-headers.hmap -F/Users/alex/Desktop/KeyShot/build/Debug -I/Users/alex/Desktop/KeyShot/build/Debug/include -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/KeyShot/build/KeyShot.build/Debug/KeyShot.build/DerivedSources -c /Users/alex/Desktop/KeyShot/KeyShot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KeyShot_Prefix-hjeraxkjfpvkrlbuutrdbitmqrca/KeyShot_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app
+s291666432.276995
+e291666432.279765
+r1
+xTouch
+x/Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app
+lSLF07#2@57"Touch /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app291666432#291666432#0(0"0(0#0#0"4300903632#109"    cd /Users/alex/Desktop/KeyShot    /usr/bin/touch -c /Users/alex/Desktop/KeyShot/build/Debug/KeyShot.app0#
+
+CTouch /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app
+s313459991.667698
+e313459991.670981
+r1
+xTouch
+x/Users/alex/xCode/KeyShot/build/Debug/KeyShot.app
+lSLF07#2@55"Touch /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app313459991#313459991#0(0"0(0#0#0"8642077856#105"    cd /Users/alex/xCode/KeyShot    /usr/bin/touch -c /Users/alex/xCode/KeyShot/build/Debug/KeyShot.app0#
+
