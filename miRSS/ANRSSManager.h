@@ -10,12 +10,14 @@
 #import "RSSChannel.h"
 #import "RSSFeed.h"
 #import "RSSItem.h"
+#import "ANTimeoutConnection.h"
 
 // for channel dictionaries
 #define ANRSSManagerChannelURLKey @"url"
 #define ANRSSManagerChannelRSSChannelKey @"channel"
 #define ANRSSManagerChannelReadGUIDSKey @"guids"
 #define ANRSSManagerChannelWasFound @"found"
+#define ANRSSManagerChannelWasModified @"changed"
 
 @protocol ANRSSManagerDelegate
 
@@ -38,10 +40,13 @@
 
 @property (nonatomic, assign) id <ANRSSManagerDelegate> delegate;
 
+- (int)unreadInChannelIndex:(int)index lock:(BOOL)doLock;
 - (BOOL)modified;
 - (int)channelCount;
 - (void)addRSSURL:(NSString *)url;
 - (void)removeAtIndex:(int)i;
+- (void)changeToRead:(int)channelIndex articleIndex:(int)article lock:(BOOL)doLock;
+- (void)save;
 - (void)lock;
 - (void)unlock;
 - (void)startFetchThread;

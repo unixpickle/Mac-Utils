@@ -16,10 +16,13 @@
 @synthesize postGuid;
 @synthesize postContent;
 @synthesize postURL;
+@synthesize parentChannel;
+@synthesize isRead;
 
 - (id)initWithXML:(NSXMLNode *)document {
 	if (self = [super init]) {
 		// read the XML data here
+		isRead = NO;
 		for (NSXMLNode * information in [document children]) {
 			if ([[information name] isEqual:@"title"] &&
 				[information kind] == NSXMLElementKind) {
@@ -55,6 +58,9 @@
 				[information kind] == NSXMLElementKind) {
 				// set the title
 				self.postContent = [information stringValue];
+			}
+			if (!self.postGuid) {
+				self.postGuid = self.postURL;
 			}
 		}
 	}

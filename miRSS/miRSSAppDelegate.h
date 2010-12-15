@@ -12,7 +12,8 @@
 #import "RSSChannel.h"
 #import "RSSChannelView.h"
 
-@interface miRSSAppDelegate : NSObject <NSApplicationDelegate, ANRSSManagerDelegate> {
+
+@interface miRSSAppDelegate : NSObject <NSApplicationDelegate, ANRSSManagerDelegate, RSSChannelViewDelegate> {
     NSWindow * window;
 	IBOutlet NSWindow * addWindow;
 	IBOutlet NSTextField * addURL;
@@ -28,6 +29,8 @@
 	IBOutlet NSWindow * channelsList;
 	IBOutlet NSTableView * tableView;
 }
+
+- (BOOL)stringArray:(NSArray *)strings containsString:(NSString *)string;
 
 - (void)updateMenu;
 - (NSMenu *)createMenu;

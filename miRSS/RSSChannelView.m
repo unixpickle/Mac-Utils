@@ -11,7 +11,18 @@
 
 @implementation RSSChannelView
 
+@synthesize delegate;
+
+- (void)rssItemWasSelected:(id)sender {
+	if ([(id)delegate respondsToSelector:@selector(rssChannel:itemHighlighted:)]) {
+		[delegate rssChannel:self itemHighlighted:sender];
+	}
+}
+
 - (void)setChannel:(RSSChannel *)channel {
+	
+	[lastChannel release];
+	lastChannel = [channel retain];
 	
 	if (contentView) {
 		[contentView removeFromSuperview];
@@ -29,6 +40,7 @@
 		RSSItem * _item = [[ch items] objectAtIndex:i];
 		// read the item 
 		RSSItemView * item = [[RSSItemView alloc] initWithFrame:NSMakeRect(x, y, width, 100)];
+		[item setDelegate:self];
 		[item setItem:_item];
 		[item sizeToFit];
 		y += [item frame].size.height + 10;

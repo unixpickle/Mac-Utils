@@ -8,10 +8,23 @@
 
 #import "miRSSAppDelegate.h"
 #import "RSSChannelView.h"
+#import "Debugging.h"
 
 @implementation miRSSAppDelegate
 
 @synthesize window;
+
+- (BOOL)stringArray:(NSArray *)strings containsString:(NSString *)string {
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	for (int i = 0; i < [strings count]; i++) {
+		if ([[strings objectAtIndex:i] isEqual:string]) {
+			[pool drain];
+			return YES;
+		}
+	}
+	[pool drain];
+	return NO;
+}
 
 - (void)centerWindow:(NSWindow *)_window {
 	NSRect frame = [[NSScreen mainScreen] frame];
@@ -22,9 +35,13 @@
 }
 - (IBAction)addDone:(id)sender {
 	// add done
+	if (![addURL stringValue]) {
+		return;
+	}
 	[manager addRSSURL:[addURL stringValue]];
 	[self updateMenu];
 	[addWindow orderOut:self];
+	[tableView reloadData];
 }
 
 - (void)addFeed:(id)sender {
@@ -39,27 +56,37 @@
 }
 - (void)showFeed:(NSMenuItem *)menu {
 	//
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	
 	if (!channelView) {
 		channelView = [[RSSChannelView alloc] initWithFrame:[[window contentView] bounds]];
 		[[window contentView] addSubview:channelView];
 	}
 	BOOL found = NO;
-	if ([feedMenus objectForKey:menu]) {
-		[channelView setChannel:[feedMenus objectForKey:menu]];
-		found = YES;
-	} else {
-		int count = [manager channelCount];
-		[manager lock];
-		for (int i = 0; i < count; i++) {
-			NSDictionary * dict = [manager channelAtIndex:i];
-			if ([(RSSChannel *)[dict objectForKey:ANRSSManagerChannelRSSChannelKey] uniqueID] == [menu tag]) {
-				found = YES;
-				[channelView setChannel:[dict objectForKey:ANRSSManagerChannelRSSChannelKey]];
-			}
-		}
-		[manager unlock];
 	
+	[channelView setDelegate:self];
+	
+	int count = [manager channelCount];
+	[manager lock];
+	for (int i = 0; i < count; i++) {
+		NSDictionary * dict = [manager channelAtIndex:i];
+		if ([(RSSChannel *)[dict objectForKey:ANRSSManagerChannelRSSChannelKey] uniqueID] == [menu tag]) {
+			found = YES;
+			RSSChannel * copy = [[RSSChannel alloc] initWithChannel:[dict objectForKey:ANRSSManagerChannelRSSChannelKey]];
+			for (RSSItem * item in [copy items]) {
+				NSArray * check1 = [dict objectForKey:ANRSSManagerChannelReadGUIDSKey];
+				if ([self stringArray:check1 containsString:[item postGuid]]) {
+					[item setIsRead:YES];
+				}
+			}
+			[channelView setChannel:copy];
+			[copy release];
+		}
 	}
+	[manager unlock];
+	
+	[self centerWindow:window];
+	
 	if (found) {
 		[window makeKeyAndOrderFront:self];
 	
@@ -67,6 +94,8 @@
 		GetCurrentProcess(&num);
 		SetFrontProcess(&num);
 	}
+	
+	[pool drain];
 }
 
 - (IBAction)remove:(id)sender {
@@ -83,6 +112,7 @@
 	ProcessSerialNumber num;	
 	GetCurrentProcess(&num);
 	SetFrontProcess(&num);
+	[self centerWindow:channelsList];
 	[tableView setDataSource:self];
 	[tableView reloadData];
 }
@@ -108,7 +138,9 @@
 }
 
 - (void)updateMenu {
-	NSLog(@"Update.");
+	// NSLog(@"Update.");
+	
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	
 	[tableView setDataSource:self];
 	[tableView reloadData];
@@ -124,14 +156,25 @@
 	for (int i = 0; i < count; i++) {
 		NSDictionary * channeld = [manager channelAtIndex:i];
 		// read the stuff
+		
 		RSSChannel * channel = [channeld objectForKey:ANRSSManagerChannelRSSChannelKey];
-		//int new = 0;
-		NSString * title = [channel channelTitle];
-		BOOL enabled = YES;
-		if (!title) {
-			title = [channeld objectForKey:ANRSSManagerChannelURLKey];
-			enabled = NO;
+		if ([[channeld objectForKey:ANRSSManagerChannelWasModified] intValue]) {
+			NSLog(@"Channel %@ was modified", [channel channelTitle]);
 		}
+		//int new = 0;
+		NSString * title = nil;
+		BOOL enabled = YES;
+		if (![channel channelTitle]) {
+			title = [NSString stringWithString:[channeld objectForKey:ANRSSManagerChannelURLKey]];
+			enabled = NO;
+		} else {
+			title = [NSString stringWithString:[channel channelTitle]];
+			int ncount = [manager unreadInChannelIndex:i lock:NO];
+			if (ncount > 0) {
+				title = [title stringByAppendingFormat:@" (%d)", ncount];
+			}
+		}
+		
 		if (title) {
 			NSMenuItem * item = [rssFeedsMenu addItemWithTitle:title
 													action:@selector(showFeed:)
@@ -149,11 +192,15 @@
 		}
 	}
 	
+	[manager unlock];
+	
 	[mainMenu setSubmenu:rssFeedsMenu forItem:rssFeedsItem];
 	[statusItem setMenu:nil];
 	[statusItem setMenu:mainMenu];
 	
-	[manager unlock];
+	[pool drain];
+	
+	
 }
 
 - (NSMenu *)createMenu {
@@ -198,6 +245,7 @@
 }
 
 - (NSString *)tableView:(NSTableView *)tv objectValueForTableColumn:(NSTableColumn *)tableColumn row:(long)row {
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	if (row >= 0) {
 		[manager lock];
 		
@@ -205,9 +253,59 @@
 		NSString * string = [NSString stringWithString:[post objectForKey:ANRSSManagerChannelURLKey]];
 		
 		[manager unlock];
+		[pool drain];
 		return string;
 	}
+	[pool drain];
+	return nil;
 }
 
+#pragma mark Delegates
+
+- (void)rssChannel:(id)sender itemHighlighted:(RSSItemView *)_item {
+	// go ahead and set the read to less
+	
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	
+	RSSItem * item = [_item item];
+	RSSChannel * channel = [item parentChannel];
+	// now find it
+	int count = [manager channelCount];
+	[manager lock];
+	
+	int index = -1;
+	
+	for (int i = 0; i < count; i++) {
+		NSDictionary * dict = [manager channelAtIndex:i];
+		RSSChannel * chan = [dict objectForKey:ANRSSManagerChannelRSSChannelKey];
+		if ([chan isEqual:channel]) {
+			// found
+			index = i;
+			break;
+		}
+	}
+	
+	if (index < 0) {
+		[manager unlock];
+		NSLog(@"selected item was not found.");
+		return;
+	}
+	
+	NSDictionary * dict = [manager channelAtIndex:index];
+	RSSChannel * chan = [dict objectForKey:ANRSSManagerChannelRSSChannelKey];
+	for (int i = 0; i < [[chan items] count]; i++) {
+		RSSItem * item1 = [[chan items] objectAtIndex:i];
+		if ([[item1 postGuid] isEqual:[item postGuid]]) {
+			// NSLog(@"Found.");
+			[manager changeToRead:index
+					 articleIndex:i lock:NO];
+		}
+	}
+	
+	[manager unlock];
+	[self updateMenu];
+	
+	[pool drain];
+}
 
 @end

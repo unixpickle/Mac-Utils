@@ -10,8 +10,19 @@
 #import "RSSItemView.h"
 #import "RSSChannel.h"
 
-@interface RSSChannelView : NSView {
+@protocol RSSChannelViewDelegate
+
+@optional
+- (void)rssChannel:(id)sender itemHighlighted:(RSSItemView *)item;
+
+@end
+
+
+@interface RSSChannelView : NSView <RSSItemViewDelegate> {
 	NSScrollView * contentView;
+	id <RSSChannelViewDelegate> delegate;
+	id lastChannel;
 }
+@property (nonatomic, assign) id <RSSChannelViewDelegate> delegate;
 - (void)setChannel:(RSSChannel *)channel;
 @end

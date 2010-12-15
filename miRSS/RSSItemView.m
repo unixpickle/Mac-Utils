@@ -12,6 +12,7 @@
 @implementation RSSItemView
 
 @synthesize item;
+@synthesize delegate;
 
 - (NSTextField *)labelTextFieldForFrame:(NSRect)frm {
 	NSTextField * tf = [[NSTextField alloc] initWithFrame:frm];
@@ -94,13 +95,17 @@
 	[contentField setFont:[NSFont systemFontOfSize:11]];
 	if ([self.item postContent]) {
 		NSString * oldString = [NSMutableString stringWithString:[self.item postContent]];
-		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"<.*>(.*?)<.*>" withString:@"$1"];
-		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"<br \/>" withString:@""];
+		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"<.*?>" withString:@""];
+		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"<br />" withString:@"\n"];
+		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"&#8217;" withString:@"'"];
+		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"&#8243;" withString:@"\""];
 		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"^\n" withString:@""];
 		oldString = [oldString stringByReplacingOccurrencesOfRegex:@"^\n" withString:@""];
 		[contentField setStringValue:oldString];
 	}
 	[self addSubview:contentField];
+	
+	titleLabel = [titleField retain];
 }
 
 - (BOOL)isFlipped {
@@ -114,14 +119,21 @@
 
 - (void)mouseUp:(NSEvent *)theEvent {
 	if (!selected) {
+		if ([(id)delegate respondsToSelector:@selector(rssItemWasSelected:)]) {
+			[delegate rssItemWasSelected:self];
+		}
 		selected = YES;
 		for (NSView * view in [[self superview] subviews]) {
 			if ([view isKindOfClass:[RSSItemView class]] && view != self) {
 				[(RSSItemView *)view deselect];
 			}
 		}
+		[[self item] setIsRead:YES];
 		[self setNeedsDisplay:YES];
 		return;
+	}
+	if ([(id)delegate respondsToSelector:@selector(rssItemWasOpened:)]) {
+		[delegate rssItemWasOpened:self];
 	}
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[self.item postURL]]];
 }
@@ -159,7 +171,11 @@
 	CGContextSetAllowsAntialiasing(context, YES);
 	
 	CGContextBeginPath(context);
-	CGContextSetGrayFillColor(context, 0.9, 1);
+	if ([item isRead]) {
+		CGContextSetGrayFillColor(context, 0.9, 1);
+	} else {
+		CGContextSetGrayFillColor(context, 0.7, 1);
+	}
 	CGContextMoveToPoint(context, minX + radius, minY);
 	
 	CGContextAddArcToPoint(context, minX, minY, minX, maxY, radius);
@@ -177,12 +193,22 @@
 	}
 	
 	CGContextStrokePath(context);
-	
+		
 	CGContextRestoreGState(context);
+	
+	if ([item isRead])
+		[titleLabel setTextColor:[NSColor grayColor]];
+	else [titleLabel setTextColor:[NSColor blackColor]];
 	
 	// yay
 	
 	
+}
+
+- (void)dealloc {
+	[titleLabel release];
+	self.item = nil;
+	[super dealloc];
 }
 
 @end

@@ -7,16 +7,21 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RSSChannel.h"
 
+@class RSSChannel;
 
 @interface RSSItem : NSObject {
+	RSSChannel * parentChannel;
 	NSDate * postDate;
 	NSString * postTitle;
 	NSString * postGuid;
 	NSString * postContent;
 	NSString * postURL;
+	BOOL isRead;
 }
-
+@property (readwrite) BOOL isRead;
+@property (nonatomic, assign) RSSChannel * parentChannel;
 @property (nonatomic, retain) NSDate * postDate;
 @property (nonatomic, retain) NSString * postTitle;
 @property (nonatomic, retain) NSString * postGuid;

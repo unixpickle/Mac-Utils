@@ -7,7 +7,7 @@
 //
 
 #import "RSSChannel.h"
-
+#import "Debugging.h"
 
 @implementation RSSChannel
 
@@ -15,20 +15,31 @@
 @synthesize channelTitle;
 @synthesize channelLink;
 @synthesize items;
+@synthesize xmlNode;
+
+- (BOOL)isEqual:(id)object {
+	if ([object isKindOfClass:[self class]]) {
+		RSSChannel * channel = object;
+		if ([[channel channelTitle] isEqual:[self channelTitle]] && [[channel channelLink] isEqual:[self channelLink]]) {
+			return YES;
+		}
+		return NO;
+	} else {
+		return [super isEqual:object];
+	}
+}
 
 - (int)getUniqueID {
-	static int uid = 0;
+	static int uid = 1;
 	uid += 1;
 	return uid;
 }
 
 - (int)uniqueID {
-	NSLog(@"%p, Unique id: %d", self, uniqueID);
 	return uniqueID;
 }
 
 - (void)setUniqueID:(int)uid {
-	NSLog(@"%p, Set UID: %d", self, uid);
 	uniqueID = uid;
 }
 
@@ -48,8 +59,8 @@
 - (id)initWithXML:(NSXMLNode *)rssDocument {
 	if (self = [super init]) {
 		// read the node
+		self.xmlNode = rssDocument;
 		uniqueID = [self getUniqueID];
-		NSLog(@"%p, Got UID: %d", self, uniqueID);
 		NSMutableArray * itemArray = [[NSMutableArray alloc] init];
 		for (int i = 0; i < [rssDocument childCount]; i++) {
 			NSXMLNode * subnode = [[rssDocument children] objectAtIndex:i];
@@ -85,6 +96,7 @@
 				if ([subnode kind] == NSXMLElementKind) {
 					RSSItem * item = [[RSSItem alloc] initWithXML:subnode];
 					[itemArray addObject:item];
+					[item setParentChannel:self];
 					[item release];
 				} else {
 					NSLog(@"Invalid node type for 'item' node.");
@@ -96,6 +108,13 @@
 		// don't make it global
 		self.items = [NSArray arrayWithArray:itemArray];
 		[itemArray release];
+	}
+	return self;
+}
+
+- (id)initWithChannel:(RSSChannel *)channel {
+	if (self = [self initWithXML:[channel xmlNode]]) {
+		// do nothing
 	}
 	return self;
 }
@@ -115,6 +134,7 @@
 	self.channelLink = nil;
 	self.channelTitle = nil;
 	self.channelDescription = nil;
+	self.xmlNode = nil;
 	self.items = nil;
 	[super dealloc];
 }

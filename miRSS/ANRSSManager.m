@@ -7,7 +7,7 @@
 //
 
 #import "ANRSSManager.h"
-
+#import "Debugging.h"
 
 @implementation ANRSSManager
 
@@ -27,6 +27,7 @@
 				NSArray * guids = [chan objectForKey:ANRSSManagerChannelReadGUIDSKey];
 				NSMutableArray * guidsArray = [NSMutableArray arrayWithArray:guids];
 				NSMutableDictionary * dictionary = [NSMutableDictionary dictionary];
+				[dictionary setObject:[NSNumber numberWithInt:0] forKey:ANRSSManagerChannelWasModified];
 				[dictionary setObject:url forKey:ANRSSManagerChannelURLKey];
 				[dictionary setObject:guidsArray forKey:ANRSSManagerChannelReadGUIDSKey];
 				[channels addObject:dictionary];
@@ -36,6 +37,32 @@
 		[pool drain];
 	}
 	return self;
+}
+
+- (int)unreadInChannelIndex:(int)index lock:(BOOL)doLock {
+	int unread = 0;
+	if (doLock) [self lock];
+	
+	// here we read the channel VS the GUIDS
+	NSDictionary * dictionary = [channels objectAtIndex:index];
+	// read the GUIDS
+	NSMutableArray * guids = [dictionary objectForKey:ANRSSManagerChannelReadGUIDSKey];
+	RSSChannel * channel = [dictionary objectForKey:ANRSSManagerChannelRSSChannelKey];
+	// loop through
+	for (int i = 0; i < [[channel items] count]; i++) {
+		BOOL found = NO;
+		for (int j = 0; j < [guids count]; j++) {
+			NSString * string = [guids objectAtIndex:j];
+			RSSItem * item = [[channel items] objectAtIndex:i];
+			if ([[item postGuid] isEqual:string]) {
+				found = YES;
+				break;
+			}
+		}
+		if (!found) unread ++;
+	}
+	if (doLock) [self unlock];
+	return unread;
 }
 
 - (int)channelCount {
@@ -48,6 +75,9 @@
 
 - (void)addRSSURL:(NSString *)url {
 	// add it
+	
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	
 	NSMutableDictionary * post = [[NSMutableDictionary alloc] init];
 	NSMutableArray * guids = [[NSMutableArray alloc] init];
 	NSString * urlString = [[NSString alloc] initWithString:url];
@@ -62,6 +92,8 @@
 		NSDictionary * dict = [channels objectAtIndex:i];
 		if ([[dict objectForKey:ANRSSManagerChannelURLKey] isEqual:urlString]) {
 			[self unlock];
+			[post release];
+			[pool drain];
 			return;
 		}
 	}
@@ -83,6 +115,8 @@
 	channelCount += 1;
 	
 	modified = YES;
+	
+	[pool drain];
 	
 	[lock unlock];
 }
@@ -107,6 +141,52 @@
 	[defaults synchronize];
 	
 	[lock unlock];
+}
+
+- (void)save {
+	NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+	NSMutableArray * writeArray = [NSMutableArray array];
+	for (int i = 0; i < [channels count]; i++) {
+		NSDictionary * dict = [channels objectAtIndex:i];
+		NSDictionary * dictionary = [NSDictionary dictionaryWithObjectsAndKeys:[dict objectForKey:ANRSSManagerChannelURLKey], ANRSSManagerChannelURLKey,
+									 [dict objectForKey:ANRSSManagerChannelReadGUIDSKey], ANRSSManagerChannelReadGUIDSKey, nil];
+		[writeArray addObject:dictionary];
+	}
+	[defaults setObject:writeArray forKey:@"channels"];
+	[defaults synchronize];
+}
+
+- (void)changeToRead:(int)channelIndex articleIndex:(int)article lock:(BOOL)doLock {
+	if (doLock) [self lock];
+	
+	// unread the article here
+	NSDictionary * dictionary = [channels objectAtIndex:channelIndex];
+	RSSChannel * channel = [dictionary objectForKey:ANRSSManagerChannelRSSChannelKey];
+	RSSItem * item = [[channel items] objectAtIndex:article];
+	NSMutableArray * guids = [dictionary objectForKey:ANRSSManagerChannelReadGUIDSKey];
+	for (NSString * string in guids) {
+		if ([string isEqual:[item postGuid]]) {
+			// it was there already
+			if (doLock) [self unlock];
+			return;
+		}
+	}
+	
+	[guids addObject:[item postGuid]];
+	
+	// write it to user defaults
+	NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+	NSMutableArray * writeArray = [NSMutableArray array];
+	for (int i = 0; i < [channels count]; i++) {
+		NSDictionary * dict = [channels objectAtIndex:i];
+		NSDictionary * dictionary = [NSDictionary dictionaryWithObjectsAndKeys:[dict objectForKey:ANRSSManagerChannelURLKey], ANRSSManagerChannelURLKey,
+									 [dict objectForKey:ANRSSManagerChannelReadGUIDSKey], ANRSSManagerChannelReadGUIDSKey, nil];
+		[writeArray addObject:dictionary];
+	}
+	[defaults setObject:writeArray forKey:@"channels"];
+	[defaults synchronize];
+	
+	if (doLock) [self unlock];
 }
 
 - (void)lock {
@@ -147,7 +227,6 @@
 		[self unlock];
 		BOOL changed = NO;
 		for (int i = 0; i < count; i++) {
-			NSLog(@"Check.");
 			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 			[self lock];
 			if (modified) {
@@ -156,17 +235,17 @@
 			}
 			NSString * url = [[[NSString stringWithString:[[channels objectAtIndex:i] 
 														 objectForKey:ANRSSManagerChannelURLKey]] retain] autorelease];
-			NSLog(@"Got object.");
 			[self unlock];
 			
 			// read the URL
 			NSURL * uri = [NSURL URLWithString:url];
 			NSURLRequest * request = [NSURLRequest requestWithURL:uri
 													  cachePolicy:NSURLRequestReloadIgnoringCacheData
-												  timeoutInterval:10];
-			NSData * fetched = [NSURLConnection sendSynchronousRequest:request
+												  timeoutInterval:5];
+			NSData * fetched = [ANTimeoutConnection fetchDataWithRequest:request];
+			/*NSData * fetched = [NSURLConnection sendSynchronousRequest:request
 													 returningResponse:nil
-																 error:nil];
+																 error:nil];*/
 			
 			if (fetched) {
 				// we got the data
@@ -187,37 +266,57 @@
 						[lock unlock];
 						break;
 					}
-					NSLog(@"*Got again");
-					NSMutableDictionary * item = [channels objectAtIndex:i];
-					NSLog(@" Got again");
-					RSSChannel * oldChannel = [[[item objectForKey:ANRSSManagerChannelRSSChannelKey] retain] autorelease];
+					NSMutableDictionary * itemDict = [channels objectAtIndex:i];
+					RSSChannel * oldChannel = [[[itemDict objectForKey:ANRSSManagerChannelRSSChannelKey] retain] autorelease];
 					if (oldChannel) [channel setUniqueID:[oldChannel uniqueID]];
-					[item setObject:channel forKey:ANRSSManagerChannelRSSChannelKey];
-					//NSArray * guids = [item objectForKey:ANRSSManagerChannelReadGUIDSKey];
+					[itemDict setObject:channel forKey:ANRSSManagerChannelRSSChannelKey];
+					NSMutableArray * guids = [itemDict objectForKey:ANRSSManagerChannelReadGUIDSKey];
 					for (int i = 0; i < [[channel items] count]; i++) {
 						RSSItem * item = [[channel items] objectAtIndex:i];
 						BOOL found = NO;
-						if (oldChannel) {
+						if (oldChannel && [item postGuid]) {
 							for (int j = 0; j < [[oldChannel items] count]; j++) {
 								RSSItem * item1 = [[oldChannel items] objectAtIndex:j];
 								if ([[item1 postGuid] isEqual:[item postGuid]]) {
 									found = YES;
 									break;
+								} else {
+									
 								}
 							}
 						}
-						/*
-						for (NSString * guid in guids) {
+						
+						if (!found && [item postGuid]) {
+							// NSLog(@"Found = NO: %@", [item postGuid]);
+							// NSLog(@"Changed.");
+							changed = YES;
+							[itemDict setObject:[NSNumber numberWithInt:1] 
+										 forKey:ANRSSManagerChannelWasModified];
+							break;
+						}
+					}
+					for (int i = 0; i < [guids count]; i++) {
+						// check for missing guids
+						BOOL found = NO;
+						NSString * guid = [guids objectAtIndex:i];
+						for (int j = 0; j < [[channel items] count]; j++) {
+							RSSItem * item = [[channel items] objectAtIndex:j];
 							if ([[item postGuid] isEqual:guid]) {
+								// they are equal
 								found = YES;
 								break;
 							}
 						}
-						*/
+						if ([[channel items] count] < 1) {
+							found = YES;
+						}
 						if (!found) {
-							NSLog(@"Changed.");
-							changed = YES;
-							break;
+							[guids removeObjectAtIndex:i];
+							
+							// write to the defaults
+							[self save];
+							
+							i --;
 						}
 					}
 					[self unlock];
@@ -254,9 +353,19 @@
 			[(id)delegate performSelectorOnMainThread:@selector(articlesUpdated:) 
 										   withObject:self
 										waitUntilDone:YES];
+			// unmodify everything
+			[self lock];
+			
+			for (int i = 0; i < [channels count]; i++) {
+				NSMutableDictionary * dict = [channels objectAtIndex:i];
+				[dict setObject:[NSNumber numberWithInt:0] 
+						 forKey:ANRSSManagerChannelWasModified];
+			}
+			
+			[self unlock];
 		}
 		
-		[NSThread sleepForTimeInterval:3];
+		[NSThread sleepForTimeInterval:60];
 		[functionPool drain];
 	}
 	[floodPool drain];

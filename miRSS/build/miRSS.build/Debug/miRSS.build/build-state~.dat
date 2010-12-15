@@ -1,0 +1,735 @@
+TmiRSS
+v7
+r0
+t313980533.113637
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist miRSS-Info.plist
+cCopyStringsFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib
+cCpResource build/Debug/miRSS.app/Contents/Resources/topbar.png topbar.png
+cCpResource build/Debug/miRSS.app/Contents/Resources/bottombar.png bottombar.png
+cCpResource build/Debug/miRSS.app/Contents/Resources/rss.png rss.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch miRSS_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o /Users/alex/xCode/git/Mac-Utils/miRSS/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o /Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.h
+c000000004CFD69150000000000000463
+t1291675925
+s1123
+i<Foundation/Foundation.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m
+c000000004D050D6F0000000000002B42
+t1292176751
+s11074
+i"ANImageBitmapRep.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h
+c000000004D068E340000000000000519
+t1292275252
+s1305
+i<Cocoa/Cocoa.h>
+i"RSSChannel.h"
+i"RSSFeed.h"
+i"RSSItem.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m
+c000000004D069062000000000000239E
+t1292275810
+s9118
+i"ANRSSManager.h"
+i"Debugging.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/Debugging.h
+c000000004D068C3900000000000001C0
+t1292274745
+s448
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/InfoPlist.strings
+c000000004D040880000000000000002D
+t1292109952
+s45
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib
+c000000004D05865F0000000000034054
+t1292207711
+s213076
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h
+c000000004D06B5B40000000000000346
+t1292285364
+s838
+i<Cocoa/Cocoa.h>
+i"RSSItem.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m
+c000000004D06B36A0000000000000D24
+t1292284778
+s3364
+i"RSSChannel.h"
+i"Debugging.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.h
+c000000004D06B6FF000000000000023F
+t1292285695
+s575
+i<Cocoa/Cocoa.h>
+i"RSSItemView.h"
+i"RSSChannel.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m
+c000000004D06B7A50000000000000822
+t1292285861
+s2082
+i"RSSChannelView.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h
+c000000004D040FF50000000000000194
+t1292111861
+s404
+i<Cocoa/Cocoa.h>
+i"RSSChannel.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m
+c000000004D0412CD0000000000000781
+t1292112589
+s1921
+i"RSSFeed.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h
+c000000004D06BEC300000000000002CD
+t1292287683
+s717
+i<Cocoa/Cocoa.h>
+i"RSSChannel.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m
+c000000004D0690FE0000000000000861
+t1292275966
+s2145
+i"RSSItem.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.h
+c000000004D069A3000000000000002D6
+t1292278320
+s726
+i<Cocoa/Cocoa.h>
+i"RSSItem.h"
+i"RegexKitLite.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m
+c000000004D069A9F00000000000017C7
+t1292278431
+s6087
+i"RSSItemView.h"
+i"ANImageBitmapRep.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.h
+c000000004BC5E8E10000000000004130
+t1271261409
+s16688
+i<Foundation/NSArray.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+i<limits.h>
+i<stdint.h>
+i<sys/types.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m
+c000000004BCB02C90000000000032498
+t1271595721
+s205976
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSGarbageCollector.h>
+i<objc/runtime.h>
+i<objc/objc-runtime.h>
+i<libkern/OSAtomic.h>
+i<mach-o/loader.h>
+i<AvailabilityMacros.h>
+i<dlfcn.h>
+i<string.h>
+i<stdarg.h>
+i<stdlib.h>
+i<stdio.h>
+i"RegexKitLite.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/bottombar.png
+c000000004D0509640000000000000C98
+t1292175716
+s3224
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist
+t1292287713
+s913
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/PkgInfo
+t1292287713
+s8
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1292287715
+s92
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/MainMenu.nib
+t1292287716
+s41325
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/bottombar.png
+t1292287715
+s3224
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/rss.png
+t1292287715
+s2358
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/topbar.png
+t1292287715
+s3381
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o
+t1292287731
+s43020
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o
+t1292287729
+s30880
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
+t1292287729
+s24184
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o
+t1292287730
+s46912
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o
+t1292287733
+s213700
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o
+t1292287728
+s5016
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSS.LinkFileList
+c000000004D06BEE1000000000000044B
+t1292287713
+s1099
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
+t2
+s0
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/main.m
+c000000004D04088000000000000000FB
+t1292109952
+s251
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h
+c000000004D06B7BC0000000000000403
+t1292285884
+s1027
+i<Cocoa/Cocoa.h>
+i"RSSFeed.h"
+i"ANRSSManager.h"
+i"RSSChannel.h"
+i"RSSChannelView.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m
+c000000004D06BEAE0000000000001B14
+t1292287662
+s6932
+i"miRSSAppDelegate.h"
+i"RSSChannelView.h"
+i"Debugging.h"
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS_Prefix.pch
+c000000004D040880000000000000008D
+t1292109952
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/rss.png
+c000000004D053AE40000000000000936
+t1292188388
+s2358
+
+N/Users/alex/xCode/git/Mac-Utils/miRSS/topbar.png
+c000000004D05090D0000000000000D35
+t1292175629
+s3381
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004CAA74040000000000003A54
+t1286239236
+s14932
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004C239DAA0000000000007AC8
+t1277402538
+s31432
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004C239DAA0000000000003C5C
+t1277402538
+s15452
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004C239DAA000000000000B3BB
+t1277402538
+s46011
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004C23AA040000000000001C87
+t1277405700
+s7303
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004C23AA040000000000000EA7
+t1277405700
+s3751
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004C23AA040000000000001E48
+t1277405700
+s7752
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004C23AA04000000000000205E
+t1277405700
+s8286
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSGarbageCollector.h
+c000000004C23AA050000000000000CC3
+t1277405701
+s3267
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004C23AA0500000000000005AF
+t1277405701
+s1455
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004C23AA0500000000000021D3
+t1277405701
+s8659
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004C23AA05000000000000049D
+t1277405701
+s1181
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004C23AA0500000000000008DD
+t1277405701
+s2269
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004C23AA060000000000005F75
+t1277405702
+s24437
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004AD870D50000000000000124
+t1255698645
+s292
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityMacros.h
+c000000004A11A9B30000000000006724
+t1242671539
+s26404
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/dlfcn.h
+c000000004C74B5950000000000000B1C
+t1282717077
+s2844
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/libkern/OSAtomic.h
+c000000004BBD2CE90000000000002519
+t1270689001
+s9497
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/mach-o/loader.h
+c000000004C74B58F000000000000EFD9
+t1282717071
+s61401
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/objc/objc-runtime.h
+c000000004C239B2C0000000000000032
+t1277401900
+s50
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/objc/runtime.h
+c000000004C239B2C000000000000530A
+t1277401900
+s21258
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch
+t1292287728
+s54314768
+
+NmiRSS-Info.plist
+c000000004D059591000000000000040B
+t1292211601
+s1035
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313980513#313980513#0(0"0(0#1#0"8595618880#0"0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980529.905822
+e313980531.027965
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m: In function '-[ANImageBitmapRep invertColors]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m:190: warning: passing argument 1 of 'getPixel:atX:y:' from incompatible pointer type
+o/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m:194: warning: passing argument 1 of 'setPixel:atX:y:' from incompatible pointer type
+lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m313980529#313980531#0(390"/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m: In function '-[ANImageBitmapRep invertColors]':/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m:190: warning: passing argument 1 of 'getPixel:atX:y:' from incompatible pointer type/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m:194: warning: passing argument 1 of 'setPixel:atX:y:' from incompatible pointer type2(22@70"Passing argument 1 of 'getPixel:atX:y:' from incompatible pointer type313980530#106#142#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m313869551#190#0#190#0#56"passing argument * of '*' from incompatible pointer type0(22@70"Passing argument 1 of 'setPixel:atX:y:' from incompatible pointer type313980530#248#142#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m313869551#194#0#194#0#56"passing argument * of '*' from incompatible pointer type0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m8613794464#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANImageBitmapRep.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980530.340336
+e313980530.765016
+r0
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m:9:
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'
+lSLF07#2@60"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m313980530#313980530#0(460"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m:9:/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'2(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980530#234#113#4(7@74"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m313980530#18446744073709551615#0#0(6@52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m313968610#9#0#9#0#0"0(7@74"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h313980530#18446744073709551615#0#0(6@52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h313968052#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980530#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980530#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#19"expected * before *0(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980530#347#113#4(7@74"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m313980530#18446744073709551615#0#0(6@52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m313968610#9#0#9#0#0"0(7@74"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h313980530#18446744073709551615#0#0(6@52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.h313968052#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980530#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980530#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#19"expected * before *0(0#0#52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m8618151104#1445"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o1#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980528.647220
+e313980529.081210
+r0
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:9:
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m: In function '-[RSSChannel isEqual:]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:22: warning: unused variable 'channel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m: In function '-[RSSChannel initWithXML:]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: 'RSSItem' may not respond to '-setParentChannel:'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: (Messages without a matching method signature
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: will be assumed to return 'id' and accept
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: '...' as arguments.)
+lSLF07#2@58"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313980528#313980529#0(1068"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:9:/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m: In function '-[RSSChannel isEqual:]':/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:22: warning: unused variable 'channel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m: In function '-[RSSChannel initWithXML:]':/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: 'RSSItem' may not respond to '-setParentChannel:'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: (Messages without a matching method signature/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: will be assumed to return 'id' and accept/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m:99: warning: '...' as arguments.)5(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980528#153#113#3(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313977578#9#0#9#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#19"expected * before *0(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980528#266#113#3(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313977578#9#0#9#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#19"expected * before *0(22@25"Unused variable 'channel'313980528#469#90#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313977578#22#0#22#0#19"unused variable '*'0(22@49"'RSSItem' may not respond to '-setParentChannel:'313980528#653#114#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313977578#99#0#99#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313980528#767#110#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m313977578#99#0#99#0#0"0(0#0#50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m8618000480#1441"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o1#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980529.385211
+e313980529.905579
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m313980529#313980529#0(0"0(0#0#54"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m8611523648#1449"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980529.081331
+e313980529.385018
+r0
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m:9:
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'
+lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m313980529#313980529#0(450"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m:9:/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'2(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980529#224#113#4(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m313805389#9#0#9#0#0"0(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313804661#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980529#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#19"expected * before *0(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980529#337#113#4(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m313805389#9#0#9#0#0"0(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313804661#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980529#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980529#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#19"expected * before *0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m8617334816#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o1#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980528.739353
+e313980529.341299
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m313980528#313980529#0(0"0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m8611237792#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980529.341424
+e313980530.340215
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m:99:63: warning: unknown escape sequence '\/'
+lSLF07#2@59"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m313980529#313980530#0(97"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m:99:63: warning: unknown escape sequence '\/'1(22@28"Unknown escape sequence '\/'313980529#0#97#0(6@51"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m313971231#99#0#99#0#0"0(0#0#51"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m8615385920#1443"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o /Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980530.765141
+e313980533.113488
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m313980530#313980533#0(0"0(0#0#52"/Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m8618464800#1445"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RegexKitLite.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o /Users/alex/xCode/git/Mac-Utils/miRSS/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980528.283204
+e313980528.647049
+r1
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/main.m313980528#313980528#0(0"0(0#0#44"/Users/alex/xCode/git/Mac-Utils/miRSS/main.m8610756608#1429"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/main.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980528.286219
+e313980528.739010
+r0
+xCompileC
+xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
+x/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h:10,
+o                 from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:9:
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate showFeeds:]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:86: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate updateMenu]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:113: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate rssChannel:itemHighlighted:]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: 'RSSItem' may not respond to '-parentChannel'
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: (Messages without a matching method signature
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: will be assumed to return 'id' and accept
+o/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: '...' as arguments.)
+lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980528#313980528#0(1613"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h:10,                 from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:9:/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:13: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h:20: error: expected specifier-qualifier-list before 'RSSChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate showFeeds:]':/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:86: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate updateMenu]':/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:113: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m: In function '-[miRSSAppDelegate rssChannel:itemHighlighted:]':/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: 'RSSItem' may not respond to '-parentChannel'/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: (Messages without a matching method signature/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: will be assumed to return 'id' and accept/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m:226: warning: '...' as arguments.)6(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980528#316#113#5(7@78"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980528#18446744073709551615#0#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#9#0#9#0#0"0(7@78"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h313980528#18446744073709551615#0#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h313978684#10#0#10#0#0"0(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313804661#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#13#0#13#0#19"expected * before *0(4@53"Expected specifier-qualifier-list before 'RSSChannel'313980528#429#113#5(7@78"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980528#18446744073709551615#0#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#9#0#9#0#0"0(7@78"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h313980528#18446744073709551615#0#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.h313978684#10#0#10#0#0"0(7@69"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h313804661#10#0#10#0#0"0(7@72"In file included from /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313980528#18446744073709551615#0#0(6@50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h313978164#10#0#10#0#0"0(13@104"Expected specifier-qualifier-list before 'RSSChannel' in /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980528#18446744073709551615#0#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#0"0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h313980483#20#0#20#0#19"expected * before *0(22@80"Class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol313980528#646#151#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#86#0#86#0#45"class '*' does not implement the '*' protocol0(22@80"Class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol313980528#901#152#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#113#0#113#0#45"class '*' does not implement the '*' protocol0(22@45"'RSSItem' may not respond to '-parentChannel'313980528#1174#117#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#226#0#226#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313980528#1291#117#0(6@56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m313980462#226#0#226#0#0"0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m8611325856#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o1#
+
+CCompileXIB /Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib
+s313980513.528248
+e313980517.058101
+r1
+xCompileXIB
+x/Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313980513#313980517#0(0"0(0#0#64"/Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib8618496032#389"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s313980513.524653
+e313980515.324581
+r1
+xCopyStringsFile
+x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings313980513#313980515#0(0"0(0#0#69"/Users/alex/xCode/git/Mac-Utils/miRSS/English.lproj/InfoPlist.strings8618581440#376"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/miRSS.app/Contents/Resources/bottombar.png bottombar.png
+s313980515.327118
+e313980515.351771
+r1
+xCpResource
+xbuild/Debug/miRSS.app/Contents/Resources/bottombar.png
+xbottombar.png
+lSLF07#2@18"Copy bottombar.png313980515#313980515#0(0"0(0#0#51"/Users/alex/xCode/git/Mac-Utils/miRSS/bottombar.png8611084096#353"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/git/Mac-Utils/miRSS/bottombar.png /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources0#
+
+CCpResource build/Debug/miRSS.app/Contents/Resources/rss.png rss.png
+s313980515.328144
+e313980515.379638
+r1
+xCpResource
+xbuild/Debug/miRSS.app/Contents/Resources/rss.png
+xrss.png
+lSLF07#2@12"Copy rss.png313980515#313980515#0(0"0(0#0#45"/Users/alex/xCode/git/Mac-Utils/miRSS/rss.png8618402336#347"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/git/Mac-Utils/miRSS/rss.png /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources0#
+
+CCpResource build/Debug/miRSS.app/Contents/Resources/topbar.png topbar.png
+s313980515.324894
+e313980515.368212
+r1
+xCpResource
+xbuild/Debug/miRSS.app/Contents/Resources/topbar.png
+xtopbar.png
+lSLF07#2@15"Copy topbar.png313980515#313980515#0(0"0(0#0#48"/Users/alex/xCode/git/Mac-Utils/miRSS/topbar.png8618523616#350"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/git/Mac-Utils/miRSS/topbar.png /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources0#
+
+CLd /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS normal x86_64
+s313967856.696576
+e313967856.907772
+r1
+xLd
+x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
+xnormal
+xx86_64
+lSLF07#2@85"Link /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS313967856#313967856#0(0"0(0#0#0"8616576256#585"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -filelist /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSS.LinkFileList -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework Carbon -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS0#
+
+CProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist miRSS-Info.plist
+s313980513.491381
+e313980513.524401
+r1
+xProcessInfoPlistFile
+x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist
+xmiRSS-Info.plist
+lSLF07#2@24"Process miRSS-Info.plist313980513#313980513#0(0"0(0#0#54"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS-Info.plist8617905152#301"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    builtin-infoPlistUtility miRSS-Info.plist -genpkginfo /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch miRSS_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313980517.060061
+e313980528.283025
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch
+xmiRSS_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile miRSS_Prefix.pch313980517#313980528#0(0"0(0#0#54"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS_Prefix.pch8601132288#1338"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -c /Users/alex/xCode/git/Mac-Utils/miRSS/miRSS_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch0#
+
+CTouch /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
+s313967856.907896
+e313967856.914315
+r1
+xTouch
+x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
+lSLF07#2@65"Touch /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app313967856#313967856#0(0"0(0#0#0"8618973504#127"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /usr/bin/touch -c /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app0#
+
