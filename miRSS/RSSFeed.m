@@ -13,6 +13,13 @@
 
 @synthesize rssVersion, rssChannels;
 
+- (int)itemCount {
+	if ([rssChannels count] < 1) {
+		return -1;
+	}
+	return [(NSArray *)[(RSSChannel *)[rssChannels objectAtIndex:0] items] count];
+}
+
 - (id)initWithString:(NSString *)rssString {
 	if (self = [super init]) {
 		// parse the XML

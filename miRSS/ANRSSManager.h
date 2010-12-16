@@ -11,6 +11,7 @@
 #import "RSSFeed.h"
 #import "RSSItem.h"
 #import "ANTimeoutConnection.h"
+#import "ANCommandCounter.h"
 
 // for channel dictionaries
 #define ANRSSManagerChannelURLKey @"url"
@@ -36,10 +37,13 @@
 	NSLock * lock;
 	id <ANRSSManagerDelegate> delegate;
 	BOOL modified;
+	BOOL forceRefresh;
 }
 
 @property (nonatomic, assign) id <ANRSSManagerDelegate> delegate;
 
+- (BOOL)needsRefresh;
+- (void)forceRefresh;
 - (int)unreadInChannelIndex:(int)index lock:(BOOL)doLock;
 - (BOOL)modified;
 - (int)channelCount;

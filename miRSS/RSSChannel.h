@@ -25,6 +25,7 @@
 @property (nonatomic, retain) NSString * channelTitle;
 
 - (BOOL)isEqual:(id)object;
+- (BOOL)articlesVary:(RSSChannel *)channel;
 
 - (int)uniqueID;
 - (void)setUniqueID:(int)uid;

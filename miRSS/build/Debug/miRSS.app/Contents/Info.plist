@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>miRSS</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.miRSS</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -23,10 +21,14 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.6</string>
 	<key>LSUIElement</key>
+	<false/>
+	<key>NSAppleScriptEnabled</key>
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>test.sdef</string>
 </dict>
 </plist>

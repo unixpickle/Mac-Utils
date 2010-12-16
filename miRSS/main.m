@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ANApplication.h"
 
 int main(int argc, char *argv[])
 {

@@ -29,6 +29,22 @@
 	}
 }
 
+- (BOOL)articlesVary:(RSSChannel *)channel {
+	NSArray * array1 = [self items];
+	NSArray * array2 = [channel items];
+	if ([array1 count] != [array2 count]) {
+		return YES;
+	}
+	for (int i = 0; i < [array1 count]; i++) {
+		RSSItem * item = [array1 objectAtIndex:i];
+		RSSItem * item1 = [array2 objectAtIndex:i];
+		if (![[item postGuid] isEqual:[item1 postGuid]]) {
+			return YES;
+		}
+	}
+	return NO;
+}
+
 - (int)getUniqueID {
 	static int uid = 1;
 	uid += 1;

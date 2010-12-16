@@ -15,6 +15,10 @@
 
 - (id)init {
 	if (self = [super init]) {
+		
+		id * selfptr = [ANCommandCounter mainManagerPointer];
+		selfptr[0] = self;
+		
 		NSArray * listing = [[NSUserDefaults standardUserDefaults] objectForKey:@"channels"];
 		channels = [[NSMutableArray alloc] init];
 		lock = [[NSLock alloc] init];
@@ -195,6 +199,20 @@
 - (void)unlock {
 	[lock unlock];
 }
+
+- (BOOL)needsRefresh {
+	BOOL b = NO;
+	[lock lock];
+	b = forceRefresh;
+	[lock unlock];
+	return b;
+}
+- (void)forceRefresh {
+	[lock lock];
+	forceRefresh = YES;
+	[lock unlock];
+}
+
 - (NSDictionary *)channelAtIndex:(int)i {
 	// must call lock before this
 	
@@ -227,6 +245,7 @@
 		[self unlock];
 		BOOL changed = NO;
 		for (int i = 0; i < count; i++) {
+			// NSLog(@"Check.");
 			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 			[self lock];
 			if (modified) {
@@ -271,6 +290,12 @@
 					if (oldChannel) [channel setUniqueID:[oldChannel uniqueID]];
 					[itemDict setObject:channel forKey:ANRSSManagerChannelRSSChannelKey];
 					NSMutableArray * guids = [itemDict objectForKey:ANRSSManagerChannelReadGUIDSKey];
+					if ([oldChannel articlesVary:channel]) {
+						[itemDict setObject:[NSNumber numberWithInt:1] 
+									 forKey:ANRSSManagerChannelWasModified];
+						changed = YES;
+					}
+					
 					for (int i = 0; i < [[channel items] count]; i++) {
 						RSSItem * item = [[channel items] objectAtIndex:i];
 						BOOL found = NO;
@@ -295,6 +320,7 @@
 							break;
 						}
 					}
+					 
 					for (int i = 0; i < [guids count]; i++) {
 						// check for missing guids
 						BOOL found = NO;
@@ -365,7 +391,7 @@
 			[self unlock];
 		}
 		
-		[NSThread sleepForTimeInterval:60];
+		[NSThread sleepForTimeInterval:1];
 		[functionPool drain];
 	}
 	[floodPool drain];

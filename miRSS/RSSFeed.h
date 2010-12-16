@@ -18,6 +18,9 @@
 @property (nonatomic, retain) NSArray * rssChannels;
 @property (readwrite) float rssVersion;
 
+// applescript
+- (int)itemCount;
+
 - (id)initWithString:(NSString *)rssString;
 
 @end
