@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,6 +277,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>6</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANRSSFeed.m</string>
+								<string>ANApplication.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANRSSFeed.m</string>
+										<string>ANApplication.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA5FE38F12BAD7E30026C3DF</string>
+										<string>FA5FE3D012BADB490026C3DF</string>
 										<key>history</key>
 										<array>
 											<string>FA740A0412B5830E00AD1A5B</string>
@@ -347,7 +352,6 @@
 											<string>FAF0B8CF12B969D2003D4F4D</string>
 											<string>FAF0B8F212B96D6F003D4F4D</string>
 											<string>FAF0B8F512B96D6F003D4F4D</string>
-											<string>FAF0B92912B97238003D4F4D</string>
 											<string>FAF0B98912B98443003D4F4D</string>
 											<string>FAF0B9DE12B9900B003D4F4D</string>
 											<string>FAD2A70012BAB80B005612B2</string>
@@ -357,10 +361,12 @@
 											<string>FAD2A76E12BAC338005612B2</string>
 											<string>FAD2A7A412BAC6F2005612B2</string>
 											<string>FAD2A7DF12BACD6A005612B2</string>
-											<string>FAD2A80512BAD119005612B2</string>
-											<string>FAD2A83212BAD55E005612B2</string>
-											<string>FAD2A84212BAD6EB005612B2</string>
-											<string>FAD2A84C12BAD7AD005612B2</string>
+											<string>FA5FE3AF12BADA6C0026C3DF</string>
+											<string>FA5FE3B012BADA6C0026C3DF</string>
+											<string>FA5FE3B212BADA6C0026C3DF</string>
+											<string>FA5FE3BC12BADAB30026C3DF</string>
+											<string>FA5FE3CE12BADB490026C3DF</string>
+											<string>FA5FE3CF12BADB490026C3DF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -382,8 +388,6 @@
 							<string>372pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -560,6 +564,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FA5FE3B712BADA6C0026C3DF</string>
+		<string>FA5FE3B812BADA6C0026C3DF</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA1B121B12B4498B00F02972</string>
 		<string>/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS.xcodeproj</string>
 	</array>
@@ -580,12 +588,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>ANRSSFeed.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -763,13 +773,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FAD2A68F12B9C6E8005612B2</string>
+				<string>FA5FE39812BAD8140026C3DF</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FAD2A69012B9C6E8005612B2</string>
-				<string>FAD2A69112B9C6E8005612B2</string>
-				<string>FAD2A69212B9C6E8005612B2</string>
-				<string>FAD2A69312B9C6E8005612B2</string>
-				<string>FAD2A69412B9C6E8005612B2</string>
+				<string>FA5FE39912BAD8140026C3DF</string>
+				<string>FA5FE39A12BAD8140026C3DF</string>
+				<string>FA5FE39B12BAD8140026C3DF</string>
+				<string>FA5FE39C12BAD8140026C3DF</string>
+				<string>FA5FE39D12BAD8140026C3DF</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -933,7 +943,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FAD2A69512B9C6E8005612B2</string>
+				<string>FA5FE39E12BAD8140026C3DF</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
