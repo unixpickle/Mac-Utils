@@ -249,6 +249,7 @@
 			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 			[self lock];
 			if (modified) {
+				changed = YES;
 				[self unlock];
 				break;
 			}
@@ -277,11 +278,14 @@
 					RSSChannel * channel = [[feed rssChannels] objectAtIndex:0];
 					// set up dictionary
 					if ([self modified]) {
-						changed = NO;
+						changed = YES;
+						modified = NO;
 						break;
 					}
 					[self lock];
 					if (modified) {
+						changed = YES;
+						modified = NO;
 						[lock unlock];
 						break;
 					}
@@ -356,6 +360,7 @@
 				} else {
 					[lock lock];
 					if (modified) {
+						changed = YES;
 						[lock unlock];
 						break;
 					}
@@ -370,7 +375,11 @@
 				}
 			}
 			
-			if (modified) break;
+			if (modified) {
+				changed = YES;
+				modified = NO;
+				break;
+			}
 			
 			[pool drain];
 		}

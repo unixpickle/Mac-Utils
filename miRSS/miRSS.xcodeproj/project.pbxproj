@@ -18,7 +18,6 @@
 		FA1B120412B4455000F02972 /* RSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B120312B4455000F02972 /* RSSFeed.m */; };
 		FA1B12E212B45F8B00F02972 /* RSSItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B12E112B45F8B00F02972 /* RSSItemView.m */; };
 		FA1B12EF12B4618E00F02972 /* RSSChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B12EE12B4618E00F02972 /* RSSChannelView.m */; };
-		FA5FE39412BAD7F40026C3DF /* test.sdef in Resources */ = {isa = PBXBuildFile; fileRef = FA5FE39312BAD7F40026C3DF /* test.sdef */; };
 		FA74099812B5414800AD1A5B /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA74099612B5414800AD1A5B /* topbar.png */; };
 		FA74099912B5414800AD1A5B /* bottombar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA74099712B5414800AD1A5B /* bottombar.png */; };
 		FA7409A612B5420000AD1A5B /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7409A512B5420000AD1A5B /* ANImageBitmapRep.m */; };
@@ -29,6 +28,7 @@
 		FAD2A6D412BAB501005612B2 /* ANApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A6D312BAB501005612B2 /* ANApplication.m */; };
 		FAD2A7FB12BAD01D005612B2 /* ANRSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A7FA12BAD01D005612B2 /* ANRSSFeed.m */; };
 		FAF0B8E912B96BD5003D4F4D /* ANCommandCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B8E812B96BD5003D4F4D /* ANCommandCounter.m */; };
+		FAFEA4AF12BAECC80075C0C8 /* test.sdef in Resources */ = {isa = PBXBuildFile; fileRef = FAFEA4AE12BAECC80075C0C8 /* test.sdef */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +56,6 @@
 		FA1B12E112B45F8B00F02972 /* RSSItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItemView.m; sourceTree = "<group>"; };
 		FA1B12ED12B4618E00F02972 /* RSSChannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannelView.h; sourceTree = "<group>"; };
 		FA1B12EE12B4618E00F02972 /* RSSChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannelView.m; sourceTree = "<group>"; };
-		FA5FE39312BAD7F40026C3DF /* test.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = test.sdef; sourceTree = "<group>"; };
 		FA74099612B5414800AD1A5B /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
 		FA74099712B5414800AD1A5B /* bottombar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottombar.png; sourceTree = "<group>"; };
 		FA7409A412B5420000AD1A5B /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		FAD2A7FA12BAD01D005612B2 /* ANRSSFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRSSFeed.m; sourceTree = "<group>"; };
 		FAF0B8E712B96BD5003D4F4D /* ANCommandCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANCommandCounter.h; sourceTree = "<group>"; };
 		FAF0B8E812B96BD5003D4F4D /* ANCommandCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCommandCounter.m; sourceTree = "<group>"; };
+		FAFEA4AE12BAECC80075C0C8 /* test.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = test.sdef; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA5FE39312BAD7F40026C3DF /* test.sdef */,
+				FAFEA4AE12BAECC80075C0C8 /* test.sdef */,
 				FA7409E812B5727000AD1A5B /* rss.png */,
 				FA74099612B5414800AD1A5B /* topbar.png */,
 				FA74099712B5414800AD1A5B /* bottombar.png */,
@@ -265,7 +265,7 @@
 				FA74099812B5414800AD1A5B /* topbar.png in Resources */,
 				FA74099912B5414800AD1A5B /* bottombar.png in Resources */,
 				FA7409E912B5727000AD1A5B /* rss.png in Resources */,
-				FA5FE39412BAD7F40026C3DF /* test.sdef in Resources */,
+				FAFEA4AF12BAECC80075C0C8 /* test.sdef in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
