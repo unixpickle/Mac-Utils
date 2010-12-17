@@ -1,1 +1,31 @@
 This is a small mac os x application that runs in the menu bar, allowing the user to follow RSS feeds.  It provides a great UI for browsing your RSS feed, as well as click and type feed subscription.
+
+miRSS is in the process of becoming scriptable.  This means that you will be able to do the following through applescript:
+- get the number of RSS channels that you are subscribed to
+- get the name, url, and index of any RSS channel
+- add an RSS channel by means of URL
+
+You will soon be able to read the individual posts in an RSS channel and open them in a new window from scripts, but those have not yet been implimented.  Just to give an example, here is a script that will allow you to communicate with miRSS while it is running:
+
+tell application "miRSS"
+	-- get the number of channels
+	set props to properties
+	log (props)
+	set countn to feedcount of props
+	display dialog "There are " & (countn) & " channels." buttons {"OK"} default button 1
+	
+	-- read the first channel's title
+	set i1 to item 1 of every rssfeed
+	get title of i1
+	set titlen to result
+	display dialog "Title of the first object is " & titlen & "." buttons {"OK"} default button 1
+	
+	-- add an RSS feed to the list
+	set mfeed to make new rssfeed with properties {title:"Test", rssurl:"http://www.demo.com/community/?q=taxonomy/term/1451/feed"}
+	
+	-- once again, get the channel count
+	set countn to feedcount of prohs
+	display dialog "There are now " & (countn) & " channels." buttons {"OK"} default button 1
+	
+end tell
+
