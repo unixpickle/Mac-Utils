@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
+	<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+    <suite name="miRSS Application Suite D" code="rssD" description="miRSS extra commands">
+
+		<!-- CLASSES -->
+		
+		
+		<class name="application" code="capp" description="Our simple application class." inherits="application">
+			<cocoa class="NSApplication" />
+			<property name="feedcount" code="fcnt" type="integer" access="r" description="the total number of RSS feeds that you are currently watching." />
+			<element type="rssfeed" />
+		</class>
+	
+		<class name="rssfeed" code="feed" description="An object with an index and a title.">
+			<cocoa class="ANRSSFeed" />
+			<property name="title" code="ttle" type="text" access="rw" description="The title of the RSS feed.">
+				<cocoa key="rsstitle" />
+			</property>
+			<property name="index" code="indx" type="integer" access="rw" description="The index of the RSS feed.">
+				<cocoa key="indexnumber" />
+			</property>
+			<property name="rssurl" code="rurl" type="text" access="rw" description="The URL for the RSS feed.">
+				<cocoa key="rssurl" />
+			</property>
+		</class>
+		
+	</suite>
+</dictionary>
