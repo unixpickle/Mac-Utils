@@ -14,9 +14,12 @@
 	NSString * url;
 	int index;
 }
++ (NSMutableDictionary *)feeds;
 - (void)setRsstitle:(NSString *)newTitle;
 - (void)setIndexnumber:(int)index;
 - (void)setRssurl:(NSString *)url;
+- (NSNumber *)uniqueID;
+- (void)setUniqueID:(NSNumber *)string;
 - (NSString *)rsstitle;
 - (NSString *)rssurl;
 - (NSNumber *)indexnumber;

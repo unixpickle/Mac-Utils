@@ -26,14 +26,18 @@
 	[manager lock];
 	for (int i = 0; i < count; i++) {
 		NSDictionary * information = [manager channelAtIndex:i];
-		ANRSSFeed * feed = [[ANRSSFeed alloc] init];
-		[feed setIndexnumber:i];
 		RSSChannel * channel = (RSSChannel *)[information objectForKey:ANRSSManagerChannelRSSChannelKey];
+		ANRSSFeed * feed = [[ANRSSFeed alloc] init];
+		
+		[feed setIndexnumber:[channel uniqueID]];
 		[feed setRsstitle:@"Untitled"];
 		if ([channel channelTitle])
 			[feed setRsstitle:[NSString stringWithString:[channel channelTitle]]];
 		else if ([channel channelLink]) {
 			[feed setRsstitle:[NSString stringWithString:[channel channelLink]]];
+		}
+		if ([channel channelLink]) {
+			[feed setRssurl:[NSString stringWithString:[channel channelLink]]];
 		}
 		[returnValue addObject:[feed autorelease]];
 	}

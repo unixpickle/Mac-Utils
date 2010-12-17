@@ -11,6 +11,21 @@
 
 @implementation ANRSSFeed
 
+- (id)init {
+	if (self = [super init]) {
+		index = -1;
+	}
+	return self;
+}
+
++ (NSMutableDictionary *)feeds {
+	static NSMutableDictionary * feeds = nil;
+	if (!feeds) {
+		feeds = [[NSMutableDictionary alloc] init];
+	}
+	return feeds;
+}
+
 - (NSString *)rsstitle {
 	return title;
 }
@@ -26,19 +41,30 @@
 	title = [newTitle retain];
 }
 - (void)setIndexnumber:(int)_index {
+	if ([[ANRSSFeed feeds] objectForKey:[NSNumber numberWithInt:index]] && index > -1) {
+		[[ANRSSFeed feeds] removeObjectForKey:[NSNumber numberWithInt:index]];
+	}
 	index = _index;
+	[[ANRSSFeed feeds] setObject:self forKey:[NSNumber numberWithInt:index]];
 }
 - (void)setRssurl:(NSString *)_url {
 	[url release];
 	url = [_url retain];
 }
 
+- (NSNumber *)uniqueID {
+	return [self indexnumber];
+}
+- (void)setUniqueID:(NSNumber *)string {
+	[self setIndexnumber:string];
+}
+
 
 - (id)objectSpecifier {
-	NSIndexSpecifier * specifier = [[NSIndexSpecifier alloc] initWithContainerClassDescription:(NSScriptClassDescription *)[NSApp classDescription]
+	NSUniqueIDSpecifier * specifier = [[NSUniqueIDSpecifier alloc] initWithContainerClassDescription:(NSScriptClassDescription *)[NSApp classDescription]
 																			containerSpecifier:[NSApp objectSpecifier]
 																						   key:@"rssfeeds"
-																						 index:[[self indexnumber] intValue]];
+																						 uniqueID:[self indexnumber]];
 	return [specifier autorelease];
 }
 

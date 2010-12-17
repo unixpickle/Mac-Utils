@@ -325,28 +325,33 @@
 						}
 					}
 					 
-					for (int i = 0; i < [guids count]; i++) {
-						// check for missing guids
-						BOOL found = NO;
-						NSString * guid = [guids objectAtIndex:i];
-						for (int j = 0; j < [[channel items] count]; j++) {
-							RSSItem * item = [[channel items] objectAtIndex:j];
-							if ([[item postGuid] isEqual:guid]) {
-								// they are equal
-								found = YES;
-								break;
+					
+					if ([guids count] > 100) {
+						// lots of guids, let's delete ones that are
+						// gone, probably because they were read previously
+						for (int i = 0; i < [guids count]; i++) {
+							// check for missing guids
+							BOOL found = NO;
+							NSString * guid = [guids objectAtIndex:i];
+							for (int j = 0; j < [[channel items] count]; j++) {
+								RSSItem * item = [[channel items] objectAtIndex:j];
+								if ([[item postGuid] isEqual:guid]) {
+									// they are equal
+									found = YES;
+									break;
+								}
 							}
-						}
-						if ([[channel items] count] < 1) {
-							found = YES;
-						}
-						if (!found) {
-							[guids removeObjectAtIndex:i];
-							
-							// write to the defaults
-							[self save];
-							
-							i --;
+							if ([[channel items] count] < 1) {
+								found = YES;
+							}
+							if (!found) {
+								[guids removeObjectAtIndex:i];
+								
+								// write to the defaults
+								[self save];
+								
+								i --;
+							}
 						}
 					}
 					[self unlock];

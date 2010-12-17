@@ -2,7 +2,7 @@
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
 <dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
 	<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
-    <suite name="miRSS Application Suite D" code="rssD" description="miRSS extra commands">
+    <suite name="miRSS Application Suite K" code="rssK" description="miRSS extra commands">
 
 		<!-- CLASSES -->
 		
@@ -24,7 +24,24 @@
 			<property name="rssurl" code="rurl" type="text" access="rw" description="The URL for the RSS feed.">
 				<cocoa key="rssurl" />
 			</property>
+			<property name="id" code="ID  " type="integer" access="r" description="The unique identifier of the feed.">
+				<cocoa key="uniqueID" />
+			</property>
 		</class>
+		
+		<command name="feedopen" code="readfeed" description="Display a feed in the default feed viewer.">
+			<cocoa class="ANReadFeedCommand" />
+			<parameter name="feed" code="pFed" type="specifier" description="The feed to display">
+				<cocoa key="Feed" />
+			</parameter>
+		</command>
+		
+		<command name="unsubscribe" code="unsubscr" description="Display a feed in the default feed viewer.">
+			<cocoa class="ANDeleteFeedCommand" />
+			<parameter name="to feed" code="tFed" type="specifier" description="The feed to remove from the channel list">
+				<cocoa key="Feed" />
+			</parameter>
+		</command>
 		
 	</suite>
 </dictionary>

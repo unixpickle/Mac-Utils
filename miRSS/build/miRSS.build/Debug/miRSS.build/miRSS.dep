@@ -1,8 +1,10 @@
-8a568d03bd45c2518302021d9b38988a 0794522e47bbd4ea02bea26f11fd7398 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
-c99b20c42b8301803759100b48bf4dfb dae2fffa38a36e57f5a64c0556dc3c2f ffffffffffffffffffffffffffffffff 259408 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
-3abc729a7d94f805c9adbd2fe0bc3310 d4ecb6fbf33e4bb84f62b0e9bf6ce06d ffffffffffffffffffffffffffffffff 48736 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
-3abc729a7d99d173c9adbd2fe0bc184b c1fb3798720f7b193415bc4445b8bd96 ffffffffffffffffffffffffffffffff 16576 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o
-3abc729a70581f84c9adbd2fe0bc1910 2638092fd737f7177c929369ea1d1a4a ffffffffffffffffffffffffffffffff 27188 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o
+be484f708092a912a5cd313e9dbde40a 0794522e47bbd4ea02bea26f11fd7398 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
+fd85e2b716546ac3119623284e3a317b dae2fffa38a36e57f5a64c0556dc3c2f ffffffffffffffffffffffffffffffff 263000 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
+3abc729a7d95ada8c9adbd2fe0bc2c66 d4ecb6fbf33e4bb84f62b0e9bf6ce06d ffffffffffffffffffffffffffffffff 48792 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
+3abc729a705964bcc9adbd2fe0bc1871 e7d8ada56381b83a8b580f562e39a507 ffffffffffffffffffffffffffffffff 18000 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o
+3abc729a7059613dc9adbd2fe0bc1a38 d3c66fd65e578258ad973c7528bcc1ed ffffffffffffffffffffffffffffffff 31480 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o
+3abc729a7d99d14cc9adbd2fe0bc1e51 c1fb3798720f7b193415bc4445b8bd96 ffffffffffffffffffffffffffffffff 20316 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o
+3abc729a70581eb6c9adbd2fe0bc1a5f 2638092fd737f7177c929369ea1d1a4a ffffffffffffffffffffffffffffffff 27572 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o
 3abc729a3d5c6821c9adbd2fe0bc1fd5 502edd8aec075444c77d4f59f11c2ed9 ffffffffffffffffffffffffffffffff 13288 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o
 3abc729a7d99c15ec9adbd2fe0bc121b ac0010101fdd9d913a5a28fad68e3c49 ffffffffffffffffffffffffffffffff 23604 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANTimeoutConnection.o
 3abc729a3d53d70cc9adbd2fe0bf2a0c c7ded0b187b5296e68de226b29256189 ffffffffffffffffffffffffffffffff 213700 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o
@@ -15,7 +17,7 @@ c99b20c42b8301803759100b48bf4dfb dae2fffa38a36e57f5a64c0556dc3c2f ffffffffffffff
 3abc729a7d964944c9adbd2fe0bc0636 da3c9b5ed5e4319c13552be11af56ffc ffffffffffffffffffffffffffffffff 69556 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
 3abc729a3090cccdc9adbd2fe0bc1bc6 59c20382d4605425bd77e74263195e30 ffffffffffffffffffffffffffffffff 5016 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o
 000000000dc0a2e80000000000000168 3abc729a309dd9a0c9adbd2fe0bc1a87 ffffffffffffffffffffffffffffffff 54314768 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch
-00000000000000000000000000000000 192c85bca933235eb7afc04c54d7b0ed ffffffffffffffffffffffffffffffff 1352 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/test.sdef
+00000000000000000000000000000000 192c85bca933235eb7afc04c54d7b0ed ffffffffffffffffffffffffffffffff 2110 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/test.sdef
 00000000000000000000000000000000 8e6d6f2559e8111a65b8f9bea8cc125f ffffffffffffffffffffffffffffffff 2358 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/rss.png
 00000000000000000000000000000000 507ebbc3b6e7124cc1d7abcb10dac4e1 ffffffffffffffffffffffffffffffff 3224 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/bottombar.png
 00000000000000000000000000000000 fa17c9858113dbba83577e80ac78517d ffffffffffffffffffffffffffffffff 3381 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/topbar.png
