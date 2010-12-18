@@ -21,7 +21,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -36,16 +36,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314400870;
-			PBXWorkspaceStateSaveDate = 314400870;
+			PBXPerProjectTemplateStateSaveDate = 314403183;
+			PBXWorkspaceStateSaveDate = 314403183;
 		};
 		perUserProjectItems = {
 			FA1ACD3512BD65A3005A0B23 /* PBXTextBookmark */ = FA1ACD3512BD65A3005A0B23 /* PBXTextBookmark */;
-			FA1ACD3612BD65A3005A0B23 /* PlistBookmark */ = FA1ACD3612BD65A3005A0B23 /* PlistBookmark */;
 			FA1ACD3712BD65A3005A0B23 /* PBXBookmark */ = FA1ACD3712BD65A3005A0B23 /* PBXBookmark */;
-			FA1ACD3812BD65A3005A0B23 /* PBXTextBookmark */ = FA1ACD3812BD65A3005A0B23 /* PBXTextBookmark */;
-			FA1ACD4D12BD660A005A0B23 /* PBXTextBookmark */ = FA1ACD4D12BD660A005A0B23 /* PBXTextBookmark */;
-			FA1ACD5512BD6751005A0B23 /* PBXTextBookmark */ = FA1ACD5512BD6751005A0B23 /* PBXTextBookmark */;
+			FAE793A712BD6A2B000735CA /* PBXTextBookmark */ = FAE793A712BD6A2B000735CA /* PBXTextBookmark */;
+			FAE793FC12BD6D15000735CA /* PlistBookmark */ = FAE793FC12BD6D15000735CA /* PlistBookmark */;
+			FAE793FD12BD6D15000735CA /* PBXTextBookmark */ = FAE793FD12BD6D15000735CA /* PBXTextBookmark */;
+			FAE793FE12BD6D15000735CA /* PBXTextBookmark */ = FAE793FE12BD6D15000735CA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -62,14 +62,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {576, 266}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 374}";
+			sepNavVisRange = "{0, 369}";
 		};
 	};
 	65181750067A8D39005BD953 /* Combine Text List.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {582, 714}}";
-			sepNavSelRange = "{1325, 0}";
-			sepNavVisRange = "{226, 753}";
+			sepNavIntBoundsRect = "{{0, 0}, {582, 700}}";
+			sepNavSelRange = "{414, 0}";
+			sepNavVisRange = "{191, 752}";
 		};
 	};
 	658A2DCF067AB96600421F51 /* Source Control */ = {
@@ -147,50 +147,50 @@
 		vrLen = 1196;
 		vrLoc = 377;
 	};
-	FA1ACD3612BD65A3005A0B23 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			AMIconName,
-		);
-		name = "/Users/alex/Desktop/Combine Text List/Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	FA1ACD3712BD65A3005A0B23 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = FA1ACD2612BD61A3005A0B23 /* mirss.icns */;
 	};
-	FA1ACD3812BD65A3005A0B23 /* PBXTextBookmark */ = {
+	FAE793A712BD6A2B000735CA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6518174F067A8D39005BD953 /* Combine Text List.h */;
 		name = "Combine Text List.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 374;
+		vrLen = 369;
 		vrLoc = 0;
 	};
-	FA1ACD4D12BD660A005A0B23 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 65181750067A8D39005BD953 /* Combine Text List.m */;
-		name = "Combine Text List.m: 22";
+	FAE793FC12BD6D15000735CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			AMDefaultParameters,
+		);
+		name = "/Users/alex/xCode/git/Mac-Utils/miRSS utils/Automator Actions/Combine Text List/Info.plist";
 		rLen = 0;
-		rLoc = 648;
-		rType = 0;
-		vrLen = 639;
-		vrLoc = 385;
+		rLoc = 9223372036854775807;
 	};
-	FA1ACD5512BD6751005A0B23 /* PBXTextBookmark */ = {
+	FAE793FD12BD6D15000735CA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Combine Text List.m */;
-		name = "Combine Text List.m: 47";
-		rLen = 0;
-		rLoc = 1325;
+		name = "Combine Text List.m: 23";
+		rLen = 9;
+		rLoc = 759;
 		rType = 0;
-		vrLen = 753;
-		vrLoc = 226;
+		vrLen = 718;
+		vrLoc = 225;
+	};
+	FAE793FE12BD6D15000735CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Combine Text List.m */;
+		name = "Combine Text List.m: 18";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 191;
 	};
 }

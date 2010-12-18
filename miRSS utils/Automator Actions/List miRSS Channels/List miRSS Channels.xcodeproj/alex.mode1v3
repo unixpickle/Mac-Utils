@@ -326,13 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA1ACD5E12BD6754005A0B23</string>
+										<string>FAE793FF12BD6D16000735CA</string>
 										<key>history</key>
 										<array>
 											<string>FA1ACD5A12BD6754005A0B23</string>
 											<string>FA1ACD5B12BD6754005A0B23</string>
 											<string>FA1ACD5C12BD6754005A0B23</string>
-											<string>FA1ACD5D12BD6754005A0B23</string>
+											<string>FA1ACD5E12BD6754005A0B23</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {580, 269}}</string>
 								<key>RubberWindowFrame</key>
 								<string>26 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>269pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 274}, {580, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>26 374 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA1ACD5F12BD6754005A0B23</string>
+				<string>FAE7940012BD6D16000735CA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA1ACD6012BD6754005A0B23</string>
+				<string>FAE7940112BD6D16000735CA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,12 +530,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FA1ACD6212BD6754005A0B23</string>
-		<string>FA1ACD6312BD6754005A0B23</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA1ACD0F12BD5F3C005A0B23</string>
-		<string>/Users/alex/Desktop/List miRSS Channels/List miRSS Channels.xcodeproj</string>
+		<string>/Users/alex/xCode/git/Mac-Utils/miRSS utils/Automator Actions/List miRSS Channels/List miRSS Channels.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>26 374 788 504 0 0 1440 878 </string>
@@ -576,8 +572,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA1ACD0F12BD5F3C005A0B23</string>
-				<string>FA1ACD1012BD5F3C005A0B23</string>
+				<string>FAE7940212BD6D16000735CA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

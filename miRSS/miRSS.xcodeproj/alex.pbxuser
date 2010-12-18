@@ -79,8 +79,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314383445;
-			PBXWorkspaceStateSaveDate = 314383445;
+			PBXPerProjectTemplateStateSaveDate = 314403453;
+			PBXWorkspaceStateSaveDate = 314403453;
 		};
 		perUserProjectItems = {
 			FA1ACC8B12BD47E9005A0B23 /* PBXTextBookmark */ = FA1ACC8B12BD47E9005A0B23 /* PBXTextBookmark */;
@@ -91,7 +91,6 @@
 			FA1ACCC912BD4E7C005A0B23 /* PlistBookmark */ = FA1ACCC912BD4E7C005A0B23 /* PlistBookmark */;
 			FA1ACCD312BD4EB4005A0B23 /* PBXTextBookmark */ = FA1ACCD312BD4EB4005A0B23 /* PBXTextBookmark */;
 			FA1ACD5612BD6753005A0B23 /* PBXTextBookmark */ = FA1ACD5612BD6753005A0B23 /* PBXTextBookmark */;
-			FA1ACD5712BD6753005A0B23 /* PBXTextBookmark */ = FA1ACD5712BD6753005A0B23 /* PBXTextBookmark */;
 			FA1ACD5812BD6753005A0B23 /* PBXTextBookmark */ = FA1ACD5812BD6753005A0B23 /* PBXTextBookmark */;
 			FA238D2412BC5C50004C20D4 /* PBXTextBookmark */ = FA238D2412BC5C50004C20D4 /* PBXTextBookmark */;
 			FA37B09012BC329E00977000 /* PBXTextBookmark */ = FA37B09012BC329E00977000 /* PBXTextBookmark */;
@@ -131,6 +130,7 @@
 			FAD2A76D12BAC338005612B2 /* PBXTextBookmark */ = FAD2A76D12BAC338005612B2 /* PBXTextBookmark */;
 			FAD2A7A412BAC6F2005612B2 /* PBXBookmark */ = FAD2A7A412BAC6F2005612B2 /* PBXBookmark */;
 			FAD2A7DF12BACD6A005612B2 /* PBXTextBookmark */ = FAD2A7DF12BACD6A005612B2 /* PBXTextBookmark */;
+			FAE7940812BD6D19000735CA /* PBXTextBookmark */ = FAE7940812BD6D19000735CA /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA1B11F712B4401000F02972 /* Source Control */;
 		userBuildSettings = {
@@ -251,7 +251,7 @@
 		);
 		name = "/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	FA1ACCD312BD4EB4005A0B23 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -272,16 +272,6 @@
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 1316;
-	};
-	FA1ACD5712BD6753005A0B23 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA7409EA12B5739600AD1A5B /* ANRSSManager.h */;
-		name = "ANRSSManager.h: 14";
-		rLen = 0;
-		rLoc = 285;
-		rType = 0;
-		vrLen = 555;
-		vrLoc = 873;
 	};
 	FA1ACD5812BD6753005A0B23 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -738,9 +728,9 @@
 	};
 	FA7409EA12B5739600AD1A5B /* ANRSSManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {643, 896}}";
+			sepNavIntBoundsRect = "{{0, 0}, {643, 910}}";
 			sepNavSelRange = "{285, 0}";
-			sepNavVisRange = "{673, 560}";
+			sepNavVisRange = "{673, 476}";
 		};
 	};
 	FA7409EB12B5739600AD1A5B /* ANRSSManager.m */ = {
@@ -906,6 +896,16 @@
 			sepNavSelRange = "{350, 30}";
 			sepNavVisRange = "{330, 372}";
 		};
+	};
+	FAE7940812BD6D19000735CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7409EA12B5739600AD1A5B /* ANRSSManager.h */;
+		name = "ANRSSManager.h: 14";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 673;
 	};
 	FAF0B8E712B96BD5003D4F4D /* ANCommandCounter.h */ = {
 		uiCtxt = {

@@ -19,7 +19,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -34,15 +34,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314396682;
-			PBXWorkspaceStateSaveDate = 314396682;
+			PBXPerProjectTemplateStateSaveDate = 314403134;
+			PBXWorkspaceStateSaveDate = 314403134;
 		};
 		perUserProjectItems = {
 			FA1ACD5A12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5A12BD6754005A0B23 /* PBXTextBookmark */;
 			FA1ACD5B12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5B12BD6754005A0B23 /* PBXTextBookmark */;
 			FA1ACD5C12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5C12BD6754005A0B23 /* PBXTextBookmark */;
-			FA1ACD5D12BD6754005A0B23 /* PlistBookmark */ = FA1ACD5D12BD6754005A0B23 /* PlistBookmark */;
 			FA1ACD5E12BD6754005A0B23 /* PlistBookmark */ = FA1ACD5E12BD6754005A0B23 /* PlistBookmark */;
+			FAE793FF12BD6D16000735CA /* PlistBookmark */ = FAE793FF12BD6D16000735CA /* PlistBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -157,17 +157,6 @@
 		vrLen = 1196;
 		vrLoc = 379;
 	};
-	FA1ACD5D12BD6754005A0B23 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/alex/Desktop/List miRSS Channels/Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	FA1ACD5E12BD6754005A0B23 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
@@ -177,6 +166,18 @@
 			AMCategory,
 		);
 		name = "/Users/alex/Desktop/List miRSS Channels/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FAE793FF12BD6D16000735CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			AMCategory,
+		);
+		name = "/Users/alex/xCode/git/Mac-Utils/miRSS utils/Automator Actions/List miRSS Channels/Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};

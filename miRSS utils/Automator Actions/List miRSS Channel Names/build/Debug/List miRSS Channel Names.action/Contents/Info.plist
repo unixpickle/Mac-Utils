@@ -23,6 +23,8 @@
 	<string>AMCategoryInternet</string>
 	<key>AMDefaultParameters</key>
 	<dict>
+		<key>allNames</key>
+		<string>0</string>
 		<key>urls</key>
 		<string>1</string>
 	</dict>

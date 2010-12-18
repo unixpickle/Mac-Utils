@@ -25,6 +25,8 @@
 	<dict>
 		<key>urls</key>
 		<string>1</string>
+		<key>allNames</key>
+		<string>0</string>
 	</dict>
 	<key>AMDescription</key>
 	<dict>

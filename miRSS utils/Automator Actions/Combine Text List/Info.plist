@@ -23,11 +23,13 @@
 	<string>AMCategoryText</string>
 	<key>AMDefaultParameters</key>
 	<dict>
-		<key>deliminator</key>
-		<string>and</string>
+		<key>delimiter</key>
+		<string>,</string>
 		<key>spaceBefore</key>
-		<string>1</string>
+		<string>0</string>
 		<key>spaceAfter</key>
+		<string>1</string>
+		<key>lastAnd</key>
 		<string>1</string>
 	</dict>
 	<key>AMDescription</key>

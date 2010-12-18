@@ -28,7 +28,7 @@
 - (id)initWithDefinition:(NSDictionary *)dict fromArchive:(BOOL)archived {
 	// do nothing
 	if (self = [super initWithDefinition:dict fromArchive:archived]) {
-		includeURLs = [[dict objectForKey:@"includeURLs"] boolValue];
+		
 	}
 	return self;
 }
@@ -46,12 +46,16 @@
 		}
 		return [titles autorelease];
 	}
-	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-	id<ANRemoteAccessManagerProtocol> proxy = [ANRSSProxy connectionProxy];
-	NSArray * list = [proxy channelNames:includeURLs];
-	[list retain];
-	[pool drain];
-	return [list autorelease];
+	if ([[[self parameters] objectForKey:@"allNames"] boolValue]) {
+		NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+		id<ANRemoteAccessManagerProtocol> proxy = [ANRSSProxy connectionProxy];
+		NSArray * list = [proxy channelNames:includeURLs];
+		[list retain];
+		[pool drain];
+		return [list autorelease];
+	} else {
+		return input;
+	}
 }
 
 @end

@@ -1,7 +1,7 @@
 TmiRSS
 v7
 r0
-t314397221.261588
+t314403455.314627
 cCheck dependencies
 cProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist miRSS-Info.plist
 cCopyStringsFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -1151,7 +1151,7 @@ s1089
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314397220#314397221#0(0"0(0#1#0"8617048864#0"0#
+lSLF07#2@18"Check dependencies314403454#314403455#0(0"0(0#1#0"8626528928#0"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANApplication.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314234565.357719

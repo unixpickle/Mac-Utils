@@ -19,7 +19,8 @@
 	
 	BOOL spaceBefore = [[[self parameters] objectForKey:@"spaceBefore"] boolValue];
 	BOOL spaceAfter = [[[self parameters] objectForKey:@"spaceAfter"] boolValue];
-	NSString * deliminator = [[self parameters] objectForKey:@"deliminator"];
+	BOOL lastAnd = [[[self parameters] objectForKey:@"lastAnd"] boolValue];
+	NSString * deliminator = [[self parameters] objectForKey:@"delimiter"];
 	
 	if (spaceBefore) {
 		deliminator = [@" " stringByAppendingFormat:@"%@", deliminator];
@@ -41,6 +42,11 @@
 		if (i + 1 < [input count]) {
 			// append the deliminator
 			[combination appendFormat:@"%@", deliminator];
+			if (i + 2 >= [input count]) {
+				if (lastAnd) {
+					[combination appendFormat:@"and "];
+				}
+			}
 		}
 	}
 	
