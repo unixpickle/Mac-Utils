@@ -60,7 +60,8 @@
 	
 	if (!channelView) {
 		channelView = [[RSSChannelView alloc] initWithFrame:[[window contentView] bounds]];
-		[[window contentView] addSubview:channelView];
+		//[[window contentView] addSubview:channelView];
+		[window setContentView:channelView];
 	}
 	BOOL found = NO;
 	
@@ -86,6 +87,8 @@
 	[manager unlock];
 	
 	[self centerWindow:window];
+	
+	[window makeFirstResponder:channelView];
 	
 	if (found) {
 		[window makeKeyAndOrderFront:self];
@@ -135,6 +138,17 @@
 	[manager setDelegate:self];
 	[manager startFetchThread];
 	[manager addRSSURL:@"http://macheads101.aqnichol.com/pages/news/rss.php"];
+	
+	[window setLevel:CGShieldingWindowLevel()];
+	
+	// start remote access server
+	[ANRemoteAccessManager sharedRemoteAccess];
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification {
+	// done
+	[manager release];
+	[[ANRemoteAccessManager sharedRemoteAccess] release];
 }
 
 - (void)updateMenu {
@@ -261,6 +275,10 @@
 }
 
 #pragma mark Delegates
+
+- (void)rssChannelDidClose:(id)sender {
+	[window orderOut:self];
+}
 
 - (void)rssChannel:(id)sender itemHighlighted:(RSSItemView *)_item {
 	// go ahead and set the read to less

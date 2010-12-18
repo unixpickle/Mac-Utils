@@ -14,6 +14,8 @@
 - (id)init {
 	if (self = [super init]) {
 		index = -1;
+		// index = [RSSChannel getUniqueID];
+		[self setIndexnumber:[RSSChannel getUniqueID]];
 	}
 	return self;
 }
@@ -49,6 +51,7 @@
 }
 - (void)setRssurl:(NSString *)_url {
 	[url release];
+	// NSLog(@"Setting url: %@", _url);
 	url = [_url retain];
 }
 
@@ -56,7 +59,7 @@
 	return [self indexnumber];
 }
 - (void)setUniqueID:(NSNumber *)string {
-	[self setIndexnumber:string];
+	[self setIndexnumber:[string intValue]];
 }
 
 

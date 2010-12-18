@@ -85,6 +85,9 @@
 	NSMutableDictionary * post = [[NSMutableDictionary alloc] init];
 	NSMutableArray * guids = [[NSMutableArray alloc] init];
 	NSString * urlString = [[NSString alloc] initWithString:url];
+	
+	// NSLog(@"URL: %@", urlString);
+	
 	[post setObject:urlString forKey:ANRSSManagerChannelURLKey];
 	[post setObject:guids forKey:ANRSSManagerChannelReadGUIDSKey];
 	[post setObject:[NSNumber numberWithInt:0] forKey:ANRSSManagerChannelWasFound];
@@ -122,7 +125,7 @@
 	
 	[pool drain];
 	
-	[lock unlock];
+	[self unlock];
 }
 
 - (void)removeAtIndex:(int)i {

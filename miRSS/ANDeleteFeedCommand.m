@@ -22,8 +22,9 @@
 	
 	for (int i = 0; i < count; i++) {
 		NSDictionary * dict = [manager channelAtIndex:i];
-		RSSChannel * channel = [dict objectForKey:ANRSSManagerChannelRSSChannelKey];
-		if ([[channel channelLink] isEqual:[self.feed rssurl]]) {
+		NSString * url = [dict objectForKey:ANRSSManagerChannelURLKey];
+		NSLog(@"URL: %@", [self.feed rssurl]);
+		if ([url isEqual:[self.feed rssurl]]) {
 			// we have a match
 			index = i;
 			break;

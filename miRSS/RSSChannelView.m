@@ -13,6 +13,74 @@
 
 @synthesize delegate;
 
+- (BOOL)canBecomeKeyView {
+	return YES;
+}
+
+- (void)keyDown:(NSEvent *)theEvent {
+	// here we go
+	int mods = [theEvent modifierFlags];
+	mods = mods >> 16;
+	int i = (mods & 16);
+	BOOL command = NO;
+	if (i > 0) command = YES;
+	
+	
+	if ([theEvent keyCode] > 11 && [theEvent keyCode] < 14) {
+		// q or w
+		if ([(id)delegate respondsToSelector:@selector(rssChannelDidClose:)]) {
+			[delegate rssChannelDidClose:self];
+		}
+		return;
+	}
+	
+	BOOL down = YES;
+	switch ([theEvent keyCode]) {
+		case 125:
+			down = YES;
+			//down
+			break;
+		case 126:
+			down = NO;
+			//up
+			break;
+		default:
+			//not known
+			NSBeep();
+			return;
+			break;
+	}
+	for (NSView * v in [[[contentView contentView] documentView] subviews]) {
+		if ([v isKindOfClass:[RSSItemView class]]) {
+			RSSItemView * iv;
+			iv = (RSSItemView *)v;
+			if ([iv selected]) {
+				// move down a bit
+				for (NSView * j in [[[contentView contentView] documentView] subviews]) {
+					
+					int maxHold = iv.frame.origin.y - iv.frame.size.height;
+					int minHold = maxHold - 20;
+					if (!down) {
+						minHold = iv.frame.origin.y + iv.frame.size.height;
+						maxHold = minHold + 20;
+					}
+					if (j.frame.origin.y > minHold && j.frame.origin.y < maxHold) {
+						// select it
+						if ([j isKindOfClass:[RSSItemView class]]) {
+							[(RSSItemView *)j mouseUp:nil];
+							NSRect vFrame = [j frame];
+							vFrame.origin.y -= 10;
+							vFrame.size.height += 20;
+							[[contentView contentView] scrollRectToVisible:vFrame];
+							return;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 - (void)rssItemWasSelected:(id)sender {
 	if ([(id)delegate respondsToSelector:@selector(rssChannel:itemHighlighted:)]) {
 		[delegate rssChannel:self itemHighlighted:sender];

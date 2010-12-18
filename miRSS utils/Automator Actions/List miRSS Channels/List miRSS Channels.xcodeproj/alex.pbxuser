@@ -1,0 +1,183 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* List miRSS Channels */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* List miRSS Channels */,
+		);
+		codeSenseManager = 658A2DD0067AB96600421F51 /* Code sense */;
+		executables = (
+			658A2E03067AB99300421F51 /* Automator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314396682;
+			PBXWorkspaceStateSaveDate = 314396682;
+		};
+		perUserProjectItems = {
+			FA1ACD5A12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5A12BD6754005A0B23 /* PBXTextBookmark */;
+			FA1ACD5B12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5B12BD6754005A0B23 /* PBXTextBookmark */;
+			FA1ACD5C12BD6754005A0B23 /* PBXTextBookmark */ = FA1ACD5C12BD6754005A0B23 /* PBXTextBookmark */;
+			FA1ACD5D12BD6754005A0B23 /* PlistBookmark */ = FA1ACD5D12BD6754005A0B23 /* PlistBookmark */;
+			FA1ACD5E12BD6754005A0B23 /* PlistBookmark */ = FA1ACD5E12BD6754005A0B23 /* PlistBookmark */;
+		};
+		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1038, 462}}";
+			sepNavSelRange = "{1510, 0}";
+			sepNavVisRange = "{379, 1196}";
+		};
+	};
+	6518174F067A8D39005BD953 /* List miRSS Channels.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {576, 266}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRange = "{3, 400}";
+		};
+	};
+	65181750067A8D39005BD953 /* List miRSS Channels.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {582, 1204}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{1781, 211}";
+		};
+	};
+	658A2DCF067AB96600421F51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	658A2DD0067AB96600421F51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658A2E03067AB99300421F51 /* Automator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-action \"List miRSS Channels.action\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 658A2E04067AB99300421F51 /* Automator.app */;
+		libgmallocEnabled = 0;
+		name = Automator;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	658A2E04067AB99300421F51 /* Automator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Automator.app;
+		path = /Applications/Automator.app;
+		sourceTree = "<absolute>";
+	};
+	8D5B49AC048680CD000E48DA /* List miRSS Channels */ = {
+		activeExec = 0;
+	};
+	FA1ACD5A12BD6754005A0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6518174F067A8D39005BD953 /* List miRSS Channels.h */;
+		name = "List miRSS Channels.h: 11";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 3;
+	};
+	FA1ACD5B12BD6754005A0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* List miRSS Channels.m */;
+		name = "List miRSS Channels.m: 38";
+		rLen = 0;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 1781;
+	};
+	FA1ACD5C12BD6754005A0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 31";
+		rLen = 0;
+		rLoc = 1510;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 379;
+	};
+	FA1ACD5D12BD6754005A0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/alex/Desktop/List miRSS Channels/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA1ACD5E12BD6754005A0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			AMCategory,
+		);
+		name = "/Users/alex/Desktop/List miRSS Channels/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

@@ -119,6 +119,7 @@
 
 - (void)mouseUp:(NSEvent *)theEvent {
 	if (!selected) {
+		[self becomeFirstResponder];
 		if ([(id)delegate respondsToSelector:@selector(rssItemWasSelected:)]) {
 			[delegate rssItemWasSelected:self];
 		}
@@ -203,6 +204,14 @@
 	// yay
 	
 	
+}
+
+- (BOOL)selected {
+	return selected;
+}
+
+- (BOOL)canBecomeKeyView {
+	return YES;
 }
 
 - (void)dealloc {

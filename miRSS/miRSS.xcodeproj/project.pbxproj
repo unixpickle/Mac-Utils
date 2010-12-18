@@ -13,11 +13,16 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FA11F67912B81A92004AA893 /* ANTimeoutConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11F67812B81A92004AA893 /* ANTimeoutConnection.m */; };
+		FA1ACC0712BD1C70005A0B23 /* ANRemoteAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1ACC0612BD1C70005A0B23 /* ANRemoteAccessManager.m */; };
+		FA1ACC0B12BD28BE005A0B23 /* ANRSSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1ACC0A12BD28BE005A0B23 /* ANRSSProxy.m */; };
+		FA1ACC2212BD2BCC005A0B23 /* mirss.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA1ACC2112BD2BCC005A0B23 /* mirss.icns */; };
 		FA1B11F612B4401000F02972 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B11F512B4401000F02972 /* RSSChannel.m */; };
 		FA1B11FB12B4401700F02972 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B11FA12B4401700F02972 /* RSSItem.m */; };
 		FA1B120412B4455000F02972 /* RSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B120312B4455000F02972 /* RSSFeed.m */; };
 		FA1B12E212B45F8B00F02972 /* RSSItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B12E112B45F8B00F02972 /* RSSItemView.m */; };
 		FA1B12EF12B4618E00F02972 /* RSSChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B12EE12B4618E00F02972 /* RSSChannelView.m */; };
+		FA37B0FD12BC36AA00977000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37B0FC12BC36AA00977000 /* MainWindow.m */; };
+		FA37B10012BC36CC00977000 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37B0FF12BC36CC00977000 /* MainView.m */; };
 		FA74099812B5414800AD1A5B /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA74099612B5414800AD1A5B /* topbar.png */; };
 		FA74099912B5414800AD1A5B /* bottombar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA74099712B5414800AD1A5B /* bottombar.png */; };
 		FA7409A612B5420000AD1A5B /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7409A512B5420000AD1A5B /* ANImageBitmapRep.m */; };
@@ -48,6 +53,11 @@
 		8D1107320486CEB800E47090 /* miRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11F67712B81A92004AA893 /* ANTimeoutConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTimeoutConnection.h; sourceTree = "<group>"; };
 		FA11F67812B81A92004AA893 /* ANTimeoutConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTimeoutConnection.m; sourceTree = "<group>"; };
+		FA1ACC0512BD1C70005A0B23 /* ANRemoteAccessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANRemoteAccessManager.h; sourceTree = "<group>"; };
+		FA1ACC0612BD1C70005A0B23 /* ANRemoteAccessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRemoteAccessManager.m; sourceTree = "<group>"; };
+		FA1ACC0912BD28BE005A0B23 /* ANRSSProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANRSSProxy.h; sourceTree = "<group>"; };
+		FA1ACC0A12BD28BE005A0B23 /* ANRSSProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRSSProxy.m; sourceTree = "<group>"; };
+		FA1ACC2112BD2BCC005A0B23 /* mirss.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mirss.icns; sourceTree = "<group>"; };
 		FA1B11F412B4401000F02972 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
 		FA1B11F512B4401000F02972 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
 		FA1B11F912B4401700F02972 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
@@ -58,6 +68,10 @@
 		FA1B12E112B45F8B00F02972 /* RSSItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItemView.m; sourceTree = "<group>"; };
 		FA1B12ED12B4618E00F02972 /* RSSChannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannelView.h; sourceTree = "<group>"; };
 		FA1B12EE12B4618E00F02972 /* RSSChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannelView.m; sourceTree = "<group>"; };
+		FA37B0FB12BC36AA00977000 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		FA37B0FC12BC36AA00977000 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		FA37B0FE12BC36CC00977000 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		FA37B0FF12BC36CC00977000 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		FA74099612B5414800AD1A5B /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
 		FA74099712B5414800AD1A5B /* bottombar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottombar.png; sourceTree = "<group>"; };
 		FA7409A412B5420000AD1A5B /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
@@ -98,6 +112,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FA1ACC0312BD1C5C005A0B23 /* Remote Access */,
 				FAF0B8E612B96BC5003D4F4D /* AppleScript */,
 				FA7409A412B5420000AD1A5B /* ANImageBitmapRep.h */,
 				FA7409A512B5420000AD1A5B /* ANImageBitmapRep.m */,
@@ -109,6 +124,10 @@
 				FA916B2712B6C1A4007AA0A3 /* Debugging.h */,
 				FA11F67712B81A92004AA893 /* ANTimeoutConnection.h */,
 				FA11F67812B81A92004AA893 /* ANTimeoutConnection.m */,
+				FA37B0FB12BC36AA00977000 /* MainWindow.h */,
+				FA37B0FC12BC36AA00977000 /* MainWindow.m */,
+				FA37B0FE12BC36CC00977000 /* MainView.h */,
+				FA37B0FF12BC36CC00977000 /* MainView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -165,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC3C21A12BC1869007FCB67 /* test.sdef */,
+				FA1ACC2112BD2BCC005A0B23 /* mirss.icns */,
 				FA7409E812B5727000AD1A5B /* rss.png */,
 				FA74099612B5414800AD1A5B /* topbar.png */,
 				FA74099712B5414800AD1A5B /* bottombar.png */,
@@ -182,6 +202,25 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1ACC0312BD1C5C005A0B23 /* Remote Access */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ACC0812BD28A6005A0B23 /* API */,
+				FA1ACC0512BD1C70005A0B23 /* ANRemoteAccessManager.h */,
+				FA1ACC0612BD1C70005A0B23 /* ANRemoteAccessManager.m */,
+			);
+			name = "Remote Access";
+			sourceTree = "<group>";
+		};
+		FA1ACC0812BD28A6005A0B23 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ACC0912BD28BE005A0B23 /* ANRSSProxy.h */,
+				FA1ACC0A12BD28BE005A0B23 /* ANRSSProxy.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 		FA1B12DF12B45F8100F02972 /* RSS */ = {
@@ -276,6 +315,7 @@
 				FA74099912B5414800AD1A5B /* bottombar.png in Resources */,
 				FA7409E912B5727000AD1A5B /* rss.png in Resources */,
 				FAC3C21B12BC1869007FCB67 /* test.sdef in Resources */,
+				FA1ACC2212BD2BCC005A0B23 /* mirss.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +342,10 @@
 				FAD2A7FB12BAD01D005612B2 /* ANRSSFeed.m in Sources */,
 				FAC3C16C12BC0789007FCB67 /* ANReadFeedCommand.m in Sources */,
 				FAC3C1F112BC1670007FCB67 /* ANDeleteFeedCommand.m in Sources */,
+				FA37B0FD12BC36AA00977000 /* MainWindow.m in Sources */,
+				FA37B10012BC36CC00977000 /* MainView.m in Sources */,
+				FA1ACC0712BD1C70005A0B23 /* ANRemoteAccessManager.m in Sources */,
+				FA1ACC0B12BD28BE005A0B23 /* ANRSSProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

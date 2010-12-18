@@ -11,9 +11,10 @@
 #import "ANRSSManager.h"
 #import "RSSChannel.h"
 #import "RSSChannelView.h"
+#import "ANCommandCounter.h"
+#import "ANRemoteAccessManager.h"
 
-
-@interface miRSSAppDelegate : NSObject <NSApplicationDelegate, ANRSSManagerDelegate, RSSChannelViewDelegate> {
+@interface miRSSAppDelegate : NSObject <NSApplicationDelegate, ANRSSManagerDelegate, RSSChannelViewDelegate, NSTableViewDataSource> {
     NSWindow * window;
 	IBOutlet NSWindow * addWindow;
 	IBOutlet NSTextField * addURL;

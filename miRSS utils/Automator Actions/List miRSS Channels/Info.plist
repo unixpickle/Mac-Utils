@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplication</key>
+	<string>com.jitsik.miRSS</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryInternet</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>newArticles</key>
+		<string>1</string>
+		<key>unfreshArticles</key>
+		<string>0</string>
+		<key>notLoaded</key>
+		<string>0</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>No input needed</string>
+		<key>AMDRelatedActions</key>
+		<string>com.jitsik.miRSS.listchannelnames</string>
+		<key>AMDRequires</key>
+		<string>Requires miRSS to be running.</string>
+		<key>AMDResult</key>
+		<string>Returns a list of custom channel data objects to be used by other miRSS actions.</string>
+		<key>AMDSummary</key>
+		<string>Get all of the channels that the user is subscribed to in a list of custom data items.</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>mirss.icns</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>Channels</string>
+		<string>List</string>
+		<string>Data</string>
+		<string>RSS</string>
+	</array>
+	<key>AMName</key>
+	<string>List miRSS Channels</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>public.data</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>ApplyButton</key>
+		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<key>IgnoreButton</key>
+		<string>(* Button label for user not to add proposed Action, e.g. Don&apos;t Add. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string>(* Warning message presented to user goes here. *)</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0, Copyright © 2010 Jitsik, All Rights Reserved</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jitsik.miRSS.listchannels</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2010 Jitsik, All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>List_miRSS_Channels</string>
+</dict>
+</plist>

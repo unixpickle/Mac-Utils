@@ -45,8 +45,8 @@
 	return NO;
 }
 
-- (int)getUniqueID {
-	static int uid = 1;
++ (int)getUniqueID {
+	static int uid = 192; // random number
 	uid += 1;
 	return uid;
 }
@@ -76,7 +76,7 @@
 	if (self = [super init]) {
 		// read the node
 		self.xmlNode = rssDocument;
-		uniqueID = [self getUniqueID];
+		uniqueID = [RSSChannel getUniqueID];
 		NSMutableArray * itemArray = [[NSMutableArray alloc] init];
 		for (int i = 0; i < [rssDocument childCount]; i++) {
 			NSXMLNode * subnode = [[rssDocument children] objectAtIndex:i];

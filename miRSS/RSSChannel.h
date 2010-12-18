@@ -27,6 +27,8 @@
 - (BOOL)isEqual:(id)object;
 - (BOOL)articlesVary:(RSSChannel *)channel;
 
++ (int)getUniqueID;
+
 - (int)uniqueID;
 - (void)setUniqueID:(int)uid;
 - (id)initWithChannel:(RSSChannel *)channel;

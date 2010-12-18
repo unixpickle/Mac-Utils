@@ -37,7 +37,7 @@
 			[feed setRsstitle:[NSString stringWithString:[channel channelLink]]];
 		}
 		if ([channel channelLink]) {
-			[feed setRssurl:[NSString stringWithString:[channel channelLink]]];
+			[feed setRssurl:[NSString stringWithString:[information objectForKey:ANRSSManagerChannelURLKey]]];
 		}
 		[returnValue addObject:[feed autorelease]];
 	}
@@ -47,6 +47,7 @@
 - (void)insertInRssfeeds:(ANRSSFeed *)feed {
 	// add the URL
 	ANRSSManager * manager = *[ANCommandCounter mainManagerPointer];
+	NSLog(@"Adding RSS URL: %@", [feed rssurl]);
 	[manager addRSSURL:[feed rssurl]];
 }
 - (void)insertInRssfeeds:(ANRSSFeed *)feed atIndex:(unsigned)index {

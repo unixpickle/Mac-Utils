@@ -7,13 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Carbon/Carbon.h>
 #import "RSSItemView.h"
 #import "RSSChannel.h"
-
 @protocol RSSChannelViewDelegate
 
 @optional
 - (void)rssChannel:(id)sender itemHighlighted:(RSSItemView *)item;
+- (void)rssChannelDidClose:(id)sender;
 
 @end
 

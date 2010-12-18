@@ -4,8 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleIconFile</key>
+	<string>mirss.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.miRSS</string>
+	<string>com.jitsik.miRSS</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -18,10 +20,12 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSGetAppDiedEvents</key>
+	<true/>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.6</string>
 	<key>LSUIElement</key>
-	<false/>
+	<true/>
 	<key>NSAppleScriptEnabled</key>
 	<true/>
 	<key>NSMainNibFile</key>

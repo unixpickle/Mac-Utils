@@ -35,6 +35,8 @@
 @property (nonatomic, assign) id<RSSItemViewDelegate> delegate;
 @property (nonatomic, retain) RSSItem * item;
 
+- (BOOL)selected;
+
 - (void)deselect;
 - (void)sizeToFit;
 
