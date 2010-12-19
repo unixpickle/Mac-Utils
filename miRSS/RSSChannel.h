@@ -11,15 +11,17 @@
 
 
 @interface RSSChannel : NSObject {
-	NSArray * items;
+	NSMutableArray * items;
 	NSString * channelDescription;
 	NSString * channelLink;
 	NSString * channelTitle;
 	NSXMLNode * xmlNode;
 	int uniqueID;
+	BOOL isAtom;
 }
+@property (readwrite) BOOL isAtom;
 @property (nonatomic, retain) NSXMLNode * xmlNode;
-@property (nonatomic, retain) NSArray * items;
+@property (nonatomic, retain) NSMutableArray * items;
 @property (nonatomic, retain) NSString * channelDescription;
 @property (nonatomic, retain) NSString * channelLink;
 @property (nonatomic, retain) NSString * channelTitle;
@@ -31,6 +33,7 @@
 
 - (int)uniqueID;
 - (void)setUniqueID:(int)uid;
+- (id)init;
 - (id)initWithChannel:(RSSChannel *)channel;
 - (id)initWithString:(NSString *)rssData;
 - (id)initWithXML:(NSXMLNode *)rssDocument;

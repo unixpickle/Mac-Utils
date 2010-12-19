@@ -13,6 +13,54 @@
 
 @synthesize rssVersion, rssChannels;
 
++ (NSDictionary *)elementAttributes:(NSXMLElement *)node {
+	NSMutableDictionary * attributes = [NSMutableDictionary dictionary];
+	for (int j = 0; j < [[node attributes] count]; j++) {
+		NSXMLNode * linkAttribute = [[node attributes] objectAtIndex:j];
+		// read the name
+		if ([linkAttribute kind] == NSXMLAttributeKind) {
+			// got rel
+			[attributes setObject:[linkAttribute stringValue] forKey:[linkAttribute name]];
+		}
+	}
+	return attributes;
+}
+
++ (RSSChannel *)atomChannelWithNode:(NSXMLElement *)rssElement {
+	RSSChannel * channel = [[RSSChannel alloc] init];
+	// deal with the channel
+	for (int i = 0; i < [rssElement childCount]; i++) {
+		NSXMLNode * node = [[rssElement children] objectAtIndex:i];
+		// read the title
+		if ([[node name] isEqual:@"link"]) {
+			// got the URL
+			if ([node kind] == NSXMLElementKind) {
+				// read the subnodes
+				NSString * href = nil;
+				NSString * rel = nil;
+				NSDictionary * attributes = [RSSFeed elementAttributes:(NSXMLElement *)node];
+				// read it
+				href = [attributes objectForKey:@"href"];
+				rel = [attributes objectForKey:@"rel"];
+				if ([rel isEqual:@"self"]) {
+					[channel setChannelLink:href];
+					NSLog(@"Link: %@", href);
+				}
+			} else {
+				NSLog(@"Invalid type for 'link' element");
+			}
+		} else if ([[node name] isEqual:@"title"]) {
+			[channel setChannelTitle:[node stringValue]];
+		} else if ([[node name] isEqual:@"subtitle"]) {
+			[channel setChannelDescription:[node stringValue]];
+		} else if ([[node name] isEqual:@"entry"]) {
+			// read the entry here
+			[[channel items] addObject:[[[RSSItem alloc] initWithAtom:(NSXMLElement *)node] autorelease]];
+		}
+	}
+	return [channel autorelease];
+}
+
 - (int)itemCount {
 	if ([rssChannels count] < 1) {
 		return -1;
@@ -34,11 +82,17 @@
 		}
 		
 		// read the RSS
+		BOOL isAtom = NO;
 		NSArray * rssElements = [feed children];
 		for (int i = 0; i < [rssElements count]; i++) {
 			NSXMLNode * node = [rssElements objectAtIndex:i];
 			if ([[node name] isEqual:@"rss"]) {
 				rssElements = [NSArray arrayWithObject:node];
+				break;
+			} else if ([[node name] isEqual:@"feed"]) {
+				NSLog(@"Found atom feed");
+				rssElements = [NSArray arrayWithObject:node];
+				isAtom = YES;
 				break;
 			}
 		}
@@ -51,17 +105,25 @@
 		}
 		
 		NSMutableArray * channelList = [[NSMutableArray alloc] init];
-		NSXMLElement * rssElement = [rssElements lastObject];
-		for (int i = 0; i < [rssElement childCount]; i++) {
-			NSXMLNode * node = [[rssElement children] objectAtIndex:i];
-			if ([[node name] isEqual:@"channel"]) {
-				// we got one
-				RSSChannel * channel = [[RSSChannel alloc] initWithXML:node];
-				[channelList addObject:channel];
-				[channel release];
+		
+		if (isAtom) {
+			// create atom channels
+			NSXMLElement * rssElement = [rssElements lastObject];
+			// read it
+			RSSChannel * channel = [RSSFeed atomChannelWithNode:rssElement];
+			[channelList addObject:channel];
+		} else {
+			NSXMLElement * rssElement = [rssElements lastObject];
+			for (int i = 0; i < [rssElement childCount]; i++) {
+				NSXMLNode * node = [[rssElement children] objectAtIndex:i];
+				if ([[node name] isEqual:@"channel"]) {
+					// we got one
+					RSSChannel * channel = [[RSSChannel alloc] initWithXML:node];
+					[channelList addObject:channel];
+					[channel release];
+				}
 			}
 		}
-		
 		// make sure they can't modify it
 		self.rssChannels = [NSArray arrayWithArray:channelList];
 		[channelList release];

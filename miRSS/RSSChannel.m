@@ -16,6 +16,7 @@
 @synthesize channelLink;
 @synthesize items;
 @synthesize xmlNode;
+@synthesize isAtom;
 
 - (BOOL)isEqual:(id)object {
 	if ([object isKindOfClass:[self class]]) {
@@ -59,6 +60,14 @@
 	uniqueID = uid;
 }
 
+- (id)init {
+	if (self = [super init]) {
+		self.items = [NSMutableArray array];
+		self.isAtom = YES;
+	}
+	return self;
+}
+
 - (id)initWithString:(NSString *)rssData {
 	NSXMLDocument * document = [[NSXMLDocument alloc] initWithXMLString:rssData
 																options:0
@@ -75,6 +84,7 @@
 - (id)initWithXML:(NSXMLNode *)rssDocument {
 	if (self = [super init]) {
 		// read the node
+		self.isAtom = NO;
 		self.xmlNode = rssDocument;
 		uniqueID = [RSSChannel getUniqueID];
 		NSMutableArray * itemArray = [[NSMutableArray alloc] init];
@@ -122,15 +132,32 @@
 			}
 		}
 		// don't make it global
-		self.items = [NSArray arrayWithArray:itemArray];
+		self.items = itemArray;
 		[itemArray release];
 	}
 	return self;
 }
 
 - (id)initWithChannel:(RSSChannel *)channel {
+	if (channel.isAtom) {
+		if (self = [super init]) {
+			self.isAtom = YES;
+			self.channelLink = [NSString stringWithString:channel.channelLink];
+			self.channelTitle = [NSString stringWithString:channel.channelTitle];
+			self.channelDescription = [NSString stringWithString:channel.channelDescription];
+			self.items = [NSMutableArray array];
+			for (int i = 0; i < [[channel items] count]; i++) {
+				RSSItem * item = [[RSSItem alloc] initWithItem:[[channel items] objectAtIndex:i]];
+				item.parentChannel = self;
+				[self.items addObject:item];
+				[item release];
+			}
+		}
+		return self;
+	}
 	if (self = [self initWithXML:[channel xmlNode]]) {
 		// do nothing
+		self.isAtom = NO;
 	}
 	return self;
 }

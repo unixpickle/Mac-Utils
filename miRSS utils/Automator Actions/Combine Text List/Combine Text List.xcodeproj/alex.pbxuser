@@ -36,15 +36,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314403183;
-			PBXWorkspaceStateSaveDate = 314403183;
+			PBXPerProjectTemplateStateSaveDate = 314410350;
+			PBXWorkspaceStateSaveDate = 314410350;
 		};
 		perUserProjectItems = {
 			FA1ACD3512BD65A3005A0B23 /* PBXTextBookmark */ = FA1ACD3512BD65A3005A0B23 /* PBXTextBookmark */;
 			FA1ACD3712BD65A3005A0B23 /* PBXBookmark */ = FA1ACD3712BD65A3005A0B23 /* PBXBookmark */;
+			FA5D3D3B12BDA030001D100E /* PBXTextBookmark */ = FA5D3D3B12BDA030001D100E /* PBXTextBookmark */;
 			FAE793A712BD6A2B000735CA /* PBXTextBookmark */ = FAE793A712BD6A2B000735CA /* PBXTextBookmark */;
 			FAE793FC12BD6D15000735CA /* PlistBookmark */ = FAE793FC12BD6D15000735CA /* PlistBookmark */;
-			FAE793FD12BD6D15000735CA /* PBXTextBookmark */ = FAE793FD12BD6D15000735CA /* PBXTextBookmark */;
 			FAE793FE12BD6D15000735CA /* PBXTextBookmark */ = FAE793FE12BD6D15000735CA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
@@ -67,9 +67,9 @@
 	};
 	65181750067A8D39005BD953 /* Combine Text List.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {582, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {582, 742}}";
 			sepNavSelRange = "{414, 0}";
-			sepNavVisRange = "{191, 752}";
+			sepNavVisRange = "{191, 692}";
 		};
 	};
 	658A2DCF067AB96600421F51 /* Source Control */ = {
@@ -151,6 +151,16 @@
 		isa = PBXBookmark;
 		fRef = FA1ACD2612BD61A3005A0B23 /* mirss.icns */;
 	};
+	FA5D3D3B12BDA030001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Combine Text List.m */;
+		name = "Combine Text List.m: 18";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 191;
+	};
 	FAE793A712BD6A2B000735CA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6518174F067A8D39005BD953 /* Combine Text List.h */;
@@ -171,17 +181,7 @@
 		);
 		name = "/Users/alex/xCode/git/Mac-Utils/miRSS utils/Automator Actions/Combine Text List/Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	FAE793FD12BD6D15000735CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 65181750067A8D39005BD953 /* Combine Text List.m */;
-		name = "Combine Text List.m: 23";
-		rLen = 9;
-		rLoc = 759;
-		rType = 0;
-		vrLen = 718;
-		vrLoc = 225;
+		rLoc = 9223372036854775808;
 	};
 	FAE793FE12BD6D15000735CA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

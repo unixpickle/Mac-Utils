@@ -261,6 +261,9 @@
 			[self unlock];
 			
 			// read the URL
+			if ([url hasPrefix:@"feed://"]) {
+				url = [@"http://" stringByAppendingString:[url substringFromIndex:7]];
+			}
 			NSURL * uri = [NSURL URLWithString:url];
 			NSURLRequest * request = [NSURLRequest requestWithURL:uri
 													  cachePolicy:NSURLRequestReloadIgnoringCacheData

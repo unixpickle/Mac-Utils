@@ -1,7 +1,7 @@
 TmiRSS
 v7
 r0
-t314403455.314627
+t314484244.965231
 cCheck dependencies
 cProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist miRSS-Info.plist
 cCopyStringsFile /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -160,9 +160,9 @@ i"ANTimeoutConnection.h"
 i"ANCommandCounter.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m
-c000000004D0CE8020000000000003043
-t1292691458
-s12355
+c000000004D0E6E8D00000000000030B8
+t1292791437
+s12472
 i"ANRSSManager.h"
 i"Debugging.h"
 
@@ -262,16 +262,16 @@ s308
 i"MainWindow.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.h
-c000000004D0BFAFC0000000000000387
-t1292630780
-s903
+c000000004D0E402700000000000003D2
+t1292779559
+s978
 i<Cocoa/Cocoa.h>
 i"RSSItem.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m
-c000000004D0C0D7D0000000000000ECE
-t1292635517
-s3790
+c000000004D0E448400000000000011BE
+t1292780676
+s4542
 i"RSSChannel.h"
 i"Debugging.h"
 
@@ -291,30 +291,31 @@ s3670
 i"RSSChannelView.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.h
-c000000004D09321500000000000001B6
-t1292448277
-s438
+c000000004D0E4D3500000000000001F0
+t1292782901
+s496
 i<Cocoa/Cocoa.h>
 i"RSSChannel.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m
-c000000004D0932430000000000000817
-t1292448323
-s2071
+c000000004D0E68C70000000000001044
+t1292789959
+s4164
 i"RSSFeed.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.h
-c000000004D07EAB30000000000000312
-t1292364467
-s786
+c000000004D0E4A3B0000000000000360
+t1292782139
+s864
 i<Cocoa/Cocoa.h>
 i"RSSChannel.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m
-c000000004D0C0E8300000000000008C4
-t1292635779
-s2244
+c000000004D0E4CF50000000000000E1D
+t1292782837
+s3613
 i"RSSItem.h"
+i"RSSFeed.h"
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.h
 c000000004D0C00780000000000000304
@@ -383,7 +384,7 @@ t1292175716
 s3224
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
-t1292703539
+t1292791444
 s102
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist
@@ -391,8 +392,8 @@ t1292703482
 s1056
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
-t1292703539
-s276616
+t1292791444
+s285832
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/PkgInfo
 t1292703482
@@ -431,19 +432,19 @@ t1292624115
 s3381
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o
-t1292631245
-s27820
+t1292782904
+s27836
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANChannelList.o
 t1292466474
 s16724
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o
-t1292630802
+t1292782904
 s13288
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o
-t1292630812
+t1292782904
 s17644
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o
@@ -459,24 +460,24 @@ t1292631748
 s17752
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o
-t1292631097
-s21112
+t1292782892
+s21200
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
-t1292701767
-s48768
+t1292791444
+s49296
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSProxy.o
 t1292701767
 s10284
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o
-t1292630812
-s31480
+t1292782904
+s31496
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o
-t1292703539
-s29208
+t1292782904
+s29224
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANTimeoutConnection.o
 t1292624121
@@ -491,24 +492,24 @@ t1292632098
 s15108
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
-t1292635520
-s32560
+t1292782891
+s36188
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o
-t1292635623
-s37936
+t1292782892
+s37944
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
-t1292630801
-s20332
+t1292789962
+s26912
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
-t1292701766
-s25824
+t1292782903
+s30908
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o
-t1292632331
-s50260
+t1292782892
+s50332
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o
 t1292624121
@@ -524,8 +525,8 @@ t1292701766
 s2231
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
-t1292701766
-s73312
+t1292782904
+s73328
 
 N/Users/alex/xCode/git/Mac-Utils/miRSS/main.m
 c000000004D0A86930000000000000115
@@ -1151,7 +1152,7 @@ s1089
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314403454#314403455#0(0"0(0#1#0"8626528928#0"0#
+lSLF07#2@18"Check dependencies314484244#314484244#0(0"0(0#1#0"8616524704#0"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANApplication.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314234565.357719
@@ -1167,8 +1168,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANApplication.m314234565#314234565#0(0"0(0#0#90"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANApplication.m8622144224#1876"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANApplication.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314324045.363384
-e314324045.788995
+s314475704.210392
+e314475704.404406
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o
@@ -1177,7 +1178,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m314324045#314324045#0(0"0(0#0#53"/Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m8613150304#1447"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o0#
+lSLF07#2@61"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m314475704#314475704#0(0"0(0#0#53"/Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m8623711488#1447"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANApplication.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANApplication.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANChannelList.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANChannelList.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314229819.752986
@@ -1224,8 +1225,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANCommandCounter.m314233397#314233397#0(0"0(0#0#93"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANCommandCounter.m8644360928#1882"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANCommandCounter.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314323602.020398
-e314323602.174483
+s314475704.038006
+e314475704.210292
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o
@@ -1234,11 +1235,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m314323602#314323602#0(0"0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m8621027584#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o0#
+lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m314475704#314475704#0(0"0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m8623683040#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANCommandCounter.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314323612.388257
-e314323612.586986
+s314475704.404537
+e314475704.661743
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o
@@ -1247,7 +1248,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m314323612#314323612#0(0"0(0#0#59"/Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m8616678752#1459"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o0#
+lSLF07#2@67"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m314475704#314475704#0(0"0(0#0#59"/Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m8621823648#1459"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANDeleteFeedCommand.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANDeleteFeedCommand.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANImageBitmapRep.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233397.096516
@@ -1334,8 +1335,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSFeed.m314234629#314234629#0(0"0(0#0#86"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSFeed.m8622542720#1868"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSFeed.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314323896.721239
-e314323897.133411
+s314475692.716795
+e314475692.946667
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o
@@ -1344,7 +1345,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m314323896#314323897#0(0"0(0#0#49"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m8621165184#1439"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o0#
+lSLF07#2@57"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m314475692#314475692#0(0"0(0#0#49"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m8624493152#1439"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSFeed.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSFeed.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSManager.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233397.261167
@@ -1360,8 +1361,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSManager.m314233397#314233397#0(0"0(0#0#89"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSManager.m8635883808#1874"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANRSSManager.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314394566.924424
-e314394567.488894
+s314484244.079954
+e314484244.507730
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
@@ -1370,7 +1371,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m314394566#314394567#0(0"0(0#0#52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m8627041856#1445"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o0#
+lSLF07#2@60"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m314484244#314484244#0(0"0(0#0#52"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m8625183168#1445"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSManager.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSProxy.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSProxy.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314394567.488980
@@ -1386,8 +1387,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSProxy.m314394567#314394567#0(0"0(0#0#50"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSProxy.m8621283872#1441"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRSSProxy.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSProxy.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314323612.377377
-e314323612.587586
+s314475704.223081
+e314475704.432110
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o
@@ -1396,11 +1397,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m314323612#314323612#0(0"0(0#0#57"/Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m8617407296#1455"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o0#
+lSLF07#2@65"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m314475704#314475704#0(0"0(0#0#57"/Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m8623158336#1455"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANReadFeedCommand.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANReadFeedCommand.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o /Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314396338.674302
-e314396339.107867
+s314475704.432359
+e314475704.709128
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o
@@ -1411,7 +1412,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m: In function '-[ANRemoteAccessManager channelURLs]':
 o/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m:74: warning: unused variable 'channel'
-lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m314396338#314396339#0(216"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m: In function '-[ANRemoteAccessManager channelURLs]':/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m:74: warning: unused variable 'channel'1(22@25"Unused variable 'channel'314396338#115#101#0(6@61"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m314396336#74#0#74#0#19"unused variable '*'0(0#0#61"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m8624779264#1463"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o0#
+lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m314475704#314475704#0(216"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m: In function '-[ANRemoteAccessManager channelURLs]':/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m:74: warning: unused variable 'channel'1(22@25"Unused variable 'channel'314475704#115#101#0(6@61"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m314396336#74#0#74#0#19"unused variable '*'0(0#0#61"/Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m8626445504#1463"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/ANRemoteAccessManager.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANTimeoutConnection.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/ANTimeoutConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233397.531606
@@ -1479,8 +1480,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannel.m314233396#314233396#0(0"0(0#0#87"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannel.m8645277056#1870"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannel.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314328319.884541
-e314328320.289227
+s314475691.781376
+e314475691.970967
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
@@ -1489,7 +1490,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m314328319#314328320#0(0"0(0#0#50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m8612607872#1441"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o0#
+lSLF07#2@58"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m314475691#314475691#0(0"0(0#0#50"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m8618607328#1441"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannel.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannelView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233396.928801
@@ -1505,8 +1506,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannelView.m314233396#314233397#0(0"0(0#0#91"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannelView.m8634922496#1878"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSChannelView.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314328422.693258
-e314328423.214127
+s314475692.245198
+e314475692.582611
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o
@@ -1515,7 +1516,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m314328422#314328423#0(0"0(0#0#54"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m8622437440#1449"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o0#
+lSLF07#2@62"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m314475692#314475692#0(0"0(0#0#54"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m8624434208#1449"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSChannelView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSFeed.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233396.745590
@@ -1531,8 +1532,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSFeed.m314233396#314233396#0(0"0(0#0#84"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSFeed.m8643771264#1864"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSFeed.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314323601.429030
-e314323601.601497
+s314482761.944126
+e314482762.336128
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
@@ -1541,7 +1542,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m314323601#314323601#0(0"0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m8619799456#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o0#
+lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m314482761#314482762#0(0"0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m8621152000#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSFeed.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItem.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233396.633854
@@ -1557,8 +1558,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItem.m314233396#314233396#0(0"0(0#0#84"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItem.m8643664544#1864"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItem.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314394566.479679
-e314394566.924002
+s314475703.591745
+e314475703.808436
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
@@ -1567,7 +1568,9 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m314394566#314394566#0(0"0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m8620027712#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o0#
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m: In function '-[RSSItem initWithAtom:]':
+o/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m:98: warning: incompatible Objective-C types 'struct NSXMLNode *', expected 'struct NSXMLElement *' when passing argument 1 of 'elementAttributes:' from distinct Objective-C type
+lSLF07#2@55"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m314475703#314475703#0(315"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m: In function '-[RSSItem initWithAtom:]':/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m:98: warning: incompatible Objective-C types 'struct NSXMLNode *', expected 'struct NSXMLElement *' when passing argument 1 of 'elementAttributes:' from distinct Objective-C type1(22@164"Incompatible Objective-C types 'struct NSXMLNode *', expected 'struct NSXMLElement *' when passing argument 1 of 'elementAttributes:' from distinct Objective-C type314475703#89#226#0(6@47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m314475637#98#0#98#0#0"0(0#0#47"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m8601955488#1435"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItem.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItemView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233396.840283
@@ -1583,8 +1586,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItemView.m314233396#314233397#0(0"0(0#0#88"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItemView.m8621913888#1872"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RSSItemView.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314325131.158939
-e314325131.744411
+s314475692.154927
+e314475692.477429
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o
@@ -1593,7 +1596,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m314325131#314325131#0(0"0(0#0#51"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m8614391328#1443"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o0#
+lSLF07#2@59"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m314475692#314475692#0(0"0(0#0#51"/Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m8625109216#1443"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/RSSItemView.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/RegexKitLite.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s314233397.432641
@@ -1665,8 +1668,8 @@ o/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRS
 lSLF07#2@101"Compile /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m314233396#314233396#0(660"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m: In function '-[miRSSAppDelegate showFeeds:]':/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m:116: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m: In function '-[miRSSAppDelegate updateMenu]':/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m:145: warning: class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol2(22@80"Class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol314233396#141#189#0(6@93"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m314060402#116#0#116#0#45"class '*' does not implement the '*' protocol0(22@80"Class 'miRSSAppDelegate' does not implement the 'NSTableViewDataSource' protocol314233396#471#189#0(6@93"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m314060402#145#0#145#0#45"class '*' does not implement the '*' protocol0(0#0#93"/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m8644779392#1882"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap" -iquote "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/include" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64" "-I/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-dmmghvgnjjjixzfzjsetxdptyvgp/miRSS_Prefix.pch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/miRSSAppDelegate.m" -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o"0#
 
 CCompileC build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314394566.118053
-e314394567.187476
+s314475703.590566
+e314475704.037757
 r1
 xCompileC
 xbuild/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
@@ -1675,7 +1678,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m314394566#314394567#0(0"0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m8612653088#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o0#
+lSLF07#2@64"Compile /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m314475703#314475704#0(0"0(0#0#56"/Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m8616655616#1453"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/miRSS-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/miRSS/miRSSAppDelegate.m -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o0#
 
 CCompileXIB "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/English.lproj/MainMenu.xib"
 s314233392.042191
@@ -1776,14 +1779,14 @@ xx86_64
 lSLF07#2@122"Link /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/miRSS.app/Contents/MacOS/miRSS314234629#314234629#0(0"0(0#0#0"8617839936#780"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk "-L/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" "-F/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug" -filelist "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSS.LinkFileList" -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework Carbon -o "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/miRSS.app/Contents/MacOS/miRSS"0#
 
 CLd /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS normal x86_64
-s314396339.108025
-e314396339.173543
+s314484244.507818
+e314484244.940737
 r1
 xLd
 x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
 xnormal
 xx86_64
-lSLF07#2@85"Link /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS314396339#314396339#0(0"0(0#0#0"8627298528#585"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -filelist /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSS.LinkFileList -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework Carbon -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS0#
+lSLF07#2@85"Link /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS314484244#314484244#0(0"0(0#0#0"8614453760#585"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -F/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug -filelist /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSS.LinkFileList -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework Carbon -o /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS0#
 
 CProcessInfoPlistFile "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/miRSS.app/Contents/Info.plist" miRSS-Info.plist
 s314233392.001166
@@ -1838,10 +1841,10 @@ x/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/buil
 lSLF07#2@102"Touch /Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/miRSS.app314234629#314234629#0(0"0(0#0#0"8616502112#205"    cd "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)"    /usr/bin/touch -c "/Volumes/What Should I Do With This?/Code DUmp/miRSS (applescripting fail)/build/Debug/miRSS.app"0#
 
 CTouch /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
-s314396339.173643
-e314396339.176082
+s314484244.940827
+e314484244.965166
 r1
 xTouch
 x/Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
-lSLF07#2@65"Touch /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app314396339#314396339#0(0"0(0#0#0"8626586208#127"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /usr/bin/touch -c /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app0#
+lSLF07#2@65"Touch /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app314484244#314484244#0(0"0(0#0#0"8624394016#127"    cd /Users/alex/xCode/git/Mac-Utils/miRSS    /usr/bin/touch -c /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app0#
 

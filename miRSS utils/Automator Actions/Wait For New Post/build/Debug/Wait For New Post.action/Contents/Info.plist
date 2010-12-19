@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplication</key>
+	<string>com.jitsik.miRSS</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryInternet</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>option</key>
+		<string>0</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>No input required</string>
+		<key>AMDRequires</key>
+		<string>Requires that miRSS is running</string>
+		<key>AMDResult</key>
+		<string>Returns the last channel that was modified (or the total 'unread' count if you set it that way)</string>
+		<key>AMDSummary</key>
+		<string>Waits until miRSS detects a new RSS post on any channel</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>mirss.icns</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>Channel</string>
+		<string>Post</string>
+		<string>RSS</string>
+	</array>
+	<key>AMName</key>
+	<string>Wait For New Post</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>ApplyButton</key>
+		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<key>IgnoreButton</key>
+		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string>(* Warning message presented to user goes here. *)</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Wait For New Post</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0, Copyright © 2010 Jitsik, All Rights Reserved</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jitsik.miRSS.waitnewpost</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Wait For New Post</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2010 Jitsik, All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>Wait_For_New_Post</string>
+</dict>
+</plist>

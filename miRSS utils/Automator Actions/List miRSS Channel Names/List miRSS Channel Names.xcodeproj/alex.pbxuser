@@ -72,8 +72,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314403135;
-			PBXWorkspaceStateSaveDate = 314403135;
+			PBXPerProjectTemplateStateSaveDate = 314420819;
+			PBXWorkspaceStateSaveDate = 314420819;
 		};
 		perUserProjectItems = {
 			FA1ACC3212BD34F8005A0B23 /* PBXTextBookmark */ = FA1ACC3212BD34F8005A0B23 /* PBXTextBookmark */;
@@ -81,10 +81,10 @@
 			FA1ACC3612BD34F8005A0B23 /* PBXTextBookmark */ = FA1ACC3612BD34F8005A0B23 /* PBXTextBookmark */;
 			FA1ACC3712BD34F8005A0B23 /* PBXTextBookmark */ = FA1ACC3712BD34F8005A0B23 /* PBXTextBookmark */;
 			FA1ACCDA12BD4F7F005A0B23 /* PBXTextBookmark */ = FA1ACCDA12BD4F7F005A0B23 /* PBXTextBookmark */;
-			FA1ACD0312BD5628005A0B23 /* PBXTextBookmark */ = FA1ACD0312BD5628005A0B23 /* PBXTextBookmark */;
+			FA5D3D4812BDA9B2001D100E /* PBXTextBookmark */ = FA5D3D4812BDA9B2001D100E /* PBXTextBookmark */;
+			FA5D3D4912BDA9B2001D100E /* PBXTextBookmark */ = FA5D3D4912BDA9B2001D100E /* PBXTextBookmark */;
+			FA5D3DE812BDB273001D100E /* PBXTextBookmark */ = FA5D3DE812BDB273001D100E /* PBXTextBookmark */;
 			FAE7940312BD6D16000735CA /* PlistBookmark */ = FAE7940312BD6D16000735CA /* PlistBookmark */;
-			FAE7940412BD6D16000735CA /* PBXTextBookmark */ = FAE7940412BD6D16000735CA /* PBXTextBookmark */;
-			FAE7940512BD6D16000735CA /* PBXTextBookmark */ = FAE7940512BD6D16000735CA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -113,9 +113,9 @@
 	};
 	65181750067A8D39005BD953 /* List miRSS Channel Names.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {582, 854}}";
-			sepNavSelRange = "{757, 0}";
-			sepNavVisRange = "{597, 749}";
+			sepNavIntBoundsRect = "{{0, 0}, {582, 868}}";
+			sepNavSelRange = "{1415, 0}";
+			sepNavVisRange = "{1346, 392}";
 		};
 	};
 	658A2DCF067AB96600421F51 /* Source Control */ = {
@@ -182,7 +182,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 406}}";
 			sepNavSelRange = "{211, 0}";
-			sepNavVisRange = "{73, 416}";
+			sepNavVisRange = "{73, 381}";
 		};
 	};
 	FA1ACC2412BD2FC7005A0B23 /* ANRSSProxy.m */ = {
@@ -236,15 +236,35 @@
 		vrLen = 369;
 		vrLoc = 132;
 	};
-	FA1ACD0312BD5628005A0B23 /* PBXTextBookmark */ = {
+	FA5D3D4812BDA9B2001D100E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA1ACC2312BD2FC7005A0B23 /* ANRSSProxy.h */;
 		name = "ANRSSProxy.h: 11";
 		rLen = 0;
 		rLoc = 211;
 		rType = 0;
-		vrLen = 416;
+		vrLen = 381;
 		vrLoc = 73;
+	};
+	FA5D3D4912BDA9B2001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* List miRSS Channel Names.m */;
+		name = "List miRSS Channel Names.m: 50";
+		rLen = 220;
+		rLoc = 1451;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 1346;
+	};
+	FA5D3DE812BDB273001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* List miRSS Channel Names.m */;
+		name = "List miRSS Channel Names.m: 49";
+		rLen = 0;
+		rLoc = 1415;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 1346;
 	};
 	FAE7940312BD6D16000735CA /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -256,26 +276,6 @@
 		);
 		name = "/Users/alex/xCode/git/Mac-Utils/miRSS utils/Automator Actions/List miRSS Channel Names/Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	FAE7940412BD6D16000735CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 65181750067A8D39005BD953 /* List miRSS Channel Names.m */;
-		name = "List miRSS Channel Names.m: 44";
-		rLen = 0;
-		rLoc = 1316;
-		rType = 0;
-		vrLen = 728;
-		vrLoc = 935;
-	};
-	FAE7940512BD6D16000735CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 65181750067A8D39005BD953 /* List miRSS Channel Names.m */;
-		name = "List miRSS Channel Names.m: 31";
-		rLen = 0;
-		rLoc = 757;
-		rType = 0;
-		vrLen = 749;
-		vrLoc = 597;
+		rLoc = 9223372036854775808;
 	};
 }

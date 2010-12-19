@@ -20,6 +20,7 @@
 	NSString * postURL;
 	BOOL isRead;
 }
+
 @property (readwrite) BOOL isRead;
 @property (nonatomic, assign) RSSChannel * parentChannel;
 @property (nonatomic, retain) NSDate * postDate;
@@ -28,6 +29,8 @@
 @property (nonatomic, retain) NSString * postContent;
 @property (nonatomic, retain) NSString * postURL;
 
+- (id)initWithItem:(RSSItem *)item;
 - (id)initWithXML:(NSXMLNode *)document;
+- (id)initWithAtom:(NSXMLElement *)elem;
 
 @end

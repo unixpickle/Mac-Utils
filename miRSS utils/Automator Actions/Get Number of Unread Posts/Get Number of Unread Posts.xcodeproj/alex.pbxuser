@@ -1,0 +1,187 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Get Number of Unread Posts */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Get Number of Unread Posts */,
+		);
+		codeSenseManager = 658A2DD0067AB96600421F51 /* Code sense */;
+		executables = (
+			658A2E03067AB99300421F51 /* Automator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314420783;
+			PBXWorkspaceStateSaveDate = 314420783;
+		};
+		perUserProjectItems = {
+			FA5D3DDB12BDB20C001D100E /* PBXTextBookmark */ = FA5D3DDB12BDB20C001D100E /* PBXTextBookmark */;
+			FA5D3DDC12BDB20C001D100E /* PBXTextBookmark */ = FA5D3DDC12BDB20C001D100E /* PBXTextBookmark */;
+			FA5D3DDD12BDB20C001D100E /* PBXBookmark */ = FA5D3DDD12BDB20C001D100E /* PBXBookmark */;
+			FA5D3DDE12BDB20C001D100E /* PlistBookmark */ = FA5D3DDE12BDB20C001D100E /* PlistBookmark */;
+			FA5D3DDF12BDB20C001D100E /* PBXTextBookmark */ = FA5D3DDF12BDB20C001D100E /* PBXTextBookmark */;
+			FA5D3DE012BDB20C001D100E /* PBXTextBookmark */ = FA5D3DE012BDB20C001D100E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1038, 448}}";
+			sepNavSelRange = "{1514, 0}";
+			sepNavVisRange = "{386, 1192}";
+		};
+	};
+	6518174F067A8D39005BD953 /* Get Number of Unread Posts.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {576, 266}}";
+			sepNavSelRange = "{318, 0}";
+			sepNavVisRange = "{0, 424}";
+		};
+	};
+	65181750067A8D39005BD953 /* Get Number of Unread Posts.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {582, 448}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRange = "{0, 471}";
+		};
+	};
+	658A2DCF067AB96600421F51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	658A2DD0067AB96600421F51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658A2E03067AB99300421F51 /* Automator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-action \"Get Number of Unread Posts.action\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 658A2E04067AB99300421F51 /* Automator.app */;
+		libgmallocEnabled = 0;
+		name = Automator;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	658A2E04067AB99300421F51 /* Automator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Automator.app;
+		path = /Applications/Automator.app;
+		sourceTree = "<absolute>";
+	};
+	8D5B49AC048680CD000E48DA /* Get Number of Unread Posts */ = {
+		activeExec = 0;
+	};
+	FA5D3DDB12BDB20C001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 31";
+		rLen = 0;
+		rLoc = 1514;
+		rType = 0;
+		vrLen = 1192;
+		vrLoc = 386;
+	};
+	FA5D3DDC12BDB20C001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6518174F067A8D39005BD953 /* Get Number of Unread Posts.h */;
+		name = "Get Number of Unread Posts.h: 13";
+		rLen = 0;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FA5D3DDD12BDB20C001D100E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FA5D3DAE12BDAEA8001D100E /* mirss.icns */;
+	};
+	FA5D3DDE12BDB20C001D100E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = "/Users/alex/Desktop/Get Number of Unread Posts/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA5D3DDF12BDB20C001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Get Number of Unread Posts.m */;
+		name = "Get Number of Unread Posts.m: 16";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 262;
+	};
+	FA5D3DE012BDB20C001D100E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Get Number of Unread Posts.m */;
+		name = "Get Number of Unread Posts.m: 16";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 0;
+	};
+}

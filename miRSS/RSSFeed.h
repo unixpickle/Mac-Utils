@@ -20,6 +20,7 @@
 
 // applescript
 - (int)itemCount;
++ (NSDictionary *)elementAttributes:(NSXMLElement *)node;
 
 - (id)initWithString:(NSString *)rssString;
 

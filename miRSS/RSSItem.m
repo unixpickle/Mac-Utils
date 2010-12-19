@@ -7,7 +7,7 @@
 //
 
 #import "RSSItem.h"
-
+#import "RSSFeed.h"
 
 @implementation RSSItem
 
@@ -18,6 +18,20 @@
 @synthesize postURL;
 @synthesize parentChannel;
 @synthesize isRead;
+
+- (id)initWithItem:(RSSItem *)item {
+	// create a copy
+	// parentChannel needs to be set seperately
+	if (self = [super init]) {
+		self.postDate = [NSDate dateWithTimeIntervalSince1970:[[item postDate] timeIntervalSince1970]];
+		self.postTitle = [NSString stringWithString:[item postTitle]];
+		self.postGuid = [NSString stringWithString:[item postGuid]];
+		self.postContent = [NSString stringWithString:[item postContent]];
+		self.postURL = [NSString stringWithString:[item postURL]];
+		self.isRead = item.isRead;
+	}
+	return self;
+}
 
 - (id)initWithXML:(NSXMLNode *)document {
 	if (self = [super init]) {
@@ -61,6 +75,32 @@
 			}
 			if (!self.postGuid) {
 				self.postGuid = self.postURL;
+			}
+		}
+	}
+	return self;
+}
+
+- (id)initWithAtom:(NSXMLElement *)elem {
+	if (self = [super init]) {
+		// read the atom
+		for (int i = 0; i < [elem childCount]; i++) {
+			NSXMLNode * node = [elem childAtIndex:i];
+			if ([node kind] == NSXMLElementKind) {
+				// read it
+				if ([[node name] isEqual:@"title"]) {
+					[self setPostTitle:[node stringValue]];
+					self.postTitle = [self.postTitle stringByReplacingOccurrencesOfString:@"\n" 
+																			   withString:@""];
+				} else if ([[node name] isEqual:@"summary"]) {
+					[self setPostContent:[node stringValue]];
+				} else if ([[node name] isEqual:@"link"]) {
+					NSDictionary * props = [RSSFeed elementAttributes:node];
+					NSString * href = [props objectForKey:@"href"];
+					// use it
+					[self setPostURL:href];
+					[self setPostGuid:href];
+				}
 			}
 		}
 	}
