@@ -143,6 +143,8 @@
 	
 	// start remote access server
 	[ANRemoteAccessManager sharedRemoteAccess];
+	
+	[self configureAuto];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification {
@@ -213,7 +215,6 @@
 	[statusItem setMenu:mainMenu];
 	
 	[pool drain];
-	
 	
 }
 
@@ -324,6 +325,56 @@
 	[self updateMenu];
 	
 	[pool drain];
+}
+
+#pragma mark Auto Login
+
+- (BOOL)loginItemExistsWithLoginItemReference:(LSSharedFileListRef)theLoginItemsRefs ForPath:(CFURLRef)thePath {
+	BOOL exists = NO;  
+	UInt32 seedValue;
+	
+	// We're going to grab the contents of the shared file list (LSSharedFileListItemRef objects)
+	// and pop it in an array so we can iterate through it to find our item.
+	NSArray * loginItemsArray = (NSArray *)LSSharedFileListCopySnapshot(theLoginItemsRefs, &seedValue);  
+	for (id item in loginItemsArray) {    
+		LSSharedFileListItemRef itemRef = (LSSharedFileListItemRef)item;
+		if (LSSharedFileListItemResolve(itemRef, 0, (CFURLRef*) &thePath, NULL) == noErr) {
+			if ([[(NSURL *)thePath path] hasSuffix:@"KeyShot.app"]) {
+				[(id)thePath release];
+				exists = YES;
+			}
+		}
+	}
+	CFRelease((CFArrayRef)loginItemsArray);
+	return exists;
+}
+
+- (void)configureAuto {
+	// Reference to shared file list
+	LSSharedFileListRef theLoginItemsRefs = LSSharedFileListCreate(NULL, kLSSharedFileListSessionLoginItems, NULL);
+	
+	if ([self loginItemExistsWithLoginItemReference:theLoginItemsRefs ForPath:(CFURLRef)[NSURL fileURLWithPath:@"/Applications/KeyShot.app"]]) {
+		NSLog(@"Exists");
+		return;
+	}
+	
+	if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/KeyShot.app"]) {
+		NSRunAlertPanel(@"Not Properly Installed", @"This application needs to be located at /Applications/KeyShot.app to function properly.  Make sure you followed the directions in the DMG you downloaded.", @"OK", nil, nil);
+		return;
+	}
+	
+	
+	// CFURLRef to the insertable item.
+	CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:@"/Applications/KeyShot.app"];
+	
+	// Actual insertion of an item.
+	LSSharedFileListItemRef item = LSSharedFileListInsertItemURL(theLoginItemsRefs, kLSSharedFileListItemLast, NULL, NULL, url, NULL, NULL);
+	
+	// Clean up in case of success
+	if (item) 
+		CFRelease(item);
+	
+	CFRelease(theLoginItemsRefs);
 }
 
 @end

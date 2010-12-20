@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "ANCommandCounter.h"
+#import "ANRemoteAccessManager.h"
 
 @interface NSApplication (anapplication)
 
@@ -18,5 +19,6 @@
 - (void)removeFromRssfeedsAtIndex:(unsigned)index;
 
 - (NSNumber *)feedcount;
+- (NSNumber *)unread;
 
 @end

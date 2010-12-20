@@ -10,6 +10,7 @@
 		<class name="application" code="capp" description="Our simple application class." inherits="application">
 			<cocoa class="NSApplication" />
 			<property name="feedcount" code="fcnt" type="integer" access="r" description="the total number of RSS feeds that you are currently watching." />
+			<property name="unread" code="unrd" type="integer" accress="r" description="the total number of unread articles in all of the channels." />
 			<element type="rssfeed" />
 		</class>
 	
@@ -27,6 +28,8 @@
 			<property name="id" code="ID  " type="integer" access="r" description="The unique identifier of the feed.">
 				<cocoa key="uniqueID" />
 			</property>
+			<property name="unread" code="unrd" type="integer" access="r"
+				description="The number of unread articles" />
 		</class>
 		
 		<command name="feedopen" code="readfeed" description="Display a feed in the default feed viewer.">

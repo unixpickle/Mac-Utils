@@ -44,6 +44,11 @@
 - (void)addFeed:(id)sender;
 - (void)showFeed:(NSMenuItem *)menu;
 
+- (void)configureAuto;
+- (BOOL)loginItemExistsWithLoginItemReference:(LSSharedFileListRef)theLoginItemsRefs 
+									  ForPath:(CFURLRef)thePath;
+
+
 @property (assign) IBOutlet NSWindow * window;
 
 @end

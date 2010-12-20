@@ -39,6 +39,7 @@
 		if ([channel channelLink]) {
 			[feed setRssurl:[NSString stringWithString:[information objectForKey:ANRSSManagerChannelURLKey]]];
 		}
+		[feed setUnread:[NSNumber numberWithInt:[manager unreadInChannelIndex:i lock:NO]]];
 		[returnValue addObject:[feed autorelease]];
 	}
 	[manager unlock];
@@ -63,6 +64,10 @@
 - (NSNumber *)feedcount {
 	ANRSSManager * manager = *[ANCommandCounter mainManagerPointer];
 	return [NSNumber numberWithInt:[manager channelCount]];
+}
+
+- (NSNumber *)unread {	
+	return [[ANRemoteAccessManager sharedRemoteAccess] totalUnread];
 }
 
 @end

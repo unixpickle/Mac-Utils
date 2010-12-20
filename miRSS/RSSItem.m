@@ -95,7 +95,7 @@
 				} else if ([[node name] isEqual:@"summary"]) {
 					[self setPostContent:[node stringValue]];
 				} else if ([[node name] isEqual:@"link"]) {
-					NSDictionary * props = [RSSFeed elementAttributes:node];
+					NSDictionary * props = [RSSFeed elementAttributes:(NSXMLElement *)node];
 					NSString * href = [props objectForKey:@"href"];
 					// use it
 					[self setPostURL:href];

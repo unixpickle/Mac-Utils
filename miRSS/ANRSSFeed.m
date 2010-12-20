@@ -55,6 +55,14 @@
 	url = [_url retain];
 }
 
+- (void)setUnread:(NSNumber *)_unread {
+	nunread = [_unread intValue];
+}
+
+- (NSNumber *)unread {
+	return [NSNumber numberWithInt:nunread];
+}
+
 - (NSNumber *)uniqueID {
 	return [self indexnumber];
 }

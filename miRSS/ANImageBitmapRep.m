@@ -186,7 +186,7 @@
 	int height = CGBitmapContextGetHeight(ctx);
 	for (int x = 0; x < width; x++) {
 		for (int y = 0; y < height; y++) {
-			float pxl[4];
+			CGFloat pxl[4];
 			[self getPixel:pxl atX:x y:y];
 			pxl[0] = 1 - pxl[0];
 			pxl[1] = 1 - pxl[1];

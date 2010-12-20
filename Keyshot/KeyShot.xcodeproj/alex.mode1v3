@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -299,7 +297,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>444 239 904 819 0 0 1920 1058 </string>
+						<string>310 239 904 819 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,12 +308,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANKeyEvent.m</string>
+								<string>KeyShotAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANKeyEvent.m</string>
+										<string>KeyShotAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA238CD712BC57C6004C20D4</string>
+										<string>FA64533212BEBD28009027B6</string>
 										<key>history</key>
 										<array>
 											<string>FA1971031161D21E00A5DA23</string>
@@ -344,9 +344,9 @@
 											<string>FA6EA4AE12AEE59300DFCCFA</string>
 											<string>FA6EA51612AF042100DFCCFA</string>
 											<string>FA6EA51712AF042100DFCCFA</string>
-											<string>FA37B1A612BC41AA00977000</string>
 											<string>FA37B1A712BC41AA00977000</string>
-											<string>FA37B20612BC46D100977000</string>
+											<string>FA64533112BEBD28009027B6</string>
+											<string>FA37B1A612BC41AA00977000</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,14 +358,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {696, 357}}</string>
+								<string>{{0, 0}, {696, 346}}</string>
 								<key>RubberWindowFrame</key>
-								<string>444 239 904 819 0 0 1920 1058 </string>
+								<string>310 239 904 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>357pt</string>
+							<string>346pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -378,14 +378,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 362}, {696, 416}}</string>
+								<string>{{0, 351}, {696, 427}}</string>
 								<key>RubberWindowFrame</key>
-								<string>444 239 904 819 0 0 1920 1058 </string>
+								<string>310 239 904 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>416pt</string>
+							<string>427pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -404,9 +404,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA238CA912BC5612004C20D4</string>
+				<string>FA64533312BEBD28009027B6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA238CAA12BC5612004C20D4</string>
+				<string>FA64533412BEBD28009027B6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -548,7 +548,7 @@
 		<string>/Users/alex/xCode/git/Mac-Utils/Keyshot/KeyShot.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>444 239 904 819 0 0 1920 1058 </string>
+	<string>310 239 904 819 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -625,7 +625,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA1970F21161D0C500A5DA23</string>
-				<string>FA238CAB12BC5612004C20D4</string>
+				<string>FA64533512BEBD28009027B6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
