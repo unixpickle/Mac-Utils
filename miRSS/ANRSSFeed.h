@@ -13,18 +13,37 @@
 @interface ANRSSFeed : NSObject {
 	NSString * title;
 	NSString * url;
+	NSArray * articles;
 	int index;
 	int nunread;
 }
+- (id)objectSpecifier;
+// feeds is a dictionary containing the feeds and sorting
+// them by index (uniqueID)
 + (NSMutableDictionary *)feeds;
+
+// this method is not part of the KVC
+- (void)setArticles:(NSArray *)articles;
+// <element type="article">
+- (NSArray *)articles;
+// none of these methods will do anything
+// because you are not allowed to modify
+// the articles in a feed you do not
+// distribute!!!
+- (void)insertInArticles:(id)feed;
+- (void)insertInArticles:(id)feed atIndex:(unsigned)index;
+- (void)removeFromArticlesAtIndex:(unsigned)index;
+
+// KVC compliant methods
 - (void)setRsstitle:(NSString *)newTitle;
-- (void)setIndexnumber:(int)index;
-- (void)setRssurl:(NSString *)url;
-- (void)setUnread:(NSNumber *)_unread;
-- (NSNumber *)uniqueID;
-- (void)setUniqueID:(NSNumber *)string;
 - (NSString *)rsstitle;
-- (NSString *)rssurl;
+- (void)setIndexnumber:(int)index;
 - (NSNumber *)indexnumber;
+- (void)setRssurl:(NSString *)url;
+- (NSString *)rssurl;
+- (void)setUnread:(NSNumber *)_unread;
 - (NSNumber *)unread;
+- (void)setUniqueID:(NSNumber *)string;
+- (NSNumber *)uniqueID;
+
 @end

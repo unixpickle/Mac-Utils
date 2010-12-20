@@ -2,7 +2,7 @@
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
 <dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
 	<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
-    <suite name="miRSS Application Suite K" code="rssK" description="miRSS extra commands">
+    <suite name="miRSS Application Suite O" code="rssO" description="miRSS extra commands">
 
 		<!-- CLASSES -->
 		
@@ -16,12 +16,15 @@
 	
 		<class name="rssfeed" code="feed" description="An object with an index and a title.">
 			<cocoa class="ANRSSFeed" />
+			
 			<property name="title" code="ttle" type="text" access="rw" description="The title of the RSS feed.">
 				<cocoa key="rsstitle" />
 			</property>
-			<property name="index" code="indx" type="integer" access="rw" description="The index of the RSS feed.">
+			<!--
+				<property name="index" code="indx" type="integer" access="rw" description="The index of the RSS feed.">
 				<cocoa key="indexnumber" />
 			</property>
+			-->
 			<property name="rssurl" code="rurl" type="text" access="rw" description="The URL for the RSS feed.">
 				<cocoa key="rssurl" />
 			</property>
@@ -29,8 +32,24 @@
 				<cocoa key="uniqueID" />
 			</property>
 			<property name="unread" code="unrd" type="integer" access="r"
-				description="The number of unread articles" />
+				description="The number of unread articles" />	
+			<element type="article" />
+			
 		</class>
+		
+		<!--
+			 	CLASS: article
+				NOTE: never create these yourself
+		-->
+		
+		<class name="article" code="artl" description="An object with a title, content, and date of an article.">
+			<cocoa class="ANRSSArticle" />
+			<property name="title" code="ttle" type="text" access="r" description="The title of the article." />
+			<property name="content" code="cntn" type="text" access="r" description="The text content of the article." />
+			<property name="date" code="date" type="text" access="r" description="The text date when the article was posted." />
+			<property name="index" code="indx" type="integer" access="rw" description="The index of the post." />
+		</class>
+		
 		
 		<command name="feedopen" code="readfeed" description="Display a feed in the default feed viewer.">
 			<cocoa class="ANReadFeedCommand" />

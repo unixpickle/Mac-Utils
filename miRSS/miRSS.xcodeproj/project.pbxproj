@@ -35,6 +35,7 @@
 		FAC3C21B12BC1869007FCB67 /* test.sdef in Resources */ = {isa = PBXBuildFile; fileRef = FAC3C21A12BC1869007FCB67 /* test.sdef */; };
 		FAD2A6D412BAB501005612B2 /* ANApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A6D312BAB501005612B2 /* ANApplication.m */; };
 		FAD2A7FB12BAD01D005612B2 /* ANRSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A7FA12BAD01D005612B2 /* ANRSSFeed.m */; };
+		FAE22BE212BFB5E1000CF35B /* ANRSSArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE22BE112BFB5E1000CF35B /* ANRSSArticle.m */; };
 		FAF0B8E912B96BD5003D4F4D /* ANCommandCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0B8E812B96BD5003D4F4D /* ANCommandCounter.m */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,8 @@
 		FAD2A6D312BAB501005612B2 /* ANApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANApplication.m; sourceTree = "<group>"; };
 		FAD2A7F912BAD01D005612B2 /* ANRSSFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANRSSFeed.h; sourceTree = "<group>"; };
 		FAD2A7FA12BAD01D005612B2 /* ANRSSFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRSSFeed.m; sourceTree = "<group>"; };
+		FAE22BE012BFB5E1000CF35B /* ANRSSArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANRSSArticle.h; sourceTree = "<group>"; };
+		FAE22BE112BFB5E1000CF35B /* ANRSSArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRSSArticle.m; sourceTree = "<group>"; };
 		FAF0B8E712B96BD5003D4F4D /* ANCommandCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANCommandCounter.h; sourceTree = "<group>"; };
 		FAF0B8E812B96BD5003D4F4D /* ANCommandCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCommandCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +254,8 @@
 				FAD2A6D312BAB501005612B2 /* ANApplication.m */,
 				FAD2A7F912BAD01D005612B2 /* ANRSSFeed.h */,
 				FAD2A7FA12BAD01D005612B2 /* ANRSSFeed.m */,
+				FAE22BE012BFB5E1000CF35B /* ANRSSArticle.h */,
+				FAE22BE112BFB5E1000CF35B /* ANRSSArticle.m */,
 				FAC3C16A12BC0789007FCB67 /* ANReadFeedCommand.h */,
 				FAC3C16B12BC0789007FCB67 /* ANReadFeedCommand.m */,
 				FAC3C1EF12BC1670007FCB67 /* ANDeleteFeedCommand.h */,
@@ -346,6 +351,7 @@
 				FA37B10012BC36CC00977000 /* MainView.m in Sources */,
 				FA1ACC0712BD1C70005A0B23 /* ANRemoteAccessManager.m in Sources */,
 				FA1ACC0B12BD28BE005A0B23 /* ANRSSProxy.m in Sources */,
+				FAE22BE212BFB5E1000CF35B /* ANRSSArticle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,7 @@
 //
 
 #import "ANApplication.h"
-#import "ANRSSFeed.h"
-#import "ANRSSManager.h"
-#import "RSSChannel.h"
+
 
 @implementation NSApplication (anapplication)
 
@@ -40,6 +38,22 @@
 			[feed setRssurl:[NSString stringWithString:[information objectForKey:ANRSSManagerChannelURLKey]]];
 		}
 		[feed setUnread:[NSNumber numberWithInt:[manager unreadInChannelIndex:i lock:NO]]];
+		
+		NSMutableArray * articles = [[NSMutableArray alloc] init];
+		for (int i = 0; i < [[channel items] count]; i++) {
+			// set the properties of the article
+			RSSItem * item = [[channel items] objectAtIndex:i];
+			ANRSSArticle * article = [[ANRSSArticle alloc] init];
+			[article setTitle:[NSString stringWithString:[item postTitle]]];
+			[article setContent:[NSString stringWithString:[item postContent]]];
+			[article setDate:[NSString stringWithString:[[item postDate] description]]];
+			[article setIndex:[NSNumber numberWithInt:i]];
+			[article setParentObject:feed];
+			// add the article
+			[articles addObject:article];
+			[article release];
+		}
+		[feed setArticles:[articles autorelease]];
 		[returnValue addObject:[feed autorelease]];
 	}
 	[manager unlock];

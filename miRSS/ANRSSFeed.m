@@ -79,9 +79,38 @@
 	return [specifier autorelease];
 }
 
+#pragma mark Articles
+
+- (void)setArticles:(NSArray *)_articles {
+	[articles release];
+	articles = [_articles retain];
+}
+
+- (NSArray *)articles {
+	/// return the list we got originally
+	return articles;
+}
+// none of these methods will do anything
+// because you are not allowed to modify
+// the articles in a feed you do not
+// distribute!!!
+- (void)insertInArticles:(id)feed {
+	// no thank you
+	NSLog(@"Cannot insert into articles.");
+}
+- (void)insertInArticles:(id)feed atIndex:(unsigned)_index {
+	NSLog(@"Cannot insert into articles.");
+}
+- (void)removeFromArticlesAtIndex:(unsigned)_index {
+	NSLog(@"Cannot remove from articles.");
+}
+
+#pragma mark Memory
+
 - (void)dealloc {
 	[title release];
 	[url release];
+	[self setArticles:nil];
 	[super dealloc];
 }
 

@@ -9,7 +9,10 @@
 #import <Cocoa/Cocoa.h>
 #import "ANCommandCounter.h"
 #import "ANRemoteAccessManager.h"
-
+#import "ANRSSFeed.h"
+#import "ANRSSManager.h"
+#import "RSSChannel.h"
+#import "ANRSSArticle.h"
 @interface NSApplication (anapplication)
 
 - (NSScriptObjectSpecifier *)objectSpecifier;
