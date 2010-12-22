@@ -142,9 +142,12 @@
 	if (channel.isAtom) {
 		if (self = [super init]) {
 			self.isAtom = YES;
-			self.channelLink = [NSString stringWithString:channel.channelLink];
-			self.channelTitle = [NSString stringWithString:channel.channelTitle];
-			self.channelDescription = [NSString stringWithString:channel.channelDescription];
+			if (channel.channelLink)
+				self.channelLink = [NSString stringWithString:channel.channelLink];
+			if (channel.channelTitle)
+				self.channelTitle = [NSString stringWithString:channel.channelTitle];
+			if (channel.channelDescription)
+				self.channelDescription = [NSString stringWithString:channel.channelDescription];
 			self.items = [NSMutableArray array];
 			for (int i = 0; i < [[channel items] count]; i++) {
 				RSSItem * item = [[RSSItem alloc] initWithItem:[[channel items] objectAtIndex:i]];

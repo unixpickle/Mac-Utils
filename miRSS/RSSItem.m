@@ -24,10 +24,14 @@
 	// parentChannel needs to be set seperately
 	if (self = [super init]) {
 		self.postDate = [NSDate dateWithTimeIntervalSince1970:[[item postDate] timeIntervalSince1970]];
-		self.postTitle = [NSString stringWithString:[item postTitle]];
-		self.postGuid = [NSString stringWithString:[item postGuid]];
-		self.postContent = [NSString stringWithString:[item postContent]];
-		self.postURL = [NSString stringWithString:[item postURL]];
+		if (item.postTitle)
+			self.postTitle = [NSString stringWithString:[item postTitle]];
+		if (item.postGuid)
+			self.postGuid = [NSString stringWithString:[item postGuid]];
+		if (item.postContent)
+			self.postContent = [NSString stringWithString:[item postContent]];
+		if (item.postURL)
+			self.postURL = [NSString stringWithString:[item postURL]];
 		self.isRead = item.isRead;
 	}
 	return self;

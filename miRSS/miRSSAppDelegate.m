@@ -14,6 +14,10 @@
 
 @synthesize window;
 
+- (void)nothing:(id)sender {
+	// nothing
+}
+
 - (BOOL)stringArray:(NSArray *)strings containsString:(NSString *)string {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	for (int i = 0; i < [strings count]; i++) {
@@ -236,7 +240,7 @@
 	[menuItem setTarget:self];
 	
 	rssFeedsItem = [menu addItemWithTitle:@"Feeds"
-                               action:@selector(showFeed:)
+                               action:@selector(nothing:)
                         keyEquivalent:@""];
     [rssFeedsItem setTarget:self];
 	[rssFeedsItem setEnabled:YES];

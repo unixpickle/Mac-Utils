@@ -44,7 +44,7 @@
 				rel = [attributes objectForKey:@"rel"];
 				if ([rel isEqual:@"self"]) {
 					[channel setChannelLink:href];
-					NSLog(@"Link: %@", href);
+					// NSLog(@"Link: %@", href);
 				}
 			} else {
 				NSLog(@"Invalid type for 'link' element");
@@ -72,7 +72,7 @@
 	if (self = [super init]) {
 		// parse the XML
 		NSXMLDocument * feed = [[NSXMLDocument alloc] initWithXMLString:rssString
-																options:0
+																options:NSXMLDocumentTidyXML
 																  error:nil];
 		if (!feed) {
 			NSLog(@"Could not parse XML.");
@@ -90,7 +90,7 @@
 				rssElements = [NSArray arrayWithObject:node];
 				break;
 			} else if ([[node name] isEqual:@"feed"]) {
-				NSLog(@"Found atom feed");
+				//NSLog(@"Found atom feed");
 				rssElements = [NSArray arrayWithObject:node];
 				isAtom = YES;
 				break;

@@ -267,7 +267,7 @@
 			NSURL * uri = [NSURL URLWithString:url];
 			NSURLRequest * request = [NSURLRequest requestWithURL:uri
 													  cachePolicy:NSURLRequestReloadIgnoringCacheData
-												  timeoutInterval:5];
+												  timeoutInterval:10];
 			NSData * fetched = [ANTimeoutConnection fetchDataWithRequest:request];
 			/*NSData * fetched = [NSURLConnection sendSynchronousRequest:request
 													 returningResponse:nil
@@ -362,7 +362,7 @@
 					}
 					[self unlock];
 				} else {
-					NSLog(@"URL %@ has %d channels.", url, [[feed rssChannels] count]);
+					// NSLog(@"URL %@ has %d channels.", url, [[feed rssChannels] count]);
 				}
 				[feed release];
 			} else {
