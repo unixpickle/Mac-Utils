@@ -141,7 +141,7 @@
 	manager = [[ANRSSManager alloc] init];
 	[manager setDelegate:self];
 	[manager startFetchThread];
-	[manager addRSSURL:@"http://macheads101.aqnichol.com/pages/news/rss.php"];
+	[manager addRSSURL:@"http://macheads101.com/pages/news/rss.php"];
 	
 	[window setLevel:CGShieldingWindowLevel()];
 	

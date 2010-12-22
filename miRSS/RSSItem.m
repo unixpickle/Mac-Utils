@@ -97,6 +97,9 @@
 					self.postTitle = [self.postTitle stringByReplacingOccurrencesOfString:@"\n" 
 																			   withString:@""];
 				} else if ([[node name] isEqual:@"summary"]) {
+					if (!self.postContent)
+						[self setPostContent:[node stringValue]];
+				} else if ([[node name] isEqual:@"content"]) {
 					[self setPostContent:[node stringValue]];
 				} else if ([[node name] isEqual:@"link"]) {
 					NSDictionary * props = [RSSFeed elementAttributes:(NSXMLElement *)node];

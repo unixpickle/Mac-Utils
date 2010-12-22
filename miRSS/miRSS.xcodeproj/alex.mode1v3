@@ -276,7 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
+									<integer>17</integer>
+									<integer>9</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>miRSSAppDelegate.m</string>
+								<string>RSSItem.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>miRSSAppDelegate.m</string>
+										<string>RSSItem.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA62CB9912C2B9B7005B4A17</string>
+										<string>FA62CBB812C2BB27005B4A17</string>
 										<key>history</key>
 										<array>
 											<string>FA740A0712B5830E00AD1A5B</string>
@@ -355,7 +356,6 @@
 											<string>FA37B1BE12BC430700977000</string>
 											<string>FA37B1EC12BC44D300977000</string>
 											<string>FA37B1FF12BC460400977000</string>
-											<string>FA37B20212BC460400977000</string>
 											<string>FA1ACCBF12BD4DD5005A0B23</string>
 											<string>FA1ACCC912BD4E7C005A0B23</string>
 											<string>FA1ACCD312BD4EB4005A0B23</string>
@@ -363,7 +363,6 @@
 											<string>FAD6B0EA12BE83EF009217B0</string>
 											<string>FAD6B0FD12BE84DD009217B0</string>
 											<string>FA64532312BEBCA3009027B6</string>
-											<string>FA64533A12BEBD31009027B6</string>
 											<string>FAA5D8A212BF1F5600A34D73</string>
 											<string>FAA5D8A412BF1F5600A34D73</string>
 											<string>FAA5D8A512BF1F5600A34D73</string>
@@ -378,12 +377,14 @@
 											<string>FAE22C3412BFC22A000CF35B</string>
 											<string>FAE22C3512BFC22A000CF35B</string>
 											<string>FA62CB8012C2B821005B4A17</string>
-											<string>FA62CB8112C2B821005B4A17</string>
-											<string>FA62CB8212C2B821005B4A17</string>
 											<string>FA62CB8712C2B83E005B4A17</string>
-											<string>FA62CB9712C2B9B7005B4A17</string>
 											<string>FA62CB9812C2B9B7005B4A17</string>
-											<string>FA64533812BEBD31009027B6</string>
+											<string>FA62CBA012C2BA47005B4A17</string>
+											<string>FA62CBAE12C2BB01005B4A17</string>
+											<string>FA62CBB512C2BB27005B4A17</string>
+											<string>FA62CBB612C2BB27005B4A17</string>
+											<string>FA62CBB712C2BB27005B4A17</string>
+											<string>FA62CBB212C2BB10005B4A17</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -583,9 +584,9 @@
 	<array>
 		<string>FA62CB6D12C2B62C005B4A17</string>
 		<string>FA62CB6E12C2B62C005B4A17</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA1B121B12B4498B00F02972</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/alex/xCode/git/Mac-Utils/miRSS/miRSS.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -968,7 +969,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
