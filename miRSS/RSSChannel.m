@@ -62,6 +62,7 @@
 
 - (id)init {
 	if (self = [super init]) {
+		uniqueID = [RSSChannel getUniqueID];
 		self.items = [NSMutableArray array];
 		self.isAtom = YES;
 	}

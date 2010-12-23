@@ -148,6 +148,10 @@
 	[defaults synchronize];
 	
 	[lock unlock];
+	
+	if ([(id)delegate respondsToSelector:@selector(articlesUpdated:)]) {
+		[delegate articlesUpdated:self];
+	}
 }
 
 - (void)save {

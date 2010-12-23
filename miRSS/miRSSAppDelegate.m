@@ -343,7 +343,7 @@
 	for (id item in loginItemsArray) {    
 		LSSharedFileListItemRef itemRef = (LSSharedFileListItemRef)item;
 		if (LSSharedFileListItemResolve(itemRef, 0, (CFURLRef*) &thePath, NULL) == noErr) {
-			if ([[(NSURL *)thePath path] hasSuffix:@"KeyShot.app"]) {
+			if ([[(NSURL *)thePath path] hasSuffix:@"miRSS.app"]) {
 				[(id)thePath release];
 				exists = YES;
 			}
@@ -357,19 +357,19 @@
 	// Reference to shared file list
 	LSSharedFileListRef theLoginItemsRefs = LSSharedFileListCreate(NULL, kLSSharedFileListSessionLoginItems, NULL);
 	
-	if ([self loginItemExistsWithLoginItemReference:theLoginItemsRefs ForPath:(CFURLRef)[NSURL fileURLWithPath:@"/Applications/KeyShot.app"]]) {
+	if ([self loginItemExistsWithLoginItemReference:theLoginItemsRefs ForPath:(CFURLRef)[NSURL fileURLWithPath:@"/Applications/miRSS.app"]]) {
 		NSLog(@"Exists");
 		return;
 	}
 	
-	if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/KeyShot.app"]) {
-		NSRunAlertPanel(@"Not Properly Installed", @"This application needs to be located at /Applications/KeyShot.app to function properly.  Make sure you followed the directions in the DMG you downloaded.", @"OK", nil, nil);
+	if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/miRSS.app"]) {
+		NSRunAlertPanel(@"Not Properly Installed", @"This application needs to be located at /Applications/miRSS.app to function properly.  Make sure you followed the directions in the DMG you downloaded.", @"OK", nil, nil);
 		return;
 	}
 	
 	
 	// CFURLRef to the insertable item.
-	CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:@"/Applications/KeyShot.app"];
+	CFURLRef url = (CFURLRef)[NSURL fileURLWithPath:@"/Applications/miRSS.app"];
 	
 	// Actual insertion of an item.
 	LSSharedFileListItemRef item = LSSharedFileListInsertItemURL(theLoginItemsRefs, kLSSharedFileListItemLast, NULL, NULL, url, NULL, NULL);

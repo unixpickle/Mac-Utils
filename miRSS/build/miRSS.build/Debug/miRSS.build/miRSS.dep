@@ -1,6 +1,6 @@
-9a0f2b137a705c28ce09d2080c8f0da1 0794522e47bbd4ea02bea26f11fd7398 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
-1e2d51bcb131384e339aacf04b7b5e62 dae2fffa38a36e57f5a64c0556dc3c2f ffffffffffffffffffffffffffffffff 299232 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
-3abc729a704ff525c9adbd2fe0bc1727 18db32f598ada3c7d4a95acb2b166521 ffffffffffffffffffffffffffffffff 31312 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
+9a0f2b137a713462ce09d2080c8f1283 0794522e47bbd4ea02bea26f11fd7398 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app
+1e2d51bcb1305004339aacf04b7b4140 dae2fffa38a36e57f5a64c0556dc3c2f ffffffffffffffffffffffffffffffff 299232 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/MacOS/miRSS
+3abc729a70467231c9adbd2fe0bc0b0b e7450e18b7d895050a25e7ce7ddf443e ffffffffffffffffffffffffffffffff 36396 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
 3abc729a717edaecc9adbd2fe0bc0964 63230e8bac19b4b896d433b3c4d5d2c2 ffffffffffffffffffffffffffffffff 19240 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSArticle.o
 3abc729a7d99d756c9adbd2fe0bc19e2 2df25e37d61a534bacb6b311e2f17a9b ffffffffffffffffffffffffffffffff 10284 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSProxy.o
 3abc729a705ebba1c9adbd2fe0bc0eda 187cffe99cc2782eac21ad41d3bfe5b0 ffffffffffffffffffffffffffffffff 29224 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRemoteAccessManager.o
@@ -13,13 +13,13 @@
 3abc729a3d54dbc1c9adbd2fe0bc1f41 502edd8aec075444c77d4f59f11c2ed9 ffffffffffffffffffffffffffffffff 13288 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANCommandCounter.o
 3abc729a7d99c15ec9adbd2fe0bc121b ac0010101fdd9d913a5a28fad68e3c49 ffffffffffffffffffffffffffffffff 23604 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANTimeoutConnection.o
 3abc729a3d53d70cc9adbd2fe0bf2a0c c7ded0b187b5296e68de226b29256189 ffffffffffffffffffffffffffffffff 213700 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RegexKitLite.o
-3abc729a7d848340c9adbd2fe0bc2c53 d4ecb6fbf33e4bb84f62b0e9bf6ce06d ffffffffffffffffffffffffffffffff 49068 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
+3abc729a7d847715c9adbd2fe0bc2dc5 d4ecb6fbf33e4bb84f62b0e9bf6ce06d ffffffffffffffffffffffffffffffff 49368 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANRSSManager.o
 3abc729a3a554d2dc9adbd2fe0bc260a 8a1100b68490443038a902dd229cb60f ffffffffffffffffffffffffffffffff 43028 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/ANImageBitmapRep.o
 3abc729a7a7df1c6c9adbd2fe0bc409b 8e6399944383c5e270d98a24f0018952 ffffffffffffffffffffffffffffffff 37944 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannelView.o
 3abc729a3c9e19c7c9adbd2fe0bc47c1 f2a9fcac83ec07c27017737a688c56a0 ffffffffffffffffffffffffffffffff 50332 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItemView.o
-3abc729a308b5435c9adbd2fe0bc08c6 4bff741c29f9215ced8c4022c3f6a343 ffffffffffffffffffffffffffffffff 27380 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
-3abc729a7047c3b8c9adbd2fe0bc0b52 e7450e18b7d895050a25e7ce7ddf443e ffffffffffffffffffffffffffffffff 36308 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSChannel.o
-3abc729a7047f1eac9adbd2fe0bc36fd da3c9b5ed5e4319c13552be11af56ffc ffffffffffffffffffffffffffffffff 79096 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
+3abc729a308b55b6c9adbd2fe0bc08c6 4bff741c29f9215ced8c4022c3f6a343 ffffffffffffffffffffffffffffffff 27380 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSFeed.o
+3abc729a704fd78dc9adbd2fe0bc09c0 18db32f598ada3c7d4a95acb2b166521 ffffffffffffffffffffffffffffffff 32016 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/RSSItem.o
+3abc729a7047ff57c9adbd2fe0bc36f7 da3c9b5ed5e4319c13552be11af56ffc ffffffffffffffffffffffffffffffff 79096 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/miRSSAppDelegate.o
 3abc729a7cb13731c9adbd2fe0bc0cfd 59c20382d4605425bd77e74263195e30 ffffffffffffffffffffffffffffffff 5016 /Users/alex/xCode/git/Mac-Utils/miRSS/build/miRSS.build/Debug/miRSS.build/Objects-normal/x86_64/main.o
 000000000dc0a2e80000000000000168 3abc729a309dd9a0c9adbd2fe0bc1a87 ffffffffffffffffffffffffffffffff 54314768 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/miRSS_Prefix-cxtttvzoxbbjgqfgoczuvdyditcr/miRSS_Prefix.pch.gch
 00000000000000000000000000000000 c7efd7685d8a9e2049c86cee9473826b ffffffffffffffffffffffffffffffff 122065 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/mirss.icns
@@ -30,4 +30,4 @@
 000000004d0bff77000000000003448a b061ee840dc89b2fbb4002016a5c030e ffffffffffffffffffffffffffffffff 41448 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/MainMenu.nib
 000000004d040880000000000000002d 146624666480037b6a2ab0abafbd9d00 ffffffffffffffffffffffffffffffff 92 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Resources/English.lproj/InfoPlist.strings
 00000000000000000000000000000000 1176d5d42fd10cee4f2750cfb27af95d ffffffffffffffffffffffffffffffff 8 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/PkgInfo
-00000000000000000000000000000000 1176d5d42fd10cee4f2750cfb27af95d ffffffffffffffffffffffffffffffff 1056 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist
+00000000000000000000000000000000 1176d5d42fd10cee4f2750cfb27af95d ffffffffffffffffffffffffffffffff 1058 /Users/alex/xCode/git/Mac-Utils/miRSS/build/Debug/miRSS.app/Contents/Info.plist

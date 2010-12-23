@@ -105,11 +105,18 @@
 					NSDictionary * props = [RSSFeed elementAttributes:(NSXMLElement *)node];
 					NSString * href = [props objectForKey:@"href"];
 					// use it
-					[self setPostURL:href];
-					[self setPostGuid:href];
+					if ([[props objectForKey:@"type"] isEqual:@"text/html"] && !self.postURL) {
+						[self setPostURL:href];
+					} else if (!self.postURL) {
+						// do nothing
+					}
+				} else if ([[node name] isEqual:@"id"]) {
+					[self setPostGuid:[node stringValue]];
 				}
 			}
 		}
+		if (!self.postGuid)
+			[self setPostGuid:[self postURL]];
 	}
 	return self;
 }
