@@ -1,0 +1,10 @@
+Quickly translate a piece of text from english to french, and the other way around.  I created a small JSON parser in order to use Google Translator's API, but it cannot parse all JSON data.  It was built for parsing arrays containing strings, more arrays, and numbers.  
+
+My GTTranslator class is a straight forward way to translate any text between languages.  Use it like this for english to french:
+
+GTTranslator * translate = [[GTTranslator alloc] initWithLanguage:kGTLanguageEnglish];
+NSString * french = [translate AsynchronouslyTranslate:@"The quick brown fox jumped over the lazy dog." toLangauge:kGTLanguageFrench];
+NSLog(@"French: %@", french);
+[translate release];
+
+The class also comes with a synchronous method of translating, which is what this application uses.  Both work through Google's server, so if google changes their API, the whole thing will break!
