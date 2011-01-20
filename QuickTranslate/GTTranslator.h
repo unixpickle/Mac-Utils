@@ -40,6 +40,8 @@ enum _GTLanguage {
 + (NSString *)shortName:(enum _GTLanguage)language;
 + (NSString *)longName:(enum _GTLanguage)language;
 
+- (void)stopRequest;
+
 - (id)initWithLanguage:(enum _GTLanguage)original;
 - (NSString *)AsynchronouslyTranslate:(NSString *)text toLangauge:(enum _GTLanguage)l;
 - (void)translateSynchronously:(NSString *)text toLangauge:(enum _GTLanguage)l;

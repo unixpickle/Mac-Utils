@@ -26,15 +26,16 @@
 }
 
 - (void)translator:(GTTranslator *)sender translatedText:(NSString *)oldText intoText:(NSString *)newText {
-	[secondField setStringValue:newText];
+	if (sender == translator)
+		[secondField setStringValue:newText];
 	[sender release];
+	translator = nil;
 }
 
 - (IBAction)translate:(id)sender {
+	[translator stopRequest];
 	[translator release];
 	GTTranslator * translate = [[GTTranslator alloc] initWithLanguage:order == 0 ? kGTLanguageFrench : kGTLanguageEnglish];
-	NSString * str = [translate AsynchronouslyTranslate:@"The quick brown fox jumped over the lazy dog."
-											 toLangauge:kGTLanguageFrench];
 	[translate setDelegate:self];
 	[translate translateSynchronously:[firstField stringValue]
 						   toLangauge:(order == 0 ? kGTLanguageEnglish : kGTLanguageFrench)];

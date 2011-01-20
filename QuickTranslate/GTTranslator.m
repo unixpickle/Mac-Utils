@@ -149,29 +149,18 @@
 	NSData * jsonData = [NSURLConnection sendSynchronousRequest:request
 											  returningResponse:nil
 														  error:nil];
-	if ([[NSThread currentThread] isCancelled]) {
-		[pool drain];
-		return;
-	}
+
 	if (!jsonData) return;
 	NSString * jsonString = [[[NSString alloc] initWithData:jsonData encoding:NSWindowsCP1252StringEncoding] autorelease];
 	NSData * asciiData = [jsonString dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
 	NSString * asciiString = [[[NSString alloc] initWithData:asciiData
 													encoding:NSASCIIStringEncoding] autorelease];
 	
-	if ([[NSThread currentThread] isCancelled]) {
-		[pool drain];
-		return;
-	}
 	
 	// parse the data
 	GTJSONParser * parser = [[GTJSONParser alloc] init];
 	NSArray * a = [parser parseJSONArray:asciiString lastCharacter:NULL];
 	
-	if ([[NSThread currentThread] isCancelled]) {
-		[pool drain];
-		return;
-	}
 	
 	NSArray * lines = [a objectAtIndex:0];
 	NSMutableString * translated = [[NSMutableString alloc] init];
@@ -182,26 +171,40 @@
 	
 	NSDictionary * final = [[NSDictionary alloc] initWithObjectsAndKeys:
 							translated, @"translated",
-							self, @"sender",
+							[NSValue valueWithPointer:self], @"sender",
 							text, @"original", nil];
 	
 	[information release];
+
+	if ([[NSThread currentThread] isCancelled]) {
+		[pool drain];
+		return;
+	}
 	
 	[self performSelectorOnMainThread:@selector(callDelegate:)
 						   withObject:final waitUntilDone:NO];
 	
 	[pool drain];
+	fetchThread = nil;
 }
 
 - (void)callDelegate:(NSDictionary *)finished {
 	NSString * translated = [finished objectForKey:@"translated"];
-	id sender = [finished objectForKey:@"translated"];
+	id sender = [[finished objectForKey:@"sender"] pointerValue];
 	NSString * original = [finished objectForKey:@"original"];
 	if ([(id)delegate respondsToSelector:@selector(translator:translatedText:intoText:)]) {
 		[delegate translator:sender
 			  translatedText:original intoText:translated];
 	}
 	[finished release];
+	if (fetchThread) {
+		[fetchThread cancel];
+		[fetchThread release];
+		fetchThread = nil;
+	}
+}
+
+- (void)stopRequest {
 	if (fetchThread) {
 		[fetchThread cancel];
 		[fetchThread release];
