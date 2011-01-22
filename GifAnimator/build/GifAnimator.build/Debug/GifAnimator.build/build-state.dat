@@ -1,0 +1,363 @@
+TGifAnimator
+v7
+r0
+t317402669.709194
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Info.plist GifAnimator-Info.plist
+cCopyStringsFile /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib
+cCpResource build/Debug/GifAnimator.app/Contents/Resources/icon.icns icon.icns
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch.gch GifAnimator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/GifAnimator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimatorAppDelegate.o /Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifEncoder.o /Users/alex/Desktop/GifAnimator/ANGifEncoder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifBitmap.o /Users/alex/Desktop/GifAnimator/ANGifBitmap.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/BitBuffer.o /Users/alex/Desktop/GifAnimator/BitBuffer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANImageBitmapRep.o /Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator normal x86_64
+cTouch /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/GifAnimator/ANGifBitmap.h
+c000000004D3AF32E0000000000000199
+t1295708974
+s409
+i<Cocoa/Cocoa.h>
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/GifAnimator/ANGifBitmap.m
+c000000004D3AF3360000000000000822
+t1295708982
+s2082
+i"ANGifBitmap.h"
+
+N/Users/alex/Desktop/GifAnimator/ANGifEncoder.h
+c000000004D3AD790000000000000030D
+t1295701904
+s781
+i<Cocoa/Cocoa.h>
+i"ANGifBitmap.h"
+i"BitBuffer.h"
+
+N/Users/alex/Desktop/GifAnimator/ANGifEncoder.m
+c000000004D3AF3A60000000000001DFB
+t1295709094
+s7675
+i"ANGifEncoder.h"
+
+N/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.h
+c000000004BE5E8C30000000000000402
+t1273358531
+s1026
+i<Foundation/Foundation.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m
+c000000004BE5E92600000000000024CD
+t1273358630
+s9421
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/GifAnimator/BitBuffer.h
+c000000004D3A46A90000000000000295
+t1295664809
+s661
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/GifAnimator/BitBuffer.m
+c000000004D3A4C09000000000000085B
+t1295666185
+s2139
+i"BitBuffer.h"
+
+N/Users/alex/Desktop/GifAnimator/English.lproj/InfoPlist.strings
+c000000004D3AD751000000000000002D
+t1295701841
+s45
+
+N/Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib
+c000000004D3AF3F1000000000003621C
+t1295709169
+s221724
+
+N/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.h
+c000000004D3AE81900000000000002BC
+t1295706137
+s700
+i<Cocoa/Cocoa.h>
+i"ANGifBitmap.h"
+i"ANGifEncoder.h"
+
+N/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m
+c000000004D3AEA700000000000001148
+t1295706736
+s4424
+i"GifAnimatorAppDelegate.h"
+
+N/Users/alex/Desktop/GifAnimator/GifAnimator_Prefix.pch
+c000000004D3AD7510000000000000099
+t1295701841
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app
+t1295709869
+s102
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Info.plist
+t1295709869
+s950
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator
+t1295709096
+s55440
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/PkgInfo
+t1295709869
+s8
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1295702180
+s92
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/MainMenu.nib
+t1295709171
+s43549
+
+N/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/icon.icns
+t1295709869
+s50170
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifBitmap.o
+t1295708992
+s17724
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifEncoder.o
+t1295709096
+s31464
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANImageBitmapRep.o
+t1295707819
+s38212
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/BitBuffer.o
+t1295702193
+s9384
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimator.LinkFileList
+c000000004D3AEEAB00000000000002C0
+t1295707819
+s704
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimatorAppDelegate.o
+t1295708991
+s51420
+
+N/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/main.o
+t1295702192
+s5008
+
+N/Users/alex/Desktop/GifAnimator/icon.icns
+c000000004D3AF696000000000000C3FA
+t1295709846
+s50170
+
+N/Users/alex/Desktop/GifAnimator/main.m
+c000000004D3AD7510000000000000100
+t1295701841
+s256
+i<Cocoa/Cocoa.h>
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004AD870D50000000000000124
+t1255698645
+s292
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch.gch
+t1295702192
+s54314768
+
+NGifAnimator-Info.plist
+c000000004D3AF6AC00000000000003D8
+t1295709868
+s984
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317402669#317402669#0(0"0(0#1#0"8617701248#0"0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifBitmap.o /Users/alex/Desktop/GifAnimator/ANGifBitmap.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317401791.848200
+e317401792.292608
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifBitmap.o
+x/Users/alex/Desktop/GifAnimator/ANGifBitmap.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/alex/Desktop/GifAnimator/ANGifBitmap.m317401791#317401792#0(0"0(0#0#45"/Users/alex/Desktop/GifAnimator/ANGifBitmap.m8625295584#1497"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/ANGifBitmap.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifBitmap.o0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifEncoder.o /Users/alex/Desktop/GifAnimator/ANGifEncoder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317401896.165774
+e317401896.622939
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifEncoder.o
+x/Users/alex/Desktop/GifAnimator/ANGifEncoder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/GifAnimator/ANGifEncoder.m: In function '-[ANGifEncoder nineBitData:length:]':
+o/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:227: warning: unused variable 'overhead'
+o/Users/alex/Desktop/GifAnimator/ANGifEncoder.m: At top level:
+o/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:261: warning: incomplete implementation of class 'ANGifEncoder'
+o/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:261: warning: method definition for '-lzwCompression:' not found
+lSLF07#2@54"Compile /Users/alex/Desktop/GifAnimator/ANGifEncoder.m317401896#317401896#0(472"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m: In function '-[ANGifEncoder nineBitData:length:]':/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:227: warning: unused variable 'overhead'/Users/alex/Desktop/GifAnimator/ANGifEncoder.m: At top level:/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:261: warning: incomplete implementation of class 'ANGifEncoder'/Users/alex/Desktop/GifAnimator/ANGifEncoder.m:261: warning: method definition for '-lzwCompression:' not found4(22@26"Unused variable 'overhead'317401896#99#88#0(6@46"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m317401894#227#0#227#0#19"unused variable '*'0(23@13"At top level:317401896#187#62#0(6@46"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m317401894#0#0#0#0#0"0(22@49"Incomplete implementation of class 'ANGifEncoder'317401896#249#111#0(6@46"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m317401894#261#0#261#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-lzwCompression:' not found317401896#360#112#0(6@46"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m317401894#261#0#261#0#35"method definition for '*' not found0(0#0#46"/Users/alex/Desktop/GifAnimator/ANGifEncoder.m8617852896#1499"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/ANGifEncoder.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANGifEncoder.o0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANImageBitmapRep.o /Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317400619.652927
+e317400619.914400
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANImageBitmapRep.o
+x/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':
+o/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m:170: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@58"Compile /Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m317400619#317400619#0(331"/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m:170: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type317400619#112#219#0(6@50"/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m295051430#170#0#170#0#0"0(0#0#50"/Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m8615662752#1507"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/ANImageBitmapRep.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/ANImageBitmapRep.o0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/BitBuffer.o /Users/alex/Desktop/GifAnimator/BitBuffer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317394992.893555
+e317394993.033642
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/BitBuffer.o
+x/Users/alex/Desktop/GifAnimator/BitBuffer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Desktop/GifAnimator/BitBuffer.m317394992#317394993#0(0"0(0#0#43"/Users/alex/Desktop/GifAnimator/BitBuffer.m8615733920#1493"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/BitBuffer.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/BitBuffer.o0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimatorAppDelegate.o /Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317401791.525009
+e317401792.094962
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimatorAppDelegate.o
+x/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m: In function '-[GifAnimatorAppDelegate applicationDidFinishLaunching:]':
+o/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:18: warning: class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDataSource' protocol
+o/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:19: warning: class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDelegate' protocol
+o/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m: In function '-[GifAnimatorAppDelegate export:]':
+o/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:84: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@64"Compile /Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m317401791#317401792#0(773"/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m: In function '-[GifAnimatorAppDelegate applicationDidFinishLaunching:]':/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:18: warning: class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDataSource' protocol/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:19: warning: class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDelegate' protocol/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m: In function '-[GifAnimatorAppDelegate export:]':/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m:84: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type3(22@86"Class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDataSource' protocol317401791#130#157#0(6@56"/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m317399536#18#0#18#0#45"class '*' does not implement the '*' protocol0(22@84"Class 'GifAnimatorAppDelegate' does not implement the 'NSTableViewDelegate' protocol317401791#287#155#0(6@56"/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m317399536#19#0#19#0#45"class '*' does not implement the '*' protocol0(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type317401791#549#224#0(6@56"/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m317399536#84#0#84#0#0"0(0#0#56"/Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m8626728416#1519"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/GifAnimatorAppDelegate.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimatorAppDelegate.o0#
+
+CCompileC build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/GifAnimator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317394992.373653
+e317394992.695327
+r1
+xCompileC
+xbuild/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/main.o
+x/Users/alex/Desktop/GifAnimator/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/alex/Desktop/GifAnimator/main.m317394992#317394992#0(0"0(0#0#38"/Users/alex/Desktop/GifAnimator/main.m8622335648#1483"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch -c /Users/alex/Desktop/GifAnimator/main.m -o /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib
+s317401970.712587
+e317401971.119008
+r1
+xCompileXIB
+x/Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317401970#317401971#0(0"0(0#0#58"/Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib8617639552#377"    cd /Users/alex/Desktop/GifAnimator    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/GifAnimator/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317394978.285543
+e317394980.289554
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317394978#317394980#0(0"0(0#0#63"/Users/alex/Desktop/GifAnimator/English.lproj/InfoPlist.strings8622512128#370"    cd /Users/alex/Desktop/GifAnimator    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/GifAnimator.app/Contents/Resources/icon.icns icon.icns
+s317402669.612406
+e317402669.658641
+r1
+xCpResource
+xbuild/Debug/GifAnimator.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns317402669#317402669#0(0"0(0#0#41"/Users/alex/Desktop/GifAnimator/icon.icns8612400064#337"    cd /Users/alex/Desktop/GifAnimator    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/GifAnimator/icon.icns /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Resources0#
+
+CLd /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator normal x86_64
+s317401896.623028
+e317401896.661852
+r1
+xLd
+x/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator
+xnormal
+xx86_64
+lSLF07#2@91"Link /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator317401896#317401896#0(0"0(0#0#0"8624935296#557"    cd /Users/alex/Desktop/GifAnimator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/GifAnimator/build/Debug -F/Users/alex/Desktop/GifAnimator/build/Debug -filelist /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/Objects-normal/x86_64/GifAnimator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/MacOS/GifAnimator0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Info.plist GifAnimator-Info.plist
+s317402669.605852
+e317402669.612216
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Info.plist
+xGifAnimator-Info.plist
+lSLF07#2@30"Process GifAnimator-Info.plist317402669#317402669#0(0"0(0#0#54"/Users/alex/Desktop/GifAnimator/GifAnimator-Info.plist8613589280#301"    cd /Users/alex/Desktop/GifAnimator    builtin-infoPlistUtility GifAnimator-Info.plist -genpkginfo /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch.gch GifAnimator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317394981.378816
+e317394992.373219
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch.gch
+xGifAnimator_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile GifAnimator_Prefix.pch317394981#317394992#0(0"0(0#0#54"/Users/alex/Desktop/GifAnimator/GifAnimator_Prefix.pch8622284064#1392"    cd /Users/alex/Desktop/GifAnimator    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-generated-files.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-own-target-headers.hmap -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-all-target-headers.hmap -iquote /Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/GifAnimator-project-headers.hmap -F/Users/alex/Desktop/GifAnimator/build/Debug -I/Users/alex/Desktop/GifAnimator/build/Debug/include -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources/x86_64 -I/Users/alex/Desktop/GifAnimator/build/GifAnimator.build/Debug/GifAnimator.build/DerivedSources -c /Users/alex/Desktop/GifAnimator/GifAnimator_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GifAnimator_Prefix-fuirubfquwsrzqgxlnzpvywpvaln/GifAnimator_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app
+s317402669.659869
+e317402669.709130
+r1
+xTouch
+x/Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app
+lSLF07#2@65"Touch /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app317402669#317402669#0(0"0(0#0#0"8604534976#121"    cd /Users/alex/Desktop/GifAnimator    /usr/bin/touch -c /Users/alex/Desktop/GifAnimator/build/Debug/GifAnimator.app0#
+
