@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'GifAnimator' target in the 'GifAnimator' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
