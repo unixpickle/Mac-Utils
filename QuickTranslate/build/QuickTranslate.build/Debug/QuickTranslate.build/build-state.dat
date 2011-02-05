@@ -1,7 +1,7 @@
 TQuickTranslate
 v7
 r0
-t317188888.890442
+t317490022.522920
 cCheck dependencies
 cProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Info.plist QuickTranslate-Info.plist
 cCopyStringsFile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -342,7 +342,7 @@ s987
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies317188888#317188888#0(0"0(0#1#0"8602916704#0"0#
+lSLF07#2@18"Check dependencies317490022#317490022#0(0"0(0#1#0"29836824280170608#0"0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o /Users/alex/Desktop/QuickTranslate/ANStringEscaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317178746.171140

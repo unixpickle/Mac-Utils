@@ -29,6 +29,7 @@
 	NSImage * bottomright;
 	NSTextField * titleLabel;
 	BOOL selected;
+	NSDate * lastClick;
 	id<RSSItemViewDelegate> delegate;
 }
 

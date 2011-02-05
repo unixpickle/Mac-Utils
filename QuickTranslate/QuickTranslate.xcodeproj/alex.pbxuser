@@ -10,9 +10,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {750, 756}}";
+			sepNavIntBoundsRect = "{{0, 0}, {750, 728}}";
 			sepNavSelRange = "{1005, 0}";
-			sepNavVisRange = "{558, 618}";
+			sepNavVisRange = "{772, 492}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -74,17 +74,17 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317187014;
-			PBXWorkspaceStateSaveDate = 317187014;
+			PBXPerProjectTemplateStateSaveDate = 318465885;
+			PBXWorkspaceStateSaveDate = 318465885;
 		};
 		perUserProjectItems = {
+			FA02FB8712FB676E0049F3D4 /* PBXTextBookmark */ = FA02FB8712FB676E0049F3D4 /* PBXTextBookmark */;
+			FA02FB8812FB676E0049F3D4 /* PBXTextBookmark */ = FA02FB8812FB676E0049F3D4 /* PBXTextBookmark */;
+			FA02FB8912FB676E0049F3D4 /* PBXTextBookmark */ = FA02FB8912FB676E0049F3D4 /* PBXTextBookmark */;
 			FA0CAB1112E7BF0200FF032C /* PBXTextBookmark */ = FA0CAB1112E7BF0200FF032C /* PBXTextBookmark */;
 			FA118A7E12E7E83E00917A57 /* PBXTextBookmark */ = FA118A7E12E7E83E00917A57 /* PBXTextBookmark */;
 			FA118A9E12E7E95300917A57 /* PBXTextBookmark */ = FA118A9E12E7E95300917A57 /* PBXTextBookmark */;
 			FA118ABE12E7EAE100917A57 /* PBXTextBookmark */ = FA118ABE12E7EAE100917A57 /* PBXTextBookmark */;
-			FA118AC312E7EB1A00917A57 /* PBXTextBookmark */ = FA118AC312E7EB1A00917A57 /* PBXTextBookmark */;
-			FA118AC412E7EB1A00917A57 /* PBXTextBookmark */ = FA118AC412E7EB1A00917A57 /* PBXTextBookmark */;
-			FA118AC712E7EB5800917A57 /* PBXTextBookmark */ = FA118AC712E7EB5800917A57 /* PBXTextBookmark */;
 			FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */ = FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */;
 		};
 		sourceControlManager = FA0CAACF12E7AB1F00FF032C /* Source Control */;
@@ -96,6 +96,36 @@
 		executables = (
 			FA0CAAC012E7AB1800FF032C /* QuickTranslate */,
 		);
+	};
+	FA02FB8712FB676E0049F3D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */;
+		name = "QuickTranslateAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 1005;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 772;
+	};
+	FA02FB8812FB676E0049F3D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
+		name = "GTTranslator.m: 180";
+		rLen = 0;
+		rLoc = 5431;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 5240;
+	};
+	FA02FB8912FB676E0049F3D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
+		name = "GTTranslator.m: 75";
+		rLen = 85;
+		rLoc = 1304;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 3860;
 	};
 	FA0CAAC012E7AB1800FF032C /* QuickTranslate */ = {
 		isa = PBXExecutable;
@@ -152,9 +182,9 @@
 	};
 	FA0CAAE612E7B9E500FF032C /* GTTranslator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 3220}}";
-			sepNavSelRange = "{5431, 0}";
-			sepNavVisRange = "{5168, 416}";
+			sepNavIntBoundsRect = "{{0, 0}, {768, 3038}}";
+			sepNavSelRange = "{1304, 85}";
+			sepNavVisRange = "{3860, 811}";
 		};
 	};
 	FA0CAAE712E7B9E500FF032C /* GTJSONParser.h */ = {
@@ -210,36 +240,6 @@
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 2097;
-	};
-	FA118AC312E7EB1A00917A57 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
-		name = "GTTranslator.m: 180";
-		rLen = 0;
-		rLoc = 5431;
-		rType = 0;
-		vrLen = 416;
-		vrLoc = 5168;
-	};
-	FA118AC412E7EB1A00917A57 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */;
-		name = "QuickTranslateAppDelegate.m: 39";
-		rLen = 0;
-		rLoc = 810;
-		rType = 0;
-		vrLen = 543;
-		vrLoc = 742;
-	};
-	FA118AC712E7EB5800917A57 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */;
-		name = "QuickTranslateAppDelegate.m: 39";
-		rLen = 0;
-		rLoc = 1005;
-		rType = 0;
-		vrLen = 618;
-		vrLoc = 558;
 	};
 	FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */ = {
 		isa = PlistBookmark;

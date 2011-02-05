@@ -35,6 +35,7 @@
 	
     self = [super initWithFrame:frame];
     if (self) {
+		lastClick = [[NSDate date] retain];
         // Initialization code here.
 		if (!_topleft) {
 			ANImageBitmapRep * toprep = [ANImageBitmapRep imageBitmapRepNamed:@"topbar.png"];
@@ -118,6 +119,7 @@
 }
 
 - (void)mouseUp:(NSEvent *)theEvent {
+	
 	if (!selected) {
 		[self becomeFirstResponder];
 		if ([(id)delegate respondsToSelector:@selector(rssItemWasSelected:)]) {
@@ -131,12 +133,22 @@
 		}
 		[[self item] setIsRead:YES];
 		[self setNeedsDisplay:YES];
+		
+		[lastClick release];
+		lastClick = [[NSDate date] retain];
+		
 		return;
 	}
 	if ([(id)delegate respondsToSelector:@selector(rssItemWasOpened:)]) {
 		[delegate rssItemWasOpened:self];
 	}
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[self.item postURL]]];
+	float n = [lastClick timeIntervalSinceNow];
+	NSLog(@"%f", n);
+	if (n > -1)
+		[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[self.item postURL]]];
+	
+	[lastClick release];
+	lastClick = [[NSDate date] retain];
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
@@ -207,6 +219,8 @@
 }
 
 - (BOOL)selected {
+	[lastClick release];
+	lastClick = [[NSDate date] retain];
 	return selected;
 }
 
@@ -216,6 +230,7 @@
 
 - (void)dealloc {
 	[titleLabel release];
+	[lastClick release];
 	self.item = nil;
 	[super dealloc];
 }
