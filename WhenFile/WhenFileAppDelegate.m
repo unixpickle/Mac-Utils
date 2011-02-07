@@ -47,12 +47,17 @@
 }
 
 - (IBAction)saveChanges:(id)sender {
-	if ([QTMovie canInitWithFile:self.currentPath]) {
+	if ([QTMovie canInitWithFile:self.currentPath] && [[self.currentPath lastPathComponent] hasSuffix:@"mov"]) {
 		// this part does not quite work yet
-		/*
+		
 		QTMovie * m = [[QTMovie alloc] initWithFile:self.currentPath
 											  error:nil];
+		NSLog(@"%@", [m attributeForKey:QTMovieModificationTimeAttribute]);
 		
+		// later, add date changing here!
+		
+		
+		/*
 		if (m) {
 			[m setAttribute:[modified dateValue]
 					 forKey:QTMovieModificationTimeAttribute];
@@ -60,9 +65,9 @@
 					 forKey:QTMovieCreationTimeAttribute];
 		}
 		
-		[m updateMovieFile];
+		[m updateMovieFile];*/
 		[m autorelease];
-		*/
+		
 	}
 	[self dateChange:self];
 }

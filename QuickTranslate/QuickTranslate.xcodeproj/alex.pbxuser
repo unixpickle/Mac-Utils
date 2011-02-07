@@ -10,9 +10,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {750, 728}}";
-			sepNavSelRange = "{1005, 0}";
-			sepNavVisRange = "{772, 492}";
+			sepNavIntBoundsRect = "{{0, 0}, {750, 742}}";
+			sepNavSelRange = "{197, 43}";
+			sepNavVisRange = "{159, 315}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -78,14 +78,14 @@
 			PBXWorkspaceStateSaveDate = 318808156;
 		};
 		perUserProjectItems = {
-			FA02FB8712FB676E0049F3D4 = FA02FB8712FB676E0049F3D4 /* PBXTextBookmark */;
-			FA02FB8812FB676E0049F3D4 = FA02FB8812FB676E0049F3D4 /* PBXTextBookmark */;
-			FA02FB8912FB676E0049F3D4 = FA02FB8912FB676E0049F3D4 /* PBXTextBookmark */;
-			FA0CAB1112E7BF0200FF032C = FA0CAB1112E7BF0200FF032C /* PBXTextBookmark */;
-			FA118A7E12E7E83E00917A57 = FA118A7E12E7E83E00917A57 /* PBXTextBookmark */;
-			FA118A9E12E7E95300917A57 = FA118A9E12E7E95300917A57 /* PBXTextBookmark */;
-			FA118ABE12E7EAE100917A57 = FA118ABE12E7EAE100917A57 /* PBXTextBookmark */;
-			FAB8EA8412E7D4FE00DB6617 = FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */;
+			FA0CAB1112E7BF0200FF032C /* PBXTextBookmark */ = FA0CAB1112E7BF0200FF032C /* PBXTextBookmark */;
+			FA118A7E12E7E83E00917A57 /* PBXTextBookmark */ = FA118A7E12E7E83E00917A57 /* PBXTextBookmark */;
+			FA118A9E12E7E95300917A57 /* PBXTextBookmark */ = FA118A9E12E7E95300917A57 /* PBXTextBookmark */;
+			FA118ABE12E7EAE100917A57 /* PBXTextBookmark */ = FA118ABE12E7EAE100917A57 /* PBXTextBookmark */;
+			FA66EBEF1300A99700F75FA7 /* PBXTextBookmark */ = FA66EBEF1300A99700F75FA7 /* PBXTextBookmark */;
+			FA66EBF01300A99700F75FA7 /* PBXTextBookmark */ = FA66EBF01300A99700F75FA7 /* PBXTextBookmark */;
+			FA66EBF11300A99700F75FA7 /* PBXTextBookmark */ = FA66EBF11300A99700F75FA7 /* PBXTextBookmark */;
+			FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */ = FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */;
 		};
 		sourceControlManager = FA0CAACF12E7AB1F00FF032C /* Source Control */;
 		userBuildSettings = {
@@ -96,36 +96,6 @@
 		executables = (
 			FA0CAAC012E7AB1800FF032C /* QuickTranslate */,
 		);
-	};
-	FA02FB8712FB676E0049F3D4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */;
-		name = "QuickTranslateAppDelegate.m: 39";
-		rLen = 0;
-		rLoc = 1005;
-		rType = 0;
-		vrLen = 492;
-		vrLoc = 772;
-	};
-	FA02FB8812FB676E0049F3D4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
-		name = "GTTranslator.m: 180";
-		rLen = 0;
-		rLoc = 5431;
-		rType = 0;
-		vrLen = 344;
-		vrLoc = 5240;
-	};
-	FA02FB8912FB676E0049F3D4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
-		name = "GTTranslator.m: 75";
-		rLen = 85;
-		rLoc = 1304;
-		rType = 0;
-		vrLen = 811;
-		vrLoc = 3860;
 	};
 	FA0CAAC012E7AB1800FF032C /* QuickTranslate */ = {
 		isa = PBXExecutable;
@@ -182,9 +152,9 @@
 	};
 	FA0CAAE612E7B9E500FF032C /* GTTranslator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {768, 3150}}";
-			sepNavSelRange = "{1304, 85}";
-			sepNavVisRange = "{3860, 710}";
+			sepNavIntBoundsRect = "{{0, 0}, {558, 3514}}";
+			sepNavSelRange = "{6507, 0}";
+			sepNavVisRange = "{6373, 230}";
 		};
 	};
 	FA0CAAE712E7B9E500FF032C /* GTJSONParser.h */ = {
@@ -240,6 +210,36 @@
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 2097;
+	};
+	FA66EBEF1300A99700F75FA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickTranslateAppDelegate.m */;
+		name = "QuickTranslateAppDelegate.m: 10";
+		rLen = 43;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 159;
+	};
+	FA66EBF01300A99700F75FA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
+		name = "GTTranslator.m: 75";
+		rLen = 85;
+		rLoc = 1304;
+		rType = 0;
+		vrLen = 710;
+		vrLoc = 3860;
+	};
+	FA66EBF11300A99700F75FA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA0CAAE612E7B9E500FF032C /* GTTranslator.m */;
+		name = "GTTranslator.m: 228";
+		rLen = 0;
+		rLoc = 6507;
+		rType = 0;
+		vrLen = 230;
+		vrLoc = 6373;
 	};
 	FAB8EA8412E7D4FE00DB6617 /* PlistBookmark */ = {
 		isa = PlistBookmark;

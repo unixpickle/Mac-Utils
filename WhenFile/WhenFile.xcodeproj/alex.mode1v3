@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA66EBEE1300A90800F75FA7</string>
+										<string>FA66EBFF1300AA0000F75FA7</string>
 										<key>history</key>
 										<array>
 											<string>FACE13E612FF863E00CD8100</string>
@@ -533,8 +533,8 @@
 		<string>FA66EBE71300A7B000F75FA7</string>
 		<string>FA66EBE81300A7B000F75FA7</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>FACE13A612FF7C6800CD8100</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>FACE13A612FF7C6800CD8100</string>
 		<string>/Users/alex/xCode/git/Mac-Utils/WhenFile/WhenFile.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -917,7 +917,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

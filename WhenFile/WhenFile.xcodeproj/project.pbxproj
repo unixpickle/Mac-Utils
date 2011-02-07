@@ -12,6 +12,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA66EC091300AAE500F75FA7 /* ANQuicktimeMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66EC081300AAE500F75FA7 /* ANQuicktimeMovie.m */; };
+		FA66EC0D1300AAEF00F75FA7 /* ANQuicktimeAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66EC0C1300AAEF00F75FA7 /* ANQuicktimeAtom.m */; };
 		FACE13D512FF855500CD8100 /* ticktock.icns in Resources */ = {isa = PBXBuildFile; fileRef = FACE13D412FF855500CD8100 /* ticktock.icns */; };
 		FACE13E912FF8AE400CD8100 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACE13E812FF8AE400CD8100 /* QTKit.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +31,10 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* WhenFile-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WhenFile-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WhenFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhenFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA66EC071300AAE500F75FA7 /* ANQuicktimeMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANQuicktimeMovie.h; sourceTree = "<group>"; };
+		FA66EC081300AAE500F75FA7 /* ANQuicktimeMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANQuicktimeMovie.m; sourceTree = "<group>"; };
+		FA66EC0B1300AAEF00F75FA7 /* ANQuicktimeAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANQuicktimeAtom.h; sourceTree = "<group>"; };
+		FA66EC0C1300AAEF00F75FA7 /* ANQuicktimeAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANQuicktimeAtom.m; sourceTree = "<group>"; };
 		FACE13D412FF855500CD8100 /* ticktock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ticktock.icns; sourceTree = "<group>"; };
 		FACE13E812FF8AE400CD8100 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -51,6 +57,10 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */,
+				FA66EC071300AAE500F75FA7 /* ANQuicktimeMovie.h */,
+				FA66EC081300AAE500F75FA7 /* ANQuicktimeMovie.m */,
+				FA66EC0B1300AAEF00F75FA7 /* ANQuicktimeAtom.h */,
+				FA66EC0C1300AAEF00F75FA7 /* ANQuicktimeAtom.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -188,6 +198,8 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* WhenFileAppDelegate.m in Sources */,
+				FA66EC091300AAE500F75FA7 /* ANQuicktimeMovie.m in Sources */,
+				FA66EC0D1300AAEF00F75FA7 /* ANQuicktimeAtom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
