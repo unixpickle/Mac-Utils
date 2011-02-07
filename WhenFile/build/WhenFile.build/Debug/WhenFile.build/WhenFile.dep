@@ -1,3 +1,13 @@
+80f98615677ab3a81cd344bf31149f1c c2874b9e32877d81dc0c453d397fced0 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app
+89f6de30559e1b767b2bd0f519d06904 04fc69b6f9cd87a570cae4b29e19f3af ffffffffffffffffffffffffffffffff 19504 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile
+47a5cd9dea5edd12247deeff33f53d66 3843bed1f98381f8120e69e537835dac ffffffffffffffffffffffffffffffff 26344 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/WhenFileAppDelegate.o
+47a5cd9def6a7ec6247deeff33f5333c b1b560e1e46393776925b9102e5611c4 ffffffffffffffffffffffffffffffff 4888 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/main.o
+000000000d8bee8f0000000000000176 47a5cd9def6a7ec6247deeff33f53353 ffffffffffffffffffffffffffffffff 54124976 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-dbwwndkwukerwkepwdxvxsxnfrdy/WhenFile_Prefix.pch.gch
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 285230 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Resources/ticktock.icns
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 24994 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/MainMenu.nib
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 92 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/InfoPlist.strings
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 8 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1052 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist
 ffffffffffffffffffffffffffffffff d5986e409f2d7c987257187ff5f91c3d ffffffffffffffffffffffffffffffff 25988 /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/WhenFileAppDelegate.o
 ffffffffffffffffffffffffffffffff 1a7920303f0a022bcd2eb304ae1adef1 ffffffffffffffffffffffffffffffff 102 /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app
 ffffffffffffffffffffffffffffffff f36f9bdac6e650d79060c915ffe0b706 ffffffffffffffffffffffffffffffff 19408 /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile

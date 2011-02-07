@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA66EBCB13009EA400F75FA7</string>
+										<string>FA66EBEE1300A90800F75FA7</string>
 										<key>history</key>
 										<array>
 											<string>FACE13E612FF863E00CD8100</string>
@@ -530,7 +530,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FA66EBE71300A7B000F75FA7</string>
+		<string>FA66EBE81300A7B000F75FA7</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FACE13A612FF7C6800CD8100</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/alex/xCode/git/Mac-Utils/WhenFile/WhenFile.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -655,8 +659,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {316, 194}}</string>
+											<string>{{316, 0}, {378, 194}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -671,8 +675,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {694, 194}}</string>
+											<string>{{0, 194}, {694, 187}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -705,7 +709,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{316, 0}, {378, 194}}</string>
 									<key>RubberWindowFrame</key>
 									<string>970 192 694 422 0 0 1920 1058 </string>
 								</dict>
@@ -733,13 +737,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FACE13C212FF82D700CD8100</string>
+				<string>FA66EBE01300A7B000F75FA7</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FACE13C312FF82D700CD8100</string>
-				<string>FACE13C412FF82D700CD8100</string>
-				<string>FACE13C512FF82D700CD8100</string>
-				<string>FACE13C612FF82D700CD8100</string>
-				<string>FACE13C712FF82D700CD8100</string>
+				<string>FA66EBE11300A7B000F75FA7</string>
+				<string>FA66EBE21300A7B000F75FA7</string>
+				<string>FA66EBE31300A7B000F75FA7</string>
+				<string>FA66EBE41300A7B000F75FA7</string>
+				<string>FA66EBE51300A7B000F75FA7</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -866,6 +870,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -878,7 +884,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>970 364 650 250 0 0 1920 1058 </string>
+								<string>1257 348 650 250 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -901,17 +907,17 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FACE13C812FF82D700CD8100</string>
+				<string>FA66EBDC1300A75900F75FA7</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>970 364 650 250 0 0 1920 1058 </string>
+			<string>1257 348 650 250 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -48,6 +48,8 @@
 
 - (IBAction)saveChanges:(id)sender {
 	if ([QTMovie canInitWithFile:self.currentPath]) {
+		// this part does not quite work yet
+		/*
 		QTMovie * m = [[QTMovie alloc] initWithFile:self.currentPath
 											  error:nil];
 		
@@ -59,7 +61,8 @@
 		}
 		
 		[m updateMovieFile];
-		[m release];
+		[m autorelease];
+		*/
 	}
 	[self dateChange:self];
 }
