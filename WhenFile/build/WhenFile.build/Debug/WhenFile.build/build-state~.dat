@@ -1,0 +1,199 @@
+TWhenFile
+v7
+r0
+t318733852.759626
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist WhenFile-Info.plist
+cCopyStringsFile /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch.gch WhenFile_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/WhenFile/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFileAppDelegate.o /Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile normal x86_64
+cTouch /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/WhenFile/English.lproj/InfoPlist.strings
+c000000004D4F44E7000000000000002D
+t1297040615
+s45
+
+N/Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib
+c000000004D4F44E7000000000002BB76
+t1297040615
+s179062
+
+N/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.h
+c000000004D4F45F500000000000001E5
+t1297040885
+s485
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m
+c000000004D4F44E70000000000000172
+t1297040615
+s370
+i"WhenFileAppDelegate.h"
+
+N/Users/alex/Desktop/WhenFile/WhenFile_Prefix.pch
+c000000004D4F44E70000000000000093
+t1297040615
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app
+t1297041052
+s102
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist
+t1297041045
+s889
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile
+t1297041052
+s14880
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/PkgInfo
+t1297041045
+s8
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1297041046
+s92
+
+N/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/MainMenu.nib
+t1297041046
+s34398
+
+N/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFile.LinkFileList
+c000000004D4F469500000000000000D7
+t1297041045
+s215
+
+N/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFileAppDelegate.o
+t1297041051
+s22420
+
+N/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/main.o
+t1297041051
+s5000
+
+N/Users/alex/Desktop/WhenFile/main.m
+c000000004D4F44E700000000000000FC
+t1297040615
+s252
+i<Cocoa/Cocoa.h>
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch.gch
+t1297041051
+s54314768
+
+NWhenFile-Info.plist
+c000000004D4F44E700000000000003EA
+t1297040615
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318733845#318733845#0(0"0(0#1#0"8531300039713846272#0"0#
+
+CCompileC build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFileAppDelegate.o /Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318733851.553743
+e318733851.942671
+r1
+xCompileC
+xbuild/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFileAppDelegate.o
+x/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: incomplete implementation of class 'WhenFileAppDelegate'
+o/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: method definition for '-setDate:' not found
+o/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: method definition for '-pickPath:' not found
+lSLF07#2@58"Compile /Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m318733851#318733851#0(338"/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: incomplete implementation of class 'WhenFileAppDelegate'/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: method definition for '-setDate:' not found/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m:19: warning: method definition for '-pickPath:' not found3(22@56"Incomplete implementation of class 'WhenFileAppDelegate'318733851#0#121#0(6@50"/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m318733415#19#0#19#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-setDate:' not found318733851#121#108#0(6@50"/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m318733415#19#0#19#0#35"method definition for '*' not found0(22@44"Method definition for '-pickPath:' not found318733851#229#109#0(6@50"/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m318733415#19#0#19#0#35"method definition for '*' not found0(0#0#50"/Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m8622909152#1420"    cd /Users/alex/Desktop/WhenFile    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-generated-files.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-own-target-headers.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-all-target-headers.hmap -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-project-headers.hmap -F/Users/alex/Desktop/WhenFile/build/Debug -I/Users/alex/Desktop/WhenFile/build/Debug/include -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources/x86_64 -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch -c /Users/alex/Desktop/WhenFile/WhenFileAppDelegate.m -o /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFileAppDelegate.o0#
+
+CCompileC build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/WhenFile/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318733851.552567
+e318733851.942190
+r1
+xCompileC
+xbuild/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/main.o
+x/Users/alex/Desktop/WhenFile/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/alex/Desktop/WhenFile/main.m318733851#318733851#0(0"0(0#0#35"/Users/alex/Desktop/WhenFile/main.m8604510432#1390"    cd /Users/alex/Desktop/WhenFile    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-generated-files.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-own-target-headers.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-all-target-headers.hmap -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-project-headers.hmap -F/Users/alex/Desktop/WhenFile/build/Debug -I/Users/alex/Desktop/WhenFile/build/Debug/include -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources/x86_64 -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch -c /Users/alex/Desktop/WhenFile/main.m -o /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib
+s318733845.360581
+e318733846.289067
+r1
+xCompileXIB
+x/Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318733845#318733846#0(0"0(0#0#55"/Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib8623154400#365"    cd /Users/alex/Desktop/WhenFile    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/WhenFile/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318733845.355600
+e318733846.013288
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318733845#318733846#0(0"0(0#0#60"/Users/alex/Desktop/WhenFile/English.lproj/InfoPlist.strings8623883232#361"    cd /Users/alex/Desktop/WhenFile    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj0#
+
+CLd /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile normal x86_64
+s318733851.942729
+e318733852.742977
+r1
+xLd
+x/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile
+xnormal
+xx86_64
+lSLF07#2@82"Link /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile318733851#318733852#0(0"0(0#0#0"30962724183932976#527"    cd /Users/alex/Desktop/WhenFile    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/WhenFile/build/Debug -F/Users/alex/Desktop/WhenFile/build/Debug -filelist /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/x86_64/WhenFile.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist WhenFile-Info.plist
+s318733845.319032
+e318733845.355523
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist
+xWhenFile-Info.plist
+lSLF07#2@27"Process WhenFile-Info.plist318733845#318733845#0(0"0(0#0#48"/Users/alex/Desktop/WhenFile/WhenFile-Info.plist18859025310417008#283"    cd /Users/alex/Desktop/WhenFile    builtin-infoPlistUtility WhenFile-Info.plist -genpkginfo /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch.gch WhenFile_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318733846.289265
+e318733851.552387
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch.gch
+xWhenFile_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhenFile_Prefix.pch318733846#318733851#0(0"0(0#0#48"/Users/alex/Desktop/WhenFile/WhenFile_Prefix.pch8608289184#1305"    cd /Users/alex/Desktop/WhenFile    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-generated-files.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-own-target-headers.hmap -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-all-target-headers.hmap -iquote /Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/WhenFile-project-headers.hmap -F/Users/alex/Desktop/WhenFile/build/Debug -I/Users/alex/Desktop/WhenFile/build/Debug/include -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources/x86_64 -I/Users/alex/Desktop/WhenFile/build/WhenFile.build/Debug/WhenFile.build/DerivedSources -c /Users/alex/Desktop/WhenFile/WhenFile_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-cbdrzmyeeqxbzveyaimodlwekcnc/WhenFile_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app
+s318733852.743074
+e318733852.759571
+r1
+xTouch
+x/Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app
+lSLF07#2@59"Touch /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app318733852#318733852#0(0"0(0#0#0"8620864000#112"    cd /Users/alex/Desktop/WhenFile    /usr/bin/touch -c /Users/alex/Desktop/WhenFile/build/Debug/WhenFile.app0#
+

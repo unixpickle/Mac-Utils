@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 420}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{45, 367}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 1008}}";
+			sepNavSelRange = "{1113, 348}";
+			sepNavVisRange = "{878, 753}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FACE139712FF7C6700CD8100 /* WhenFile */;
+		activeTarget = 8D1107260486CEB800E47090 /* WhenFile */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* WhenFile */,
+		);
+		codeSenseManager = FACE13A912FF7C6800CD8100 /* Code sense */;
+		executables = (
+			FACE139712FF7C6700CD8100 /* WhenFile */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318807706;
+			PBXWorkspaceStateSaveDate = 318807706;
+		};
+		perUserProjectItems = {
+			FA66EBCB13009EA400F75FA7 /* PBXTextBookmark */ = FA66EBCB13009EA400F75FA7 /* PBXTextBookmark */;
+			FACE13E612FF863E00CD8100 = FACE13E612FF863E00CD8100 /* PlistBookmark */;
+			FACE13EA12FF8C7100CD8100 = FACE13EA12FF8C7100CD8100 /* PBXTextBookmark */;
+			FACE13EB12FF8C7100CD8100 = FACE13EB12FF8C7100CD8100 /* PBXTextBookmark */;
+			FACE13F912FF96E100CD8100 = FACE13F912FF96E100CD8100 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FACE13A812FF7C6800CD8100 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* WhenFile */ = {
+		activeExec = 0;
+		executables = (
+			FACE139712FF7C6700CD8100 /* WhenFile */,
+		);
+	};
+	FA66EBCB13009EA400F75FA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
+		name = "WhenFileAppDelegate.m: 37";
+		rLen = 348;
+		rLoc = 1113;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 878;
+	};
+	FACE139712FF7C6700CD8100 /* WhenFile */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WhenFile;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FACE13A812FF7C6800CD8100 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FACE13A912FF7C6800CD8100 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FACE13E612FF863E00CD8100 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WhenFile-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSMinimumSystemVersion,
+		);
+		name = "/Users/alex/Desktop/WhenFile/WhenFile-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FACE13EA12FF8C7100CD8100 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */;
+		name = "WhenFileAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 142;
+	};
+	FACE13EB12FF8C7100CD8100 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
+		name = "WhenFileAppDelegate.m: 50";
+		rLen = 0;
+		rLoc = 2064;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 1269;
+	};
+	FACE13F912FF96E100CD8100 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
+		name = "WhenFileAppDelegate.m: 54";
+		rLen = 0;
+		rLoc = 1812;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 1631;
+	};
+}
