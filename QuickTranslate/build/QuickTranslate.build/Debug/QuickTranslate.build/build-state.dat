@@ -1,7 +1,7 @@
 TQuickTranslate
 v7
 r0
-t317490022.522920
+t318808249.262815
 cCheck dependencies
 cProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Info.plist QuickTranslate-Info.plist
 cCopyStringsFile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -220,9 +220,9 @@ i"GTJSONParser.h"
 i"ANStringEscaper.h"
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m
-c000000004D37B38B000000000000198B
-t1295496075
-s6539
+c000000004D50693600000000000019D1
+t1297115446
+s6609
 i"GTTranslator.h"
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.h
@@ -233,9 +233,9 @@ i<Cocoa/Cocoa.h>
 i"GTTranslator.h"
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m
-c000000004D37B3940000000000000595
-t1295496084
-s1429
+c000000004D506906000000000000057D
+t1297115398
+s1405
 i"QuickTranslateAppDelegate.h"
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslate_Prefix.pch
@@ -245,7 +245,7 @@ s159
 i<Cocoa/Cocoa.h>
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app
-t1295496088
+t1297115449
 s102
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Info.plist
@@ -253,8 +253,8 @@ t1295486177
 s959
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate
-t1295496088
-s32340
+t1297115449
+s32380
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/PkgInfo
 t1295486177
@@ -273,16 +273,16 @@ t1295486177
 s47768
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o
-t1295494463
+t1297115414
 s12836
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o
-t1295494463
+t1297115414
 s13940
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o
-t1295496088
-s24756
+t1297115449
+s24980
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslate.LinkFileList
 c000000004D37AD3B00000000000002B0
@@ -290,11 +290,11 @@ t1295494459
 s688
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o
-t1295496088
-s20992
+t1297115414
+s20872
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o
-t1295494463
+t1297115414
 s4900
 
 N/Users/alex/xCode/git/Mac-Utils/QuickTranslate/icon.icns
@@ -324,7 +324,7 @@ t1277405700
 s5094
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch.gch
-t1295494463
+t1297115413
 s56944432
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-eaddowtbwyrnercotsxruzluvioe/QuickTranslate_Prefix.pch.gch
@@ -342,7 +342,7 @@ s987
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies317490022#317490022#0(0"0(0#1#0"29836824280170608#0"0#
+lSLF07#2@18"Check dependencies318808248#318808248#0(0"0(0#1#0"29836824280170608#0"0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o /Users/alex/Desktop/QuickTranslate/ANStringEscaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317178746.171140
@@ -358,8 +358,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/alex/Desktop/QuickTranslate/ANStringEscaper.m317178746#317178746#0(0"0(0#0#52"/Users/alex/Desktop/QuickTranslate/ANStringEscaper.m8620208640#1592"    cd /Users/alex/Desktop/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/Desktop/QuickTranslate/build/Debug -I/Users/alex/Desktop/QuickTranslate/build/Debug/include -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-gssruccyuuksjberkigaabbbolrs/QuickTranslate_Prefix.pch -c /Users/alex/Desktop/QuickTranslate/ANStringEscaper.m -o /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317187263.631400
-e317187263.791716
+s318808214.524029
+e318808214.711320
 r1
 xCompileC
 xbuild/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o
@@ -368,7 +368,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m317187263#317187263#0(0"0(0#0#64"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m8617504064#1724"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o0#
+lSLF07#2@72"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m318808214#318808214#0(0"0(0#0#64"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m8609637600#1724"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/ANStringEscaper.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/ANStringEscaper.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o /Users/alex/Desktop/QuickTranslate/GTJSONParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317182848.402274
@@ -384,8 +384,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/alex/Desktop/QuickTranslate/GTJSONParser.m317182848#317182848#0(0"0(0#0#49"/Users/alex/Desktop/QuickTranslate/GTJSONParser.m8606368928#1586"    cd /Users/alex/Desktop/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/Desktop/QuickTranslate/build/Debug -I/Users/alex/Desktop/QuickTranslate/build/Debug/include -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-gssruccyuuksjberkigaabbbolrs/QuickTranslate_Prefix.pch -c /Users/alex/Desktop/QuickTranslate/GTJSONParser.m -o /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317187263.417891
-e317187263.631308
+s318808214.376446
+e318808214.596107
 r1
 xCompileC
 xbuild/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o
@@ -394,7 +394,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m317187263#317187263#0(0"0(0#0#61"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m8610894752#1718"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o0#
+lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m318808214#318808214#0(0"0(0#0#61"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m8609999264#1718"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTJSONParser.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTJSONParser.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o /Users/alex/Desktop/QuickTranslate/GTTranslator.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317178745.039466
@@ -410,8 +410,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/alex/Desktop/QuickTranslate/GTTranslator.m317178745#317178746#0(0"0(0#0#49"/Users/alex/Desktop/QuickTranslate/GTTranslator.m8635659552#1586"    cd /Users/alex/Desktop/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/Desktop/QuickTranslate/build/Debug -I/Users/alex/Desktop/QuickTranslate/build/Debug/include -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-gssruccyuuksjberkigaabbbolrs/QuickTranslate_Prefix.pch -c /Users/alex/Desktop/QuickTranslate/GTTranslator.m -o /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317188888.351191
-e317188888.850803
+s318808248.791109
+e318808249.222761
 r1
 xCompileC
 xbuild/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o
@@ -420,7 +420,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m317188888#317188888#0(0"0(0#0#61"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m8599271840#1718"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o0#
+lSLF07#2@69"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m318808248#318808249#0(0"0(0#0#61"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m8623844672#1718"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/GTTranslator.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/GTTranslator.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o /Users/alex/Desktop/QuickTranslate/QuickTranslateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317178744.115459
@@ -436,8 +436,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/alex/Desktop/QuickTranslate/QuickTranslateAppDelegate.m317178744#317178745#0(0"0(0#0#62"/Users/alex/Desktop/QuickTranslate/QuickTranslateAppDelegate.m8630313184#1612"    cd /Users/alex/Desktop/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/Desktop/QuickTranslate/build/Debug -I/Users/alex/Desktop/QuickTranslate/build/Debug/include -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-gssruccyuuksjberkigaabbbolrs/QuickTranslate_Prefix.pch -c /Users/alex/Desktop/QuickTranslate/QuickTranslateAppDelegate.m -o /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317188888.095951
-e317188888.681340
+s318808214.074438
+e318808214.376350
 r1
 xCompileC
 xbuild/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o
@@ -446,7 +446,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m317188888#317188888#0(0"0(0#0#74"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m8627176448#1744"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o0#
+lSLF07#2@82"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m318808214#318808214#0(0"0(0#0#74"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m8609585280#1744"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslateAppDelegate.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslateAppDelegate.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o /Users/alex/Desktop/QuickTranslate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317178744.111610
@@ -462,8 +462,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@49"Compile /Users/alex/Desktop/QuickTranslate/main.m317178744#317178745#0(0"0(0#0#41"/Users/alex/Desktop/QuickTranslate/main.m8600406464#1570"    cd /Users/alex/Desktop/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/Desktop/QuickTranslate/build/Debug -I/Users/alex/Desktop/QuickTranslate/build/Debug/include -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-gssruccyuuksjberkigaabbbolrs/QuickTranslate_Prefix.pch -c /Users/alex/Desktop/QuickTranslate/main.m -o /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317187263.206983
-e317187263.373526
+s318808214.073391
+e318808214.298696
 r1
 xCompileC
 xbuild/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o
@@ -472,7 +472,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m317187263#317187263#0(0"0(0#0#53"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m8600884416#1702"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o0#
+lSLF07#2@61"Compile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m318808214#318808214#0(0"0(0#0#53"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m8604486816#1702"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/main.m -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/main.o0#
 
 CCompileC build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/x86_64/ANStringEscaper.o /Users/alex/Desktop/QuickTranslate/ANStringEscaper.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s317177573.471456
@@ -592,14 +592,14 @@ xx86_64
 lSLF07#2@100"Link /Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate317178622#317178622#0(0"0(0#0#0"8630658144#587"    cd /Users/alex/Desktop/QuickTranslate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/QuickTranslate/build/Debug -F/Users/alex/Desktop/QuickTranslate/build/Debug -filelist /Users/alex/Desktop/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/x86_64/QuickTranslate.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate0#
 
 CLd /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate normal i386
-s317188888.850882
-e317188888.887896
+s318808249.222852
+e318808249.260135
 r1
 xLd
 x/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate
 xnormal
 xi386
-lSLF07#2@112"Link /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate317188888#317188888#0(0"0(0#0#0"8612349952#643"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -filelist /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslate.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate0#
+lSLF07#2@112"Link /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate318808249#318808249#0(0"0(0#0#0"8616971296#643"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -filelist /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/Objects-normal/i386/QuickTranslate.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app/Contents/MacOS/QuickTranslate0#
 
 CProcessInfoPlistFile /Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app/Contents/Info.plist QuickTranslate-Info.plist
 s317178977.450398
@@ -614,8 +614,8 @@ CProcessInfoPlistFile /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug
 r0
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch.gch QuickTranslate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317187259.994017
-e317187263.206718
+s318808205.645825
+e318808214.073234
 r1
 xProcessPCH
 x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch.gch
@@ -624,7 +624,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile QuickTranslate_Prefix.pch317187259#317187263#0(0"0(0#0#72"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslate_Prefix.pch8317692705470374912#1595"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslate_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch.gch0#
+lSLF07#2@36"Precompile QuickTranslate_Prefix.pch318808205#318808214#0(0"0(0#0#72"/Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslate_Prefix.pch8317692705470374912#1595"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-generated-files.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-own-target-headers.hmap -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-all-target-headers.hmap -iquote /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/QuickTranslate-project-headers.hmap -F/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/include -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources/i386 -I/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/QuickTranslate.build/Debug/QuickTranslate.build/DerivedSources -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/QuickTranslate_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-aokeitmtcmxaunhbgnihwkffkgcd/QuickTranslate_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickTranslate_Prefix-eaddowtbwyrnercotsxruzluvioe/QuickTranslate_Prefix.pch.gch QuickTranslate_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s317177537.481049
@@ -661,10 +661,10 @@ x/Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app
 lSLF07#2@71"Touch /Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app317182848#317182848#0(0"0(0#0#0"8600406528#130"    cd /Users/alex/Desktop/QuickTranslate    /usr/bin/touch -c /Users/alex/Desktop/QuickTranslate/build/Debug/QuickTranslate.app0#
 
 CTouch /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app
-s317188888.888017
-e317188888.890417
+s318808249.260231
+e318808249.262787
 r1
 xTouch
 x/Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app
-lSLF07#2@83"Touch /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app317188888#317188888#0(0"0(0#0#0"8613421568#154"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    /usr/bin/touch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app0#
+lSLF07#2@83"Touch /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app318808249#318808249#0(0"0(0#0#0"8617281152#154"    cd /Users/alex/xCode/git/Mac-Utils/QuickTranslate    /usr/bin/touch -c /Users/alex/xCode/git/Mac-Utils/QuickTranslate/build/Debug/QuickTranslate.app0#
 

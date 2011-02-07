@@ -131,6 +131,7 @@
 
 - (void)translateThread:(NSDictionary *)information {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	[self retain];
 	NSString * text = [information objectForKey:@"text"];
 	NSString * from = [information objectForKey:@"from"];
 	NSString * to = [information objectForKey:@"to"];
@@ -185,6 +186,7 @@
 						   withObject:final waitUntilDone:NO];
 	
 	[pool drain];
+	[self release];
 	fetchThread = nil;
 }
 
@@ -223,6 +225,7 @@
 
 - (void)dealloc {
 	if (fetchThread) {
+		NSLog(@"Freeing while fetching!");
 		[fetchThread cancel];
 		[fetchThread release];
 		fetchThread = nil;

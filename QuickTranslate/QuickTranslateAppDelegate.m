@@ -29,12 +29,10 @@
 	if (sender == translator)
 		[secondField setStringValue:newText];
 	[sender release];
-	translator = nil;
+	if (sender == translator) translator = nil;
 }
 
 - (IBAction)translate:(id)sender {
-	[translator stopRequest];
-	[translator release];
 	GTTranslator * translate = [[GTTranslator alloc] initWithLanguage:order == 0 ? kGTLanguageFrench : kGTLanguageEnglish];
 	[translate setDelegate:self];
 	[translate translateSynchronously:[firstField stringValue]
