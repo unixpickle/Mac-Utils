@@ -12,7 +12,17 @@
 @implementation ANQuicktimeAtom
 
 @synthesize file, fileIndex;
-@synthesize blockSize, blockName;
+@synthesize atomSize, blockName;
+
++ (UInt32)flipEndian:(UInt32)ui {
+	UInt32 ni;
+	char * d = (char *)&ui;
+	char * di = (char *)&ni;
+	for (int i = 0; i < sizeof(UInt32); i++) {
+		di[i] = d[sizeof(UInt32) - (i + 1)];
+	}
+	return ni;
+}
 
 - (id)initWithFileHandle:(NSFileHandle *)fh {
 	if (self = [super init]) {
@@ -22,56 +32,99 @@
 			[super dealloc];
 			return nil;
 		}
-		self.blockSize = *((const UInt32 *)[lengthInt bytes]);
+		const UInt32 * atomSizePtr = (const UInt32 *)[lengthInt bytes];
+		// switch it up
+		self.atomSize = atomSizePtr[0];
+		self.atomSize = [ANQuicktimeAtom flipEndian:self.atomSize];
 		self.blockName = [[[NSString alloc] initWithData:[fh readDataOfLength:4]
-												encoding:NSASCIIStringEncoding] autorelease];
+												encoding:NSUTF8StringEncoding] autorelease];
 		if (!self.blockName) {
 			[super dealloc];
 			return nil;
 		}
-		self.fileIndex = [fh offsetInFile];
-		[fh seekToFileOffset:self.fileIndex + (self.blockSize - 4)];
+		fileIndex = [fh offsetInFile];
+		[fh seekToFileOffset:self.fileIndex + (self.atomSize - 8)];
 		subAtoms = nil;
+		file = fh;
+	}
+	return self;
+}
+
+- (id)initWithFileHandle:(NSFileHandle *)fh fileIndex:(UInt64)ind {
+	if (self = [super init]) {
+		fileIndex = ind;
+		file = fh;
+		subAtoms = nil;
+		self.blockName = [NSString stringWithFormat:@"    "];
+		self.atomSize = 0;
 	}
 	return self;
 }
 
 - (NSData *)retrieveData {
-	[fh seekToFileOffset:self.fileIndex];
-	return [fh readDataOfLength:self.blockSize - 4];
+	// read the data from the offset of our atom size
+	[file seekToFileOffset:self.fileIndex];
+	return [file readDataOfLength:self.atomSize - 8];
+}
+
+- (void)setData:(NSData *)d {
+	// here we will write to the file
+	[file seekToFileOffset:self.fileIndex];
+	[file writeData:d];
 }
 
 - (NSArray *)subAtoms {
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	if (subAtoms) {
 		return subAtoms;
 	}
 	NSMutableArray * newSubAtoms = [NSMutableArray array];
-	UInt bytesLeft = self.blockSize - 4;
-	[fh seekToFileOffset:self.fileIndex];
+	UInt bytesLeft = self.atomSize - 8;
+	[file seekToFileOffset:self.fileIndex];
 	// read until we get to where we want to be
 	while (bytesLeft > 0) {
-		ANQuicktimeAtom * atom = [[ANQuicktimeAtom alloc] initWithFileHandle:fh];
+		ANQuicktimeAtom * atom = [[ANQuicktimeAtom alloc] initWithFileHandle:file];
 		if (!atom) {
-			NSLog(@"Hit invalid atom, breaking bot not aborting.");
-			return break;
+			NSLog(@"Hit invalid atom, breaking but not aborting.");
+			break;
 		}
-		bytesLeft -= atom.blockSize + 4;
+		bytesLeft -= atom.atomSize;
 		if (bytesLeft < 0) {
 			[atom release];
 			@throw [NSException exceptionWithName:@"AtomTooLarge" 
 										   reason:@"Read an atom that was larger than the super-atom."
 										 userInfo:nil];
-			return;
+			return nil;
 		}
 		[newSubAtoms addObject:atom];
 		[atom release];
 	}
 	subAtoms = [[NSArray alloc] initWithArray:newSubAtoms];
+	[pool drain];
 	return subAtoms;
+}
+
+- (int)dataLength {
+	return self.atomSize - 8;
+}
+
+- (ANQuicktimeAtom *)subAtomOfType:(NSString *)name {
+	NSArray * _subAtoms = [self subAtoms];
+	if (!_subAtoms) return nil;
+	for (ANQuicktimeAtom * a in _subAtoms) {
+		if ([[a blockName] isEqual:name]) return a;
+	}
+	NSLog(@"Subatom not found: %@", name);
+	return nil;
+}
+
+- (id)description {
+	return [NSString stringWithFormat:@"%@ (%d)", self.blockName, self.atomSize];
 }
 
 - (void)dealloc {
 	self.blockName = nil;
+	[subAtoms release];
 	subAtoms = nil;
 	[super dealloc];
 }

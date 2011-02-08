@@ -12,10 +12,13 @@
 @interface ANQuicktimeMovie : NSObject {
 	NSFileHandle * file;
 	ANQuicktimeAtom * moov;
+	ANQuicktimeAtom * toplevel;
+	ANQuicktimeAtom * metadata;
 }
 
 - (id)initWithFile:(NSString *)path;
 - (ANQuicktimeAtom *)movieAtom;
+- (ANQuicktimeAtom *)metaData;
 - (void)closeFile;
 
 @end

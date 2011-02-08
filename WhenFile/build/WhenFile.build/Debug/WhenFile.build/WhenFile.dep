@@ -1,7 +1,9 @@
-ffffffffffffffffffffffffffffffff 3843bed1f98381f8120e69e537835dac ffffffffffffffffffffffffffffffff 26344 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/WhenFileAppDelegate.o
-ffffffffffffffffffffffffffffffff c2874b9e32877d81dc0c453d397fced0 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app
-ffffffffffffffffffffffffffffffff 04fc69b6f9cd87a570cae4b29e19f3af ffffffffffffffffffffffffffffffff 19504 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile
+47a5cd9daa852fd5247deeff33f52fb9 2d4d56d7eb4c895a440436803f762558 ffffffffffffffffffffffffffffffff 20276 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/ANQuicktimeAtom.o
+47a5cd9dafb11c72247deeff33f53625 642b73a6b8c66b9220ddf61a856d4db0 ffffffffffffffffffffffffffffffff 12792 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/ANQuicktimeMovie.o
+47a5cd9def75ccdb247deeff33f52ac2 3843bed1f98381f8120e69e537835dac ffffffffffffffffffffffffffffffff 26404 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/WhenFileAppDelegate.o
 47a5cd9def6a7ec6247deeff33f5333c b1b560e1e46393776925b9102e5611c4 ffffffffffffffffffffffffffffffff 4888 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/WhenFile.build/Debug/WhenFile.build/Objects-normal/i386/main.o
+c99fa36434ef730e780a84258b0ff9cc c2874b9e32877d81dc0c453d397fced0 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app
+c090fb41060bdbd01ff2106fa3cb0fd4 04fc69b6f9cd87a570cae4b29e19f3af ffffffffffffffffffffffffffffffff 27140 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/MacOS/WhenFile
 000000000d8bee8f0000000000000176 47a5cd9def6a7ec6247deeff33f53353 ffffffffffffffffffffffffffffffff 54124976 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhenFile_Prefix-dbwwndkwukerwkepwdxvxsxnfrdy/WhenFile_Prefix.pch.gch
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 285230 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Resources/ticktock.icns
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 24994 /Users/alex/xCode/git/Mac-Utils/WhenFile/build/Debug/WhenFile.app/Contents/Resources/English.lproj/MainMenu.nib

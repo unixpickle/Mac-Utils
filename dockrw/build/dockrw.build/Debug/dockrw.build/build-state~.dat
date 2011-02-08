@@ -1,0 +1,130 @@
+Tdockrw
+v7
+r0
+t318897658.061270
+cCheck dependencies
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch.gch dockrw_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.o /Users/alex/Desktop/dockrw/dockrw.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/DockItem.o /Users/alex/Desktop/dockrw/DockItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/dockrw/build/Debug/dockrw normal x86_64
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD605D10000000000B3E910
+t1289094609
+s11790608
+
+N/Users/alex/Desktop/dockrw/DockItem.h
+c000000004D51C33500000000000001AB
+t1297204021
+s427
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/dockrw/DockItem.m
+c000000004D51C6750000000000000573
+t1297204853
+s1395
+i"DockItem.h"
+
+N/Users/alex/Desktop/dockrw/build/Debug/dockrw
+t1297204858
+s15800
+
+N/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/DockItem.o
+t1297204858
+s14600
+
+N/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.LinkFileList
+c000000004D51C67700000000000000C2
+t1297204855
+s194
+
+N/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.o
+t1297204857
+s9264
+
+N/Users/alex/Desktop/dockrw/dockrw.m
+c000000004D51C28100000000000002B5
+t1297203841
+s693
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/dockrw/dockrw_Prefix.pch
+c000000004D51BFF8000000000000009A
+t1297203192
+s154
+i<Foundation/Foundation.h>
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch.gch
+t1297204857
+s41442064
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318897654#318897655#0(0"0(0#1#0"8614737664#0"0#
+
+CCompileC build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/DockItem.o /Users/alex/Desktop/dockrw/DockItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318897657.718829
+e318897658.041023
+r1
+xCompileC
+xbuild/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/DockItem.o
+x/Users/alex/Desktop/dockrw/DockItem.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/alex/Desktop/dockrw/DockItem.m318897657#318897658#0(0"0(0#0#37"/Users/alex/Desktop/dockrw/DockItem.m8619960288#1336"    cd /Users/alex/Desktop/dockrw    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-generated-files.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-own-target-headers.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-all-target-headers.hmap -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-project-headers.hmap -F/Users/alex/Desktop/dockrw/build/Debug -I/Users/alex/Desktop/dockrw/build/Debug/include -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources/x86_64 -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch -c /Users/alex/Desktop/dockrw/DockItem.m -o /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/DockItem.o0#
+
+CCompileC build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.o /Users/alex/Desktop/dockrw/dockrw.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318897657.717055
+e318897657.845942
+r1
+xCompileC
+xbuild/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.o
+x/Users/alex/Desktop/dockrw/dockrw.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/dockrw/dockrw.m: In function 'main':
+o/Users/alex/Desktop/dockrw/dockrw.m:20: warning: unused variable 'docDictionary'
+lSLF07#2@43"Compile /Users/alex/Desktop/dockrw/dockrw.m318897657#318897657#0(138"/Users/alex/Desktop/dockrw/dockrw.m: In function 'main':/Users/alex/Desktop/dockrw/dockrw.m:20: warning: unused variable 'docDictionary'1(22@31"Unused variable 'docDictionary'318897657#57#81#0(6@35"/Users/alex/Desktop/dockrw/dockrw.m318896641#20#0#20#0#19"unused variable '*'0(0#0#35"/Users/alex/Desktop/dockrw/dockrw.m8620036032#1332"    cd /Users/alex/Desktop/dockrw    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-generated-files.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-own-target-headers.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-all-target-headers.hmap -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-project-headers.hmap -F/Users/alex/Desktop/dockrw/build/Debug -I/Users/alex/Desktop/dockrw/build/Debug/include -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources/x86_64 -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch -c /Users/alex/Desktop/dockrw/dockrw.m -o /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.o0#
+
+CLd /Users/alex/Desktop/dockrw/build/Debug/dockrw normal x86_64
+s318897658.041140
+e318897658.061222
+r1
+xLd
+x/Users/alex/Desktop/dockrw/build/Debug/dockrw
+xnormal
+xx86_64
+lSLF07#2@50"Link /Users/alex/Desktop/dockrw/build/Debug/dockrw318897658#318897658#0(0"0(0#0#0"8617598720#486"    cd /Users/alex/Desktop/dockrw    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/dockrw/build/Debug -F/Users/alex/Desktop/dockrw/build/Debug -filelist /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/Objects-normal/x86_64/dockrw.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/alex/Desktop/dockrw/build/Debug/dockrw0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch.gch dockrw_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318897655.082794
+e318897657.716640
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch.gch
+xdockrw_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile dockrw_Prefix.pch318897655#318897657#0(0"0(0#0#44"/Users/alex/Desktop/dockrw/dockrw_Prefix.pch8624416320#1247"    cd /Users/alex/Desktop/dockrw    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-generated-files.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-own-target-headers.hmap -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-all-target-headers.hmap -iquote /Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/dockrw-project-headers.hmap -F/Users/alex/Desktop/dockrw/build/Debug -I/Users/alex/Desktop/dockrw/build/Debug/include -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources/x86_64 -I/Users/alex/Desktop/dockrw/build/dockrw.build/Debug/dockrw.build/DerivedSources -c /Users/alex/Desktop/dockrw/dockrw_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dockrw_Prefix-cwhzcaykjflpaogdzyzkzxzafwly/dockrw_Prefix.pch.gch0#
+

@@ -2,16 +2,16 @@
 {
 	256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 420}}";
-			sepNavSelRange = "{236, 0}";
-			sepNavVisRange = "{45, 367}";
+			sepNavIntBoundsRect = "{{0, 0}, {690, 462}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{45, 493}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {684, 1148}}";
-			sepNavSelRange = "{1775, 0}";
-			sepNavVisRange = "{1621, 478}";
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1162}}";
+			sepNavSelRange = "{2080, 0}";
+			sepNavVisRange = "{1507, 655}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -21,6 +21,8 @@
 		activeTarget = 8D1107260486CEB800E47090 /* WhenFile */;
 		addToTargets = (
 			8D1107260486CEB800E47090 /* WhenFile */,
+		);
+		breakpoints = (
 		);
 		codeSenseManager = FACE13A912FF7C6800CD8100 /* Code sense */;
 		executables = (
@@ -32,7 +34,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					512,
 					20,
 					48,
 					43,
@@ -71,14 +73,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318810726;
-			PBXWorkspaceStateSaveDate = 318810726;
+			PBXPerProjectTemplateStateSaveDate = 318893699;
+			PBXWorkspaceStateSaveDate = 318893699;
 		};
 		perUserProjectItems = {
-			FA66EBFF1300AA0000F75FA7 = FA66EBFF1300AA0000F75FA7 /* PBXTextBookmark */;
-			FACE13E612FF863E00CD8100 = FACE13E612FF863E00CD8100 /* PlistBookmark */;
-			FACE13EA12FF8C7100CD8100 = FACE13EA12FF8C7100CD8100 /* PBXTextBookmark */;
-			FACE13F912FF96E100CD8100 = FACE13F912FF96E100CD8100 /* PBXTextBookmark */;
+			FA06811B1301EE8A000C2A46 /* PBXTextBookmark */ = FA06811B1301EE8A000C2A46 /* PBXTextBookmark */;
+			FA5A5ECF1300C5350041EB69 /* PBXTextBookmark */ = FA5A5ECF1300C5350041EB69 /* PBXTextBookmark */;
+			FA5A5F321300CBE80041EB69 /* PBXTextBookmark */ = FA5A5F321300CBE80041EB69 /* PBXTextBookmark */;
+			FA5A5F341300CBE80041EB69 /* PBXTextBookmark */ = FA5A5F341300CBE80041EB69 /* PBXTextBookmark */;
+			FA5A5F3A1300CCF20041EB69 /* PBXTextBookmark */ = FA5A5F3A1300CCF20041EB69 /* PBXTextBookmark */;
+			FA5A5F891300D2EA0041EB69 /* PBXTextBookmark */ = FA5A5F891300D2EA0041EB69 /* PBXTextBookmark */;
+			FA5A5F8F1300F6060041EB69 /* PBXTextBookmark */ = FA5A5F8F1300F6060041EB69 /* PBXTextBookmark */;
+			FACE13E612FF863E00CD8100 /* PlistBookmark */ = FACE13E612FF863E00CD8100 /* PlistBookmark */;
 		};
 		sourceControlManager = FACE13A812FF7C6800CD8100 /* Source Control */;
 		userBuildSettings = {
@@ -90,21 +96,102 @@
 			FACE139712FF7C6700CD8100 /* WhenFile */,
 		);
 	};
-	FA66EBFF1300AA0000F75FA7 /* PBXTextBookmark */ = {
+	FA06811B1301EE8A000C2A46 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
-		name = "WhenFileAppDelegate.m: 65";
+		name = "WhenFileAppDelegate.m: 58";
 		rLen = 0;
-		rLoc = 2148;
+		rLoc = 2080;
 		rType = 0;
-		vrLen = 401;
-		vrLoc = 1719;
+		vrLen = 655;
+		vrLoc = 1507;
+	};
+	FA5A5ECF1300C5350041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA66EC0B1300AAEF00F75FA7 /* ANQuicktimeAtom.h */;
+		name = "ANQuicktimeAtom.h: 28";
+		rLen = 66;
+		rLoc = 585;
+		rType = 0;
+		vrLen = 526;
+		vrLoc = 282;
+	};
+	FA5A5F321300CBE80041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA66EC071300AAE500F75FA7 /* ANQuicktimeMovie.h */;
+		name = "ANQuicktimeMovie.h: 16";
+		rLen = 8;
+		rLoc = 342;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 139;
+	};
+	FA5A5F341300CBE80041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA66EC0C1300AAEF00F75FA7 /* ANQuicktimeAtom.m */;
+		name = "ANQuicktimeAtom.m: 122";
+		rLen = 0;
+		rLoc = 3053;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 1197;
+	};
+	FA5A5F3A1300CCF20041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA66EC081300AAE500F75FA7 /* ANQuicktimeMovie.m */;
+		name = "ANQuicktimeMovie.m: 70";
+		rLen = 0;
+		rLoc = 1709;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 1461;
+	};
+	FA5A5F891300D2EA0041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */;
+		name = "WhenFileAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 45;
+	};
+	FA5A5F8F1300F6060041EB69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
+		name = "WhenFileAppDelegate.m: 58";
+		rLen = 0;
+		rLoc = 2080;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 1462;
 	};
 	FA66EC071300AAE500F75FA7 /* ANQuicktimeMovie.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 238}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 219}";
+			sepNavIntBoundsRect = "{{0, 0}, {690, 350}}";
+			sepNavSelRange = "{342, 8}";
+			sepNavVisRange = "{139, 341}";
+		};
+	};
+	FA66EC081300AAE500F75FA7 /* ANQuicktimeMovie.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 1050}}";
+			sepNavSelRange = "{1709, 0}";
+			sepNavVisRange = "{1461, 275}";
+		};
+	};
+	FA66EC0B1300AAEF00F75FA7 /* ANQuicktimeAtom.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 504}}";
+			sepNavSelRange = "{585, 66}";
+			sepNavVisRange = "{282, 526}";
+		};
+	};
+	FA66EC0C1300AAEF00F75FA7 /* ANQuicktimeAtom.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 1862}}";
+			sepNavSelRange = "{3053, 0}";
+			sepNavVisRange = "{1197, 418}";
 		};
 	};
 	FACE139712FF7C6700CD8100 /* WhenFile */ = {
@@ -114,7 +201,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -136,6 +223,8 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	FACE13A812FF7C6800CD8100 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -162,25 +251,5 @@
 		name = "/Users/alex/Desktop/WhenFile/WhenFile-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	FACE13EA12FF8C7100CD8100 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* WhenFileAppDelegate.h */;
-		name = "WhenFileAppDelegate.h: 10";
-		rLen = 0;
-		rLoc = 193;
-		rType = 0;
-		vrLen = 409;
-		vrLoc = 142;
-	};
-	FACE13F912FF96E100CD8100 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* WhenFileAppDelegate.m */;
-		name = "WhenFileAppDelegate.m: 54";
-		rLen = 0;
-		rLoc = 1915;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 1631;
 	};
 }

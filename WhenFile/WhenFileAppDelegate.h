@@ -8,6 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 #import <QTKit/QTKit.h>
+#import "ANQuicktimeMovie.h"
+#import "ANQuicktimeAtom.h"
+
+#define kAttemptTimestampChange 0
 
 @interface WhenFileAppDelegate : NSObject {
     NSWindow * window;
