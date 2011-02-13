@@ -1,0 +1,1181 @@
+TFileTools
+v7
+r0
+t319308520.904805
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Info.plist FileTools-Info.plist
+cCopyStringsFile /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib
+cCpResource build/Debug/FileTools.app/Contents/Resources/trashfull.png trashfull.png
+cCpResource build/Debug/FileTools.app/Contents/Resources/whenicon.png whenicon.png
+cCpResource build/Debug/FileTools.app/Contents/Resources/movieicon.png movieicon.png
+cCpResource build/Debug/FileTools.app/Contents/Resources/glass.wav glass.wav
+cCpResource build/Debug/FileTools.app/Contents/Resources/finder.png finder.png
+cCpResource build/Debug/FileTools.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+cCpResource build/Debug/FileTools.app/Contents/Resources/filetools.icns filetools.icns
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch.gch FileTools_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o /Users/alex/Desktop/FileTools/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o /Users/alex/Desktop/FileTools/ANSideMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuItem.o /Users/alex/Desktop/FileTools/ANSideMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuTitle.o /Users/alex/Desktop/FileTools/ANSideMenuTitle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeMovie.o /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o /Users/alex/Desktop/FileTools/WhenFileAppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o /Users/alex/Desktop/FileTools/BackgroundView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o /Users/alex/Desktop/FileTools/SettingsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o /Users/alex/Desktop/FileTools/ANQuicktimeList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o /Users/alex/Desktop/FileTools/SetFileController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o /Users/alex/Desktop/FileTools/ANGraySwitch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o /Users/alex/Desktop/FileTools/ANDirectoryLister.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools normal i386
+cPBXCp build/Debug/FileTools.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cTouch /Users/alex/Desktop/FileTools/build/Debug/FileTools.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/FileTools/../FancySideMenu/movieicon.png
+c000000004D55EC7F0000000000000537
+t1297476735
+s1335
+
+N/Users/alex/Desktop/FileTools/../FancySideMenu/trashfull.png
+c000000004D55F81600000000000006F9
+t1297479702
+s1785
+
+N/Users/alex/Desktop/FileTools/../FancySideMenu/whenicon.png
+c000000004D55ECA00000000000000D38
+t1297476768
+s3384
+
+N/Users/alex/Desktop/FileTools/ANDirectoryLister.h
+c000000004D0EBEFB0000000000000127
+t1292812027
+s295
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/FileTools/ANDirectoryLister.m
+c000000004D57FE5E0000000000000620
+t1297612382
+s1568
+i"ANDirectoryLister.h"
+i<stdio.h>
+i<sys/types.h>
+i<dirent.h>
+i<errno.h>
+
+N/Users/alex/Desktop/FileTools/ANGraySwitch.h
+c000000004D57377500000000000001F5
+t1297561461
+s501
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/ANGraySwitch.m
+c000000004D5745EA00000000000019A5
+t1297565162
+s6565
+i"ANGraySwitch.h"
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeAtom.h
+c000000004D508D7E0000000000000328
+t1297124734
+s808
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeAtom.m
+c000000004D57F90B0000000000000C7B
+t1297611019
+s3195
+i"ANQuicktimeAtom.h"
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeList.h
+c000000004D56F1730000000000000193
+t1297543539
+s403
+i<Cocoa/Cocoa.h>
+i"ANQuicktimeAtom.h"
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeList.m
+c000000004D56F7C700000000000008A4
+t1297545159
+s2212
+i"ANQuicktimeList.h"
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeMovie.h
+c000000004D50942500000000000001E0
+t1297126437
+s480
+i<Foundation/Foundation.h>
+i"ANQuicktimeAtom.h"
+
+N/Users/alex/Desktop/FileTools/ANQuicktimeMovie.m
+c000000004D50956000000000000006C8
+t1297126752
+s1736
+i"ANQuicktimeMovie.h"
+
+N/Users/alex/Desktop/FileTools/ANSideMenu.h
+c000000004D56CD6E00000000000001A0
+t1297534318
+s416
+i<Cocoa/Cocoa.h>
+i"ANSideMenuItem.h"
+i"ANSideMenuTitle.h"
+
+N/Users/alex/Desktop/FileTools/ANSideMenu.m
+c000000004D57FF3D0000000000001270
+t1297612605
+s4720
+i"ANSideMenu.h"
+
+N/Users/alex/Desktop/FileTools/ANSideMenuItem.h
+c000000004D55FC6300000000000003CB
+t1297480803
+s971
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/ANSideMenuItem.m
+c000000004D57FEE00000000000001B45
+t1297612512
+s6981
+i"ANSideMenuItem.h"
+
+N/Users/alex/Desktop/FileTools/ANSideMenuTitle.h
+c000000004D55E1E7000000000000014B
+t1297474023
+s331
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/ANSideMenuTitle.m
+c000000004D55EE980000000000000699
+t1297477272
+s1689
+i"ANSideMenuTitle.h"
+
+N/Users/alex/Desktop/FileTools/BackgroundView.h
+c000000004D561FED00000000000000D7
+t1297489901
+s215
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/BackgroundView.m
+c000000004D5624C60000000000000176
+t1297491142
+s374
+i"BackgroundView.h"
+
+N/Users/alex/Desktop/FileTools/English.lproj/InfoPlist.strings
+c000000004D560CBC000000000000002D
+t1297484988
+s45
+
+N/Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib
+c000000004D580739000000000004C797
+t1297614649
+s313239
+
+N/Users/alex/Desktop/FileTools/FileToolsAppDelegate.h
+c000000004D571FE500000000000002BD
+t1297555429
+s701
+i<Cocoa/Cocoa.h>
+i"ANSideMenu.h"
+i"WhenFileAppController.h"
+i"ANSideMenuItem.h"
+
+N/Users/alex/Desktop/FileTools/FileToolsAppDelegate.m
+c000000004D57206700000000000010EB
+t1297555559
+s4331
+i"FileToolsAppDelegate.h"
+
+N/Users/alex/Desktop/FileTools/FileTools_Prefix.pch
+c000000004D560CBC0000000000000095
+t1297484988
+s149
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/QuicktimeDeleteController.h
+c000000004D56ED2D00000000000001EC
+t1297542445
+s492
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+i"ANQuicktimeAtom.h"
+i"ANQuicktimeMovie.h"
+i"ANQuicktimeList.h"
+
+N/Users/alex/Desktop/FileTools/QuicktimeDeleteController.m
+c000000004D56F7750000000000000F62
+t1297545077
+s3938
+i"QuicktimeDeleteController.h"
+
+N/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.h
+c000000004D57FD4A000000000000034A
+t1297612106
+s842
+i<Cocoa/Cocoa.h>
+i"SettingsView.h"
+i"ANDirectoryLister.h"
+
+N/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m
+c000000004D57FD550000000000002054
+t1297612117
+s8276
+i"SaveMyAssAppDelegate.h"
+
+N/Users/alex/Desktop/FileTools/SetFileController.h
+c000000004D57400800000000000001E9
+t1297563656
+s489
+i<Cocoa/Cocoa.h>
+i"ANGraySwitch.h"
+
+N/Users/alex/Desktop/FileTools/SetFileController.m
+c000000004D5744160000000000000B7D
+t1297564694
+s2941
+i"SetFileController.h"
+
+N/Users/alex/Desktop/FileTools/SettingsView.h
+c000000004D56B442000000000000036E
+t1297527874
+s878
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/SettingsView.m
+c000000004D56B47500000000000009EE
+t1297527925
+s2542
+i"SettingsView.h"
+
+N/Users/alex/Desktop/FileTools/Sparkle.framework
+c000000004D57F32700000000000000CC
+t1297609511
+s204
+
+N/Users/alex/Desktop/FileTools/Sparkle.framework/Sparkle
+c000000004D57F32700000000000C5320
+t1297609511
+s807712
+
+N/Users/alex/Desktop/FileTools/WhenFileAppController.h
+c000000004D56D0F0000000000000026A
+t1297535216
+s618
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/WhenFileAppController.m
+c000000004D56D0FD00000000000006F0
+t1297535229
+s1776
+i"WhenFileAppController.h"
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app
+t1297615511
+s102
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Frameworks/Sparkle.framework
+t1297609669
+s204
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Info.plist
+t1297615511
+s1093
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools
+t1297612606
+s98100
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/PkgInfo
+t1297615511
+s8
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1297563783
+s92
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/MainMenu.nib
+t1297614684
+s59354
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/dsa_pub.pem
+t1297614595
+s654
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/filetools.icns
+t1297614595
+s77792
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/finder.png
+t1297563783
+s1542
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/glass.wav
+t1297563783
+s223192
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/movieicon.png
+t1297563783
+s1335
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/trashfull.png
+t1297563783
+s1785
+
+N/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/whenicon.png
+t1297563783
+s3384
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o
+t1297612415
+s10640
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o
+t1297609700
+s30332
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o
+t1297611029
+s20288
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o
+t1297609699
+s13328
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeMovie.o
+t1297609699
+s12768
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o
+t1297612606
+s31352
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuItem.o
+t1297612536
+s37144
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuTitle.o
+t1297609699
+s21080
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o
+t1297609699
+s12248
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileTools.LinkFileList
+c000000004D57FC690000000000000707
+t1297611881
+s1799
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o
+t1297609698
+s33276
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o
+t1297609701
+s26976
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o
+t1297612121
+s43468
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o
+t1297609700
+s26888
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o
+t1297609699
+s20032
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o
+t1297609699
+s23900
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o
+t1297609698
+s4868
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANGraySwitch.o
+t1297609668
+s36316
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeAtom.o
+t1297609667
+s27712
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeList.o
+t1297609668
+s15856
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeMovie.o
+t1297609667
+s16456
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenu.o
+t1297609667
+s37148
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuItem.o
+t1297609667
+s45748
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuTitle.o
+t1297609667
+s24312
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/BackgroundView.o
+t1297609667
+s13852
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileTools.LinkFileList
+c000000004D57408600000000000006B3
+t1297563782
+s1715
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileToolsAppDelegate.o
+t1297609666
+s47244
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/QuicktimeDeleteController.o
+t1297609668
+s30792
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SaveMyAssAppDelegate.o
+t1297609667
+s52584
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SetFileController.o
+t1297609668
+s31388
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SettingsView.o
+t1297609667
+s24488
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/WhenFileAppController.o
+t1297609667
+s28240
+
+N/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/main.o
+t1297609666
+s5000
+
+N/Users/alex/Desktop/FileTools/dsa_pub.pem
+c000000004D58051D000000000000028E
+t1297614109
+s654
+
+N/Users/alex/Desktop/FileTools/filetools.icns
+c000000004D5806C80000000000012FE0
+t1297614536
+s77792
+
+N/Users/alex/Desktop/FileTools/finder.png
+c000000004D5714810000000000000606
+t1297552513
+s1542
+
+N/Users/alex/Desktop/FileTools/glass.wav
+c000000004BF5B82400000000000367D8
+t1274394660
+s223192
+
+N/Users/alex/Desktop/FileTools/main.m
+c000000004D560CBC00000000000000FE
+t1297484988
+s254
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/FileTools/movieicon.png
+c000000004D55EC7F0000000000000537
+t1297476735
+s1335
+
+N/Users/alex/Desktop/FileTools/trashfull.png
+c000000004D55F81600000000000006F9
+t1297479702
+s1785
+
+N/Users/alex/Desktop/FileTools/whenicon.png
+c000000004D55ECA00000000000000D38
+t1297476768
+s3384
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
+c000000004C23CA8F000000000000044A
+t1277414031
+s1098
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004CAA74050000000000084B90
+t1286239237
+s543632
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004CAA740500000000000036E0
+t1286239237
+s14048
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
+c000000004BBD2CE900000000000016D3
+t1270689001
+s5843
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-bodfvjvlnsofmqeuehvnminqmwlq/FileTools_Prefix.pch.gch
+t1297485371
+s54314768
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch.gch
+t1297609666
+s54314768
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch.gch
+t1297609698
+s56944432
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-hgscwxdaxxsatngmhhoqktdmmrzz/FileTools_Prefix.pch.gch
+t2
+s0
+
+NFileTools-Info.plist
+c000000004D580A96000000000000046B
+t1297615510
+s1131
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319308520#319308520#0(0"0(0#1#0"8627942496#0"0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o /Users/alex/Desktop/FileTools/ANDirectoryLister.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319305215.273636
+e319305215.440126
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o
+x/Users/alex/Desktop/FileTools/ANDirectoryLister.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/FileTools/ANDirectoryLister.m319305215#319305215#0(0"0(0#0#49"/Users/alex/Desktop/FileTools/ANDirectoryLister.m8617342368#1473"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANDirectoryLister.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o /Users/alex/Desktop/FileTools/ANGraySwitch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302500.040299
+e319302500.242880
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o
+x/Users/alex/Desktop/FileTools/ANGraySwitch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/Desktop/FileTools/ANGraySwitch.m319302500#319302500#0(0"0(0#0#44"/Users/alex/Desktop/FileTools/ANGraySwitch.m8611825184#1463"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANGraySwitch.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319303828.932450
+e319303829.694720
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeAtom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m319303828#319303829#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANQuicktimeAtom.m4049696142338911744#1469"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o /Users/alex/Desktop/FileTools/ANQuicktimeList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.712041
+e319302499.876062
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANQuicktimeList.m319302499#319302499#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANQuicktimeList.m8617937120#1469"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeList.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeMovie.o /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302498.932308
+e319302499.125821
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeMovie.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeMovie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m319302498#319302499#0(0"0(0#0#48"/Users/alex/Desktop/FileTools/ANQuicktimeMovie.m8618133792#1471"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeMovie.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o /Users/alex/Desktop/FileTools/ANSideMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319305405.954125
+e319305406.594045
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o
+x/Users/alex/Desktop/FileTools/ANSideMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/alex/Desktop/FileTools/ANSideMenu.m319305405#319305406#0(0"0(0#0#42"/Users/alex/Desktop/FileTools/ANSideMenu.m8615886016#1459"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenu.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuItem.o /Users/alex/Desktop/FileTools/ANSideMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319305335.553595
+e319305336.041701
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuItem.o
+x/Users/alex/Desktop/FileTools/ANSideMenuItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Desktop/FileTools/ANSideMenuItem.m319305335#319305336#0(0"0(0#0#46"/Users/alex/Desktop/FileTools/ANSideMenuItem.m8623462624#1467"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenuItem.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuItem.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuTitle.o /Users/alex/Desktop/FileTools/ANSideMenuTitle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302498.891519
+e319302499.090279
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuTitle.o
+x/Users/alex/Desktop/FileTools/ANSideMenuTitle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANSideMenuTitle.m319302498#319302499#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANSideMenuTitle.m8618686464#1469"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenuTitle.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenuTitle.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o /Users/alex/Desktop/FileTools/BackgroundView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.354248
+e319302499.535924
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o
+x/Users/alex/Desktop/FileTools/BackgroundView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Desktop/FileTools/BackgroundView.m319302499#319302499#0(0"0(0#0#46"/Users/alex/Desktop/FileTools/BackgroundView.m8618172576#1467"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/BackgroundView.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302498.473893
+e319302498.697784
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o
+x/Users/alex/Desktop/FileTools/FileToolsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m319302498#319302498#0(0"0(0#0#52"/Users/alex/Desktop/FileTools/FileToolsAppDelegate.m8598673472#1479"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.613868
+e319302501.479221
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o
+x/Users/alex/Desktop/FileTools/QuicktimeDeleteController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m319302499#319302501#0(0"0(0#0#57"/Users/alex/Desktop/FileTools/QuicktimeDeleteController.m8590506752#1489"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319304921.341591
+e319304921.844593
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o
+x/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319304921#319304921#0(0"0(0#0#52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m8607652736#1479"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o /Users/alex/Desktop/FileTools/SetFileController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.876161
+e319302500.040126
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o
+x/Users/alex/Desktop/FileTools/SetFileController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/FileTools/SetFileController.m319302499#319302500#0(0"0(0#0#49"/Users/alex/Desktop/FileTools/SetFileController.m8618904288#1473"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SetFileController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o /Users/alex/Desktop/FileTools/SettingsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.536033
+e319302499.711942
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o
+x/Users/alex/Desktop/FileTools/SettingsView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: incomplete implementation of class 'SettingsView'
+o/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: method definition for '-ok:' not found
+lSLF07#2@52"Compile /Users/alex/Desktop/FileTools/SettingsView.m319302499#319302499#0(205"/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: incomplete implementation of class 'SettingsView'/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: method definition for '-ok:' not found2(22@49"Incomplete implementation of class 'SettingsView'319302499#0#108#0(6@44"/Users/alex/Desktop/FileTools/SettingsView.m319220725#55#0#55#0#38"incomplete implementation of class '*'0(22@38"Method definition for '-ok:' not found319302499#108#97#0(6@44"/Users/alex/Desktop/FileTools/SettingsView.m319220725#55#0#55#0#35"method definition for '*' not found0(0#0#44"/Users/alex/Desktop/FileTools/SettingsView.m8609846944#1463"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SettingsView.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o /Users/alex/Desktop/FileTools/WhenFileAppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302499.125922
+e319302499.355331
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o
+x/Users/alex/Desktop/FileTools/WhenFileAppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alex/Desktop/FileTools/WhenFileAppController.m319302499#319302499#0(0"0(0#0#53"/Users/alex/Desktop/FileTools/WhenFileAppController.m8615621856#1481"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/WhenFileAppController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o /Users/alex/Desktop/FileTools/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302498.472904
+e319302498.651740
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/FileTools/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/alex/Desktop/FileTools/main.m319302498#319302498#0(0"0(0#0#36"/Users/alex/Desktop/FileTools/main.m8607224288#1447"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/main.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANGraySwitch.o /Users/alex/Desktop/FileTools/ANGraySwitch.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302468.399521
+e319302468.597190
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANGraySwitch.o
+x/Users/alex/Desktop/FileTools/ANGraySwitch.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/Desktop/FileTools/ANGraySwitch.m319302468#319302468#0(0"0(0#0#44"/Users/alex/Desktop/FileTools/ANGraySwitch.m8609224128#1469"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANGraySwitch.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANGraySwitch.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeAtom.o /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.346126
+e319302467.589687
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeAtom.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeAtom.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m319302467#319302467#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANQuicktimeAtom.m8609799520#1475"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeAtom.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeAtom.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeList.o /Users/alex/Desktop/FileTools/ANQuicktimeList.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302468.000979
+e319302468.207085
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeList.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeList.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANQuicktimeList.m319302468#319302468#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANQuicktimeList.m8603077600#1475"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeList.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeList.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeMovie.o /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.189617
+e319302467.405973
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeMovie.o
+x/Users/alex/Desktop/FileTools/ANQuicktimeMovie.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m319302467#319302467#0(0"0(0#0#48"/Users/alex/Desktop/FileTools/ANQuicktimeMovie.m8607116992#1477"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANQuicktimeMovie.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANQuicktimeMovie.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenu.o /Users/alex/Desktop/FileTools/ANSideMenu.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302466.817810
+e319302467.056633
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenu.o
+x/Users/alex/Desktop/FileTools/ANSideMenu.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/alex/Desktop/FileTools/ANSideMenu.m319302466#319302467#0(0"0(0#0#42"/Users/alex/Desktop/FileTools/ANSideMenu.m8609478336#1465"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenu.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenu.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuItem.o /Users/alex/Desktop/FileTools/ANSideMenuItem.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302466.880490
+e319302467.189418
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuItem.o
+x/Users/alex/Desktop/FileTools/ANSideMenuItem.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Desktop/FileTools/ANSideMenuItem.m319302466#319302467#0(0"0(0#0#46"/Users/alex/Desktop/FileTools/ANSideMenuItem.m8609411232#1473"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenuItem.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuItem.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuTitle.o /Users/alex/Desktop/FileTools/ANSideMenuTitle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.056743
+e319302467.346012
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuTitle.o
+x/Users/alex/Desktop/FileTools/ANSideMenuTitle.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/Desktop/FileTools/ANSideMenuTitle.m319302467#319302467#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/ANSideMenuTitle.m8607404064#1475"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/ANSideMenuTitle.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/ANSideMenuTitle.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/BackgroundView.o /Users/alex/Desktop/FileTools/BackgroundView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.589796
+e319302467.814747
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/BackgroundView.o
+x/Users/alex/Desktop/FileTools/BackgroundView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Desktop/FileTools/BackgroundView.m319302467#319302467#0(0"0(0#0#46"/Users/alex/Desktop/FileTools/BackgroundView.m8607118976#1473"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/BackgroundView.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/BackgroundView.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileToolsAppDelegate.o /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302466.582775
+e319302466.880393
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileToolsAppDelegate.o
+x/Users/alex/Desktop/FileTools/FileToolsAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m319302466#319302466#0(0"0(0#0#52"/Users/alex/Desktop/FileTools/FileToolsAppDelegate.m8604484448#1485"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/FileToolsAppDelegate.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileToolsAppDelegate.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/QuicktimeDeleteController.o /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.960925
+e319302468.399396
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/QuicktimeDeleteController.o
+x/Users/alex/Desktop/FileTools/QuicktimeDeleteController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m319302467#319302468#0(0"0(0#0#57"/Users/alex/Desktop/FileTools/QuicktimeDeleteController.m8606019936#1495"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/QuicktimeDeleteController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/QuicktimeDeleteController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SaveMyAssAppDelegate.o /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.624231
+e319302467.960820
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SaveMyAssAppDelegate.o
+x/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate calculateDirectorySize:]':
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:41: warning: 'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:49: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate removeFile:size:]':
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:91: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate removeDir:size:total:]':
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:101: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:108: warning: 'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:117: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate wipePath:]':
+o/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:175: warning: unused variable 'tag'
+lSLF07#2@60"Compile /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319302467#319302467#0(2029"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate calculateDirectorySize:]':/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:41: warning: 'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:49: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate removeFile:size:]':/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:91: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate removeDir:size:total:]':/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:101: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:108: warning: 'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:117: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m: In function '-[SaveMyAssAppDelegate wipePath:]':/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m:175: warning: unused variable 'tag'7(22@175"'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)319302467#117#242#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#41#0#41#0#33"'*' is deprecated (declared at *)0(22@185"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)319302467#359#252#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#49#0#49#0#33"'*' is deprecated (declared at *)0(22@185"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)319302467#721#252#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#91#0#91#0#33"'*' is deprecated (declared at *)0(22@185"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)319302467#1088#253#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#101#0#101#0#33"'*' is deprecated (declared at *)0(22@175"'directoryContentsAtPath:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)319302467#1341#243#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#108#0#108#0#33"'*' is deprecated (declared at *)0(22@185"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)319302467#1584#253#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#117#0#117#0#33"'*' is deprecated (declared at *)0(22@21"Unused variable 'tag'319302467#1940#89#0(6@52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m319222827#175#0#175#0#19"unused variable '*'0(0#0#52"/Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m8599995360#1485"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SaveMyAssAppDelegate.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SaveMyAssAppDelegate.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SetFileController.o /Users/alex/Desktop/FileTools/SetFileController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302468.207284
+e319302468.445319
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SetFileController.o
+x/Users/alex/Desktop/FileTools/SetFileController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/FileTools/SetFileController.m319302468#319302468#0(0"0(0#0#49"/Users/alex/Desktop/FileTools/SetFileController.m8612140736#1479"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SetFileController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SetFileController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SettingsView.o /Users/alex/Desktop/FileTools/SettingsView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.814850
+e319302468.000884
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SettingsView.o
+x/Users/alex/Desktop/FileTools/SettingsView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: incomplete implementation of class 'SettingsView'
+o/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: method definition for '-ok:' not found
+lSLF07#2@52"Compile /Users/alex/Desktop/FileTools/SettingsView.m319302467#319302468#0(205"/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: incomplete implementation of class 'SettingsView'/Users/alex/Desktop/FileTools/SettingsView.m:55: warning: method definition for '-ok:' not found2(22@49"Incomplete implementation of class 'SettingsView'319302467#0#108#0(6@44"/Users/alex/Desktop/FileTools/SettingsView.m319220725#55#0#55#0#38"incomplete implementation of class '*'0(22@38"Method definition for '-ok:' not found319302467#108#97#0(6@44"/Users/alex/Desktop/FileTools/SettingsView.m319220725#55#0#55#0#35"method definition for '*' not found0(0#0#44"/Users/alex/Desktop/FileTools/SettingsView.m8609343872#1469"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/SettingsView.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/SettingsView.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/WhenFileAppController.o /Users/alex/Desktop/FileTools/WhenFileAppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302467.406077
+e319302467.624137
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/WhenFileAppController.o
+x/Users/alex/Desktop/FileTools/WhenFileAppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alex/Desktop/FileTools/WhenFileAppController.m319302467#319302467#0(0"0(0#0#53"/Users/alex/Desktop/FileTools/WhenFileAppController.m8609420960#1487"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/WhenFileAppController.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/WhenFileAppController.o0#
+
+CCompileC build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/FileTools/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302466.581623
+e319302466.817700
+r1
+xCompileC
+xbuild/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/main.o
+x/Users/alex/Desktop/FileTools/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/alex/Desktop/FileTools/main.m319302466#319302466#0(0"0(0#0#36"/Users/alex/Desktop/FileTools/main.m8603763616#1453"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch -c /Users/alex/Desktop/FileTools/main.m -o /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib
+s319307484.304855
+e319307484.850062
+r1
+xCompileXIB
+x/Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319307484#319307484#0(0"0(0#0#56"/Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib8629284192#369"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/FileTools/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s319256582.676334
+e319256583.069588
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings319256582#319256583#0(0"0(0#0#61"/Users/alex/Desktop/FileTools/English.lproj/InfoPlist.strings8623324768#364"    cd /Users/alex/Desktop/FileTools    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+s319307395.418626
+e319307395.466586
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/dsa_pub.pem
+xdsa_pub.pem
+lSLF07#2@16"Copy dsa_pub.pem319307395#319307395#0(0"0(0#0#41"/Users/alex/Desktop/FileTools/dsa_pub.pem8627518304#331"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/dsa_pub.pem /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/filetools.icns filetools.icns
+s319307395.419234
+e319307395.467703
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/filetools.icns
+xfiletools.icns
+lSLF07#2@19"Copy filetools.icns319307395#319307395#0(0"0(0#0#44"/Users/alex/Desktop/FileTools/filetools.icns8626427456#334"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/filetools.icns /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/finder.png finder.png
+s319256583.077096
+e319256583.109768
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/finder.png
+xfinder.png
+lSLF07#2@15"Copy finder.png319256583#319256583#0(0"0(0#0#40"/Users/alex/Desktop/FileTools/finder.png8620995456#330"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/finder.png /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/glass.wav glass.wav
+s319256583.075592
+e319256583.116550
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/glass.wav
+xglass.wav
+lSLF07#2@14"Copy glass.wav319256583#319256583#0(0"0(0#0#39"/Users/alex/Desktop/FileTools/glass.wav8624103904#329"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/glass.wav /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/movieicon.png ../FancySideMenu/movieicon.png
+r0
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/movieicon.png movieicon.png
+s319256583.073934
+e319256583.109631
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/movieicon.png
+xmovieicon.png
+lSLF07#2@18"Copy movieicon.png319256583#319256583#0(0"0(0#0#43"/Users/alex/Desktop/FileTools/movieicon.png8624444640#333"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/movieicon.png /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/trashfull.png ../FancySideMenu/trashfull.png
+r0
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/trashfull.png trashfull.png
+s319256583.069674
+e319256583.109274
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/trashfull.png
+xtrashfull.png
+lSLF07#2@18"Copy trashfull.png319256583#319256583#0(0"0(0#0#43"/Users/alex/Desktop/FileTools/trashfull.png8623889152#333"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/trashfull.png /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/whenicon.png ../FancySideMenu/whenicon.png
+r0
+
+CCpResource build/Debug/FileTools.app/Contents/Resources/whenicon.png whenicon.png
+s319256583.071380
+e319256583.109453
+r1
+xCpResource
+xbuild/Debug/FileTools.app/Contents/Resources/whenicon.png
+xwhenicon.png
+lSLF07#2@17"Copy whenicon.png319256583#319256583#0(0"0(0#0#42"/Users/alex/Desktop/FileTools/whenicon.png8615896160#332"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/whenicon.png /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Resources0#
+
+CLd /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools normal i386
+s319305406.594138
+e319305406.647619
+r1
+xLd
+x/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools
+xnormal
+xi386
+lSLF07#2@85"Link /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools319305406#319305406#0(0"0(0#0#0"8621351168#619"    cd /Users/alex/Desktop/FileTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -filelist /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileTools.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework QTKit -framework Quartz -framework Sparkle -o /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools0#
+
+CLd /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools normal x86_64
+s319302468.597288
+e319302469.190061
+r1
+xLd
+x/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools
+xnormal
+xx86_64
+lSLF07#2@85"Link /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools319302468#319302469#0(0"0(0#0#0"8612209152#623"    cd /Users/alex/Desktop/FileTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -filelist /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/x86_64/FileTools.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework QTKit -framework Quartz -framework Sparkle -o /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools0#
+
+CPBXCp build/Debug/FileTools.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s319302469.190157
+e319302469.238348
+r1
+xPBXCp
+xbuild/Debug/FileTools.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework319302469#319302469#0(0"0(0#0#47"/Users/alex/Desktop/FileTools/Sparkle.framework8607189184#338"    cd /Users/alex/Desktop/FileTools    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/FileTools/Sparkle.framework /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Info.plist FileTools-Info.plist
+s319308311.802100
+e319308311.806840
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Info.plist
+xFileTools-Info.plist
+lSLF07#2@28"Process FileTools-Info.plist319308311#319308311#0(0"0(0#0#50"/Users/alex/Desktop/FileTools/FileTools-Info.plist8627157152#289"    cd /Users/alex/Desktop/FileTools    builtin-infoPlistUtility FileTools-Info.plist -genpkginfo /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/FileTools/build/Debug/FileTools.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-bodfvjvlnsofmqeuehvnminqmwlq/FileTools_Prefix.pch.gch FileTools_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319178167.767385
+e319178171.696240
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-bodfvjvlnsofmqeuehvnminqmwlq/FileTools_Prefix.pch.gch
+xFileTools_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FileTools_Prefix.pch319178167#319178171#0(0"0(0#0#50"/Users/alex/Desktop/FileTools/FileTools_Prefix.pch8629709088#1334"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -c /Users/alex/Desktop/FileTools/FileTools_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-bodfvjvlnsofmqeuehvnminqmwlq/FileTools_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch.gch FileTools_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319302460.712197
+e319302466.581477
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch.gch
+xFileTools_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FileTools_Prefix.pch319302460#319302466#0(0"0(0#0#50"/Users/alex/Desktop/FileTools/FileTools_Prefix.pch8611789120#1366"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/x86_64 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -c /Users/alex/Desktop/FileTools/FileTools_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-ewilwnxhnwzgovefotbizhikxtkt/FileTools_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch.gch FileTools_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319302495.139438
+e319302498.472720
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch.gch
+xFileTools_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FileTools_Prefix.pch319302495#319302498#0(0"0(0#0#50"/Users/alex/Desktop/FileTools/FileTools_Prefix.pch8612466464#1362"    cd /Users/alex/Desktop/FileTools    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-generated-files.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-own-target-headers.hmap -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-all-target-headers.hmap -iquote /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/FileTools-project-headers.hmap -F/Users/alex/Desktop/FileTools/build/Debug -F/Users/alex/Desktop/FileTools -I/Users/alex/Desktop/FileTools/build/Debug/include -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources/i386 -I/Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/DerivedSources -c /Users/alex/Desktop/FileTools/FileTools_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-gtyoocuelejackhhlyqanbvsijzm/FileTools_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-hgscwxdaxxsatngmhhoqktdmmrzz/FileTools_Prefix.pch.gch FileTools_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/alex/Desktop/FileTools/build/Debug/FileTools.app
+s319308311.809513
+e319308311.812265
+r1
+xTouch
+x/Users/alex/Desktop/FileTools/build/Debug/FileTools.app
+lSLF07#2@61"Touch /Users/alex/Desktop/FileTools/build/Debug/FileTools.app319308311#319308311#0(0"0(0#0#0"8625631040#115"    cd /Users/alex/Desktop/FileTools    /usr/bin/touch -c /Users/alex/Desktop/FileTools/build/Debug/FileTools.app0#
+
