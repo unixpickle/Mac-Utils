@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA233A371302042700C41EC7</string>
+										<string>FA233A46130204F300C41EC7</string>
 										<key>history</key>
 										<array>
 											<string>FA06818813020204000C2A46</string>
@@ -529,13 +529,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FA233A421302042700C41EC7</string>
 		<string>FA233A431302042700C41EC7</string>
 		<string>FA233A441302042700C41EC7</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA06818F13020204000C2A46</string>
 		<string>/Users/alex/xCode/git/Mac-Utils/dockrw/dockrw.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>444 554 788 504 0 0 1920 1058 </string>
@@ -917,7 +916,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
