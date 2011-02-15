@@ -21,6 +21,8 @@
 	IBOutlet NSView * quicktimeView;
 	IBOutlet NSView * deleteView;
 	IBOutlet NSView * setFileView;
+	IBOutlet NSView * resourceForkView;
+	IBOutlet NSView * resourceForkChangeView;
 	IBOutlet NSView * mainView;
 	ANSideMenu * menu;
 	BOOL switching;

@@ -24,15 +24,24 @@
 																	icon:[NSImage imageNamed:@"trashfull.png"]];
 	ANSideMenuItem * setFiles = [[ANSideMenuItem alloc] initWithTitle:@"File Flags"
 																	icon:[NSImage imageNamed:@"finder.png"]];
+	ANSideMenuTitle * title3 = [[ANSideMenuTitle alloc] initWithTitle:@"RESOURCE FORKS"];
+
+	ANSideMenuItem * dumpFork = [[ANSideMenuItem alloc] initWithTitle:@"Resource Fork Dump"
+																 icon:[NSImage imageNamed:@"resourcefork.png"]];
+	ANSideMenuItem * setFork = [[ANSideMenuItem alloc] initWithTitle:@"Resource Fork Set"
+																 icon:[NSImage imageNamed:@"resourcefork.png"]];
 	switching = NO;
 	[setDate setDelegate:self];
 	[setVideo setDelegate:self];
 	[deleteFiles setDelegate:self];
 	[setFiles setDelegate:self];
+	[dumpFork setDelegate:self];
+	[setFork setDelegate:self];
 	[setDate setSelected:YES];
 	
 	NSArray * items = [NSArray arrayWithObjects:setTitle, 
-					   setDate, setVideo, title2, deleteFiles, setFiles, nil];
+					   setDate, setVideo, title2, deleteFiles, 
+					   setFiles, title3, dumpFork, setFork, nil];
 	menu = [[ANSideMenu alloc] initWithFrame:NSMakeRect(0, 0, 200, [[window contentView] frame].size.height)];
 	[menu setItems:items];
 	[[window contentView] addSubview:menu];
@@ -40,11 +49,14 @@
 	[setTitle release];
 	[setVideo release];
 	[setDate release];
+	[dumpFork release];
+	[title3 release];
 	[deleteFiles release];
 	[title2 release];
 	[setFiles release];
 	[menu release];
 	[window setDelegate:self];
+	[window makeFirstResponder:menu];
 }
 
 - (NSSize)windowWillResize:(NSWindow *)sender toSize:(NSSize)frameSize {
@@ -126,6 +138,16 @@
 		if (lastView == setFileView) lastView = nil;
 		[setFileView setBoundsSize:NSMakeSize(400, 500)];
 		[setFileView setAlphaValue:1];
+	} else if ([[sender title] isEqual:@"Resource Fork Dump"]) {
+		[mainView addSubview:resourceForkView];
+		if (lastView == resourceForkView) lastView = nil;
+		[resourceForkView setBoundsSize:NSMakeSize(400, 500)];
+		[resourceForkView setAlphaValue:1];
+	} else if ([[sender title] isEqual:@"Resource Fork Set"]) {
+		[mainView addSubview:resourceForkChangeView];
+		if (lastView == resourceForkChangeView) lastView = nil;
+		[resourceForkChangeView setBoundsSize:NSMakeSize(400, 500)];
+		[resourceForkChangeView setAlphaValue:1];
 	}
 	if (lastView) {
 		[lastView removeFromSuperview];

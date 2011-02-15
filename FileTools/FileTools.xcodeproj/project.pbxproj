@@ -32,6 +32,11 @@
 		FA8B68D413074C0B0099E25B /* finder.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B68D313074C0B0099E25B /* finder.png */; };
 		FA8B68D713074C1B0099E25B /* SetFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B68D613074C1B0099E25B /* SetFileController.m */; };
 		FA8B68DD130752360099E25B /* ANGraySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B68DC130752360099E25B /* ANGraySwitch.m */; };
+		FAB951731309F30C00D92476 /* ResourceForkDumpController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB951721309F30C00D92476 /* ResourceForkDumpController.m */; };
+		FAB9517C1309F32F00D92476 /* ResourceForkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9517B1309F32F00D92476 /* ResourceForkManager.m */; };
+		FAB951861309F59900D92476 /* resourcefork.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB951851309F59900D92476 /* resourcefork.png */; };
+		FAB951A81309F8DA00D92476 /* ResourceForkModController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB951A71309F8DA00D92476 /* ResourceForkModController.m */; };
+		FAB951D3130A043400D92476 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB951D2130A043400D92476 /* TitleView.m */; };
 		FAECD8CC13082B5C0021997C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAECD8CB13082B5C0021997C /* Sparkle.framework */; };
 		FAECD8D513082B5E0021997C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAECD8CB13082B5C0021997C /* Sparkle.framework */; };
 		FAECD901130833C70021997C /* ANDirectoryLister.m in Sources */ = {isa = PBXBuildFile; fileRef = FAECD900130833C70021997C /* ANDirectoryLister.m */; };
@@ -98,6 +103,15 @@
 		FA8B68D613074C1B0099E25B /* SetFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetFileController.m; sourceTree = "<group>"; };
 		FA8B68DB130752360099E25B /* ANGraySwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGraySwitch.h; sourceTree = "<group>"; };
 		FA8B68DC130752360099E25B /* ANGraySwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGraySwitch.m; sourceTree = "<group>"; };
+		FAB951711309F30C00D92476 /* ResourceForkDumpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceForkDumpController.h; sourceTree = "<group>"; };
+		FAB951721309F30C00D92476 /* ResourceForkDumpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceForkDumpController.m; sourceTree = "<group>"; };
+		FAB9517A1309F32F00D92476 /* ResourceForkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceForkManager.h; sourceTree = "<group>"; };
+		FAB9517B1309F32F00D92476 /* ResourceForkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceForkManager.m; sourceTree = "<group>"; };
+		FAB951851309F59900D92476 /* resourcefork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resourcefork.png; sourceTree = "<group>"; };
+		FAB951A61309F8DA00D92476 /* ResourceForkModController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceForkModController.h; sourceTree = "<group>"; };
+		FAB951A71309F8DA00D92476 /* ResourceForkModController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceForkModController.m; sourceTree = "<group>"; };
+		FAB951D1130A043400D92476 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		FAB951D2130A043400D92476 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 		FAECD8CB13082B5C0021997C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FAECD8FF130833C70021997C /* ANDirectoryLister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDirectoryLister.h; sourceTree = "<group>"; };
 		FAECD900130833C70021997C /* ANDirectoryLister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDirectoryLister.m; sourceTree = "<group>"; };
@@ -123,6 +137,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FAB951A51309F8CF00D92476 /* ResourceForkMod */,
+				FAB9516F1309F2F800D92476 /* ResourceForkDump */,
 				FA8B68C813074B960099E25B /* SetFile */,
 				FA0AF12C1307084E0081EDAD /* QuicktimeDelete */,
 				FA0AEF941306CE580081EDAD /* Secure Delete */,
@@ -137,6 +153,8 @@
 				FA19850C1306444A0025145C /* ANSideMenuTitle.m */,
 				FA1986AE130657630025145C /* BackgroundView.h */,
 				FA1986AF130657630025145C /* BackgroundView.m */,
+				FAB951D1130A043400D92476 /* TitleView.h */,
+				FAB951D2130A043400D92476 /* TitleView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -197,6 +215,7 @@
 				FAECD94E13083E600021997C /* filetools.icns */,
 				FAECD94C13083CD90021997C /* dsa_pub.pem */,
 				FA0AEFF01306EECF0081EDAD /* glass.wav */,
+				FAB951851309F59900D92476 /* resourcefork.png */,
 				FA8B68D313074C0B0099E25B /* finder.png */,
 				FA198530130645E30025145C /* trashfull.png */,
 				FA198531130645E30025145C /* whenicon.png */,
@@ -265,6 +284,26 @@
 			name = SetFile;
 			sourceTree = "<group>";
 		};
+		FAB9516F1309F2F800D92476 /* ResourceForkDump */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9517A1309F32F00D92476 /* ResourceForkManager.h */,
+				FAB9517B1309F32F00D92476 /* ResourceForkManager.m */,
+				FAB951711309F30C00D92476 /* ResourceForkDumpController.h */,
+				FAB951721309F30C00D92476 /* ResourceForkDumpController.m */,
+			);
+			name = ResourceForkDump;
+			sourceTree = "<group>";
+		};
+		FAB951A51309F8CF00D92476 /* ResourceForkMod */ = {
+			isa = PBXGroup;
+			children = (
+				FAB951A61309F8DA00D92476 /* ResourceForkModController.h */,
+				FAB951A71309F8DA00D92476 /* ResourceForkModController.m */,
+			);
+			name = ResourceForkMod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +364,7 @@
 				FA8B68D413074C0B0099E25B /* finder.png in Resources */,
 				FAECD94D13083CD90021997C /* dsa_pub.pem in Resources */,
 				FAECD94F13083E600021997C /* filetools.icns in Resources */,
+				FAB951861309F59900D92476 /* resourcefork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +391,10 @@
 				FA8B68D713074C1B0099E25B /* SetFileController.m in Sources */,
 				FA8B68DD130752360099E25B /* ANGraySwitch.m in Sources */,
 				FAECD901130833C70021997C /* ANDirectoryLister.m in Sources */,
+				FAB951731309F30C00D92476 /* ResourceForkDumpController.m in Sources */,
+				FAB9517C1309F32F00D92476 /* ResourceForkManager.m in Sources */,
+				FAB951A81309F8DA00D92476 /* ResourceForkModController.m in Sources */,
+				FAB951D3130A043400D92476 /* TitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
