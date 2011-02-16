@@ -29,6 +29,7 @@
 		FA19858513064C900025145C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA19858413064C900025145C /* Quartz.framework */; };
 		FA1985F313064E030025145C /* WhenFileAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA198548130647A90025145C /* WhenFileAppController.m */; };
 		FA1986B0130657630025145C /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1986AF130657630025145C /* BackgroundView.m */; };
+		FA521887130B50E60065A0FE /* ANProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA521886130B50E60065A0FE /* ANProgressBar.m */; };
 		FA8B68D413074C0B0099E25B /* finder.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8B68D313074C0B0099E25B /* finder.png */; };
 		FA8B68D713074C1B0099E25B /* SetFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B68D613074C1B0099E25B /* SetFileController.m */; };
 		FA8B68DD130752360099E25B /* ANGraySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8B68DC130752360099E25B /* ANGraySwitch.m */; };
@@ -98,6 +99,8 @@
 		FA19858413064C900025145C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		FA1986AE130657630025145C /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
 		FA1986AF130657630025145C /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		FA521885130B50E60065A0FE /* ANProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANProgressBar.h; sourceTree = "<group>"; };
+		FA521886130B50E60065A0FE /* ANProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANProgressBar.m; sourceTree = "<group>"; };
 		FA8B68D313074C0B0099E25B /* finder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finder.png; sourceTree = "<group>"; };
 		FA8B68D513074C1B0099E25B /* SetFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetFileController.h; sourceTree = "<group>"; };
 		FA8B68D613074C1B0099E25B /* SetFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetFileController.m; sourceTree = "<group>"; };
@@ -245,6 +248,8 @@
 				FA0AEF9E1306D0050081EDAD /* SaveMyAssAppDelegate.m */,
 				FA0AEFA11306D0650081EDAD /* SettingsView.h */,
 				FA0AEFA21306D0650081EDAD /* SettingsView.m */,
+				FA521885130B50E60065A0FE /* ANProgressBar.h */,
+				FA521886130B50E60065A0FE /* ANProgressBar.m */,
 			);
 			name = "Secure Delete";
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				FAB9517C1309F32F00D92476 /* ResourceForkManager.m in Sources */,
 				FAB951A81309F8DA00D92476 /* ResourceForkModController.m in Sources */,
 				FAB951D3130A043400D92476 /* TitleView.m in Sources */,
+				FA521887130B50E60065A0FE /* ANProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

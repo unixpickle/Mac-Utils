@@ -25,7 +25,7 @@
 
 - (void)stopLoading {
 	[eraseButton setTitle:@"Wipe"];
-	[progress setDoubleValue:0];
+	[progress setProgress:0];
 	[progressLabel setStringValue:@"0%"];
 	[filePath setStringValue:@""];
 	
@@ -64,12 +64,12 @@
 - (void)setLoadProgress {
 	double d = (((double)currentBytes / (double)totalBytes) * 100);
 	//NSLog(@"Progress %lf", d);
-	[progress setDoubleValue:d];
+	[progress setProgress:d];
 	[progressLabel setStringValue:[NSString stringWithFormat:@"%d%%", (int)d]];
 }
 
 - (void)removeFile:(NSString *)path size:(long long)size {
-	NSLog(@"File Path: %@", path);
+	// NSLog(@"File Path: %@", path);
 	
 	
 	
@@ -85,13 +85,14 @@
 		NSFileHandle * handle = [NSFileHandle fileHandleForUpdatingAtPath:path];
 		[handle seekToFileOffset:0];
 		for (int j = 0; j < buffers; j++) {
+			if ([[NSThread currentThread] isCancelled]) break;
 			[handle writeData:dat];
 		}
 		currentBytes += addSize;
 		[self performSelectorOnMainThread:@selector(setLoadProgress) withObject:nil waitUntilDone:YES];
 	}
 	currentBytes = backupSize + size;
-	
+	if ([[NSThread currentThread] isCancelled]) return;
 	if (dateOverwrite) {
 		NSMutableDictionary * dict = [[NSMutableDictionary alloc] initWithDictionary:[[NSFileManager defaultManager] attributesOfItemAtPath:path error:nil]];
 		[dict setValue:[NSDate dateWithTimeIntervalSince1970:10] forKey:@"NSFileCreationDate"];
@@ -102,7 +103,6 @@
 }
 
 - (int)removeDir:(NSString *)path size:(long long)progress1 total:(long long)totalSize {
-	
 	if (dateOverwrite) {
 		NSMutableDictionary * dict = [[NSMutableDictionary alloc] initWithDictionary:[[NSFileManager defaultManager] attributesOfItemAtPath:path error:nil]];
 		[dict setValue:[NSDate dateWithTimeIntervalSince1970:10] forKey:@"NSFileCreationDate"];
@@ -201,6 +201,7 @@
 
 - (IBAction)erase:(id)sender {
 	[dat release];
+	dat = nil;
 	NSString * title = [eraseButton title];
 	if ([title isEqual:@"Wipe"]) {
 		bufferSize = [[self settingForKey:@"buffer"] intValue];
@@ -245,7 +246,7 @@
 		[eraseButton setTitle:@"Wipe"];
 		[wipeThread cancel];
 		wipeThread = nil;
-		[progress setDoubleValue:0];
+		[progress setProgress:0];
 		[progressLabel setStringValue:@"0%"];
 	}
 }

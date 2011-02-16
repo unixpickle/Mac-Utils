@@ -1,3 +1,7 @@
+8fca5f916deeebf75497b0d5513827ea 458f48ef7794cd0eae397711440c7391 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app
+00000000000000000000000000000000 dd6f92a4360c60ac0195399394dba68b ffffffffffffffffffffffffffffffff 8 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/PkgInfo
+00000000000000000000000000000000 dd6f92a4360c60ac0195399394dba68b ffffffffffffffffffffffffffffffff 1093 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Info.plist
+3aa3718a3bca0d5f7c072fa1efa49523 813374acecc8f3979cf47801d6a4c356 ffffffffffffffffffffffffffffffff 18816 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANProgressBar.o
 3aa3718a3bca0a717c072fa1efa49f57 9a14838a58fb2d0a6778d3f4fbab6970 ffffffffffffffffffffffffffffffff 13604 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/TitleView.o
 3aa3718a7be0871c7c072fa1efa49da9 63001a25c33acc4ba3eaa0a270d52cb0 ffffffffffffffffffffffffffffffff 22256 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ResourceForkModController.o
 3aa3718a77e9b7b77c072fa1efa49081 724a167a3c40433e488cc4ef5efc7e8b ffffffffffffffffffffffffffffffff 15228 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ResourceForkManager.o
@@ -8,7 +12,7 @@
 3aa3718a3ab929537c072fa1efa48460 9eb5a6bebda8e1601bfe5ce933924d38 ffffffffffffffffffffffffffffffff 13352 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeList.o
 3aa3718a7a7b9a0a7c072fa1efa495e3 10465ac1efac32f0509ea8cce62ac565 ffffffffffffffffffffffffffffffff 27000 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/QuicktimeDeleteController.o
 3aa3718a3bca08aa7c072fa1efa49719 3f93da199704c7da8473d17eeba546db ffffffffffffffffffffffffffffffff 20056 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SettingsView.o
-3aa3718a377502577c072fa1efa4aecd f648fb3bb9ff05b1d30037d4a0434fca ffffffffffffffffffffffffffffffff 43484 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o
+3aa3718a3aeab5587c072fa1efa4ae9a f648fb3bb9ff05b1d30037d4a0434fca ffffffffffffffffffffffffffffffff 43800 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SaveMyAssAppDelegate.o
 3aa3718a3bca33b67c072fa1efa49c38 1e4d95235399c4a5dee42a89d90bd5d9 ffffffffffffffffffffffffffffffff 12272 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/BackgroundView.o
 3aa3718a3bca08907c072fa1efa49903 fd913999561ffb5559014ffd615734b5 ffffffffffffffffffffffffffffffff 23924 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/WhenFileAppController.o
 3aa3718a372a7c847c072fa1efa480c9 70a1767e4ce25493d02bf8943b59b1e3 ffffffffffffffffffffffffffffffff 20312 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANQuicktimeAtom.o
@@ -18,9 +22,8 @@
 3aa3718a3bcb274a7c072fa1efa48cc9 db4779ced992e610974d63643237062e ffffffffffffffffffffffffffffffff 31376 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANSideMenu.o
 3aa3718a365b5f017c072fa1efa488dc 0231b4ea4c0281ce8962b712324e51c3 ffffffffffffffffffffffffffffffff 35736 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/FileToolsAppDelegate.o
 3aa3718a769c04217c072fa1efa49d67 f4a673066af5d6c5b7558c16631d88de ffffffffffffffffffffffffffffffff 4892 /Users/alex/xCode/git/Mac-Utils/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/main.o
-345a5ab7b771773fb464e775683869ba 458f48ef7794cd0eae397711440c7391 ffffffffffffffffffffffffffffffff 102 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 204 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Frameworks/Sparkle.framework
-d284217f3335228ac7bd8c3967071ef8 79d7d7e55d38691139ba67005e38e623 ffffffffffffffffffffffffffffffff 111208 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools
+69142459e9a86b4d274edb995e0748da 79d7d7e55d38691139ba67005e38e623 ffffffffffffffffffffffffffffffff 116312 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/MacOS/FileTools
 000000000d92a6d40000000000000170 3aa3718a769c04217c072fa1efa49d0c ffffffffffffffffffffffffffffffff 56944432 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileTools_Prefix-heragtrewvnpjdbzezmzfrmbtlqb/FileTools_Prefix.pch.gch
 00000000000000000000000000000000 c61f3bd7be3f46ca63217810a4bcb4a5 ffffffffffffffffffffffffffffffff 1342 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/resourcefork.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 77792 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/filetools.icns
@@ -30,10 +33,8 @@ ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffff
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1335 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/movieicon.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 3384 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/whenicon.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1785 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/trashfull.png
-000000004d59cea800000000000593c0 6729f84f4d7e647a3efdd684c3490a98 ffffffffffffffffffffffffffffffff 69045 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004d5b1ba70000000000058bb2 6729f84f4d7e647a3efdd684c3490a98 ffffffffffffffffffffffffffffffff 68499 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/MainMenu.nib
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 92 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Resources/English.lproj/InfoPlist.strings
-00000000000000000000000000000000 dd6f92a4360c60ac0195399394dba68b ffffffffffffffffffffffffffffffff 8 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/PkgInfo
-00000000000000000000000000000000 dd6f92a4360c60ac0195399394dba68b ffffffffffffffffffffffffffffffff 1093 /Users/alex/xCode/git/Mac-Utils/FileTools/build/Debug/FileTools.app/Contents/Info.plist
 0f3253e1e0c2f9af39a7a96516cd2df7 6da9f4730ee257a1f0a192119c9c8dde ffffffffffffffffffffffffffffffff 10640 /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANDirectoryLister.o
 0f3253e1ebe27e5839a7a96516cd5dea 1103c9477a4d87d34a34df50143763c3 ffffffffffffffffffffffffffffffff 30332 /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/ANGraySwitch.o
 0f3253e1e67195c439a7a96516cd4f3e e4e43ddc6f8dd951adaff64659a9a648 ffffffffffffffffffffffffffffffff 26888 /Users/alex/Desktop/FileTools/build/FileTools.build/Debug/FileTools.build/Objects-normal/i386/SetFileController.o

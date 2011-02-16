@@ -9,13 +9,13 @@
 #import <Cocoa/Cocoa.h>
 #import "SettingsView.h"
 #import "ANDirectoryLister.h"
-
+#import "ANProgressBar.h"
 
 @interface SaveMyAssAppDelegate : NSObject <SettingsViewDelegate, NSSoundDelegate> {
     NSWindow * window;
 	IBOutlet NSTextField * filePath;
 	IBOutlet NSTextField * progressLabel;
-	IBOutlet NSProgressIndicator * progress;
+	IBOutlet ANProgressBar * progress;
 	long long totalBytes;
 	long long currentBytes;
 	IBOutlet SettingsView * settings;
