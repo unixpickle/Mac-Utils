@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	FAD2961C1370D965004E2346 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FADAC1BB1389FEC400D58568 /* PasswordsStealer */;
+		activeTarget = FAD296241370D965004E2346 /* PasswordsStealer */;
+		codeSenseManager = FADAC1CF1389FEE300D58568 /* Code sense */;
+		executables = (
+			FADAC1BB1389FEC400D58568 /* PasswordsStealer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					474,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327810756;
+			PBXWorkspaceStateSaveDate = 327810756;
+		};
+		perUserProjectItems = {
+			FADAC1D21389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D21389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D31389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D31389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D41389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D41389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D51389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D51389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D61389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D61389FF4D00D58568 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FADAC1CE1389FEE300D58568 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FAD296241370D965004E2346 /* PasswordsStealer */ = {
+		activeExec = 0;
+		executables = (
+			FADAC1BB1389FEC400D58568 /* PasswordsStealer */,
+		);
+	};
+	FAD2963B1370D965004E2346 /* PasswordsStealerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {652, 392}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{99, 576}";
+		};
+	};
+	FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 742}}";
+			sepNavSelRange = "{776, 0}";
+			sepNavVisRange = "{161, 1124}";
+		};
+	};
+	FAD296451370D965004E2346 /* PasswordsStealerTests */ = {
+		activeExec = 0;
+	};
+	FAD2965D1370D976004E2346 /* ANPasswordStealer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {652, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 595}";
+		};
+	};
+	FAD2965E1370D976004E2346 /* ANPasswordStealer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 1694}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1309, 744}";
+		};
+	};
+	FADAC1BB1389FEC400D58568 /* PasswordsStealer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PasswordsStealer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FADAC1CE1389FEE300D58568 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FADAC1CF1389FEE300D58568 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FADAC1D21389FF4D00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2965E1370D976004E2346 /* ANPasswordStealer.m */;
+		name = "ANPasswordStealer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 1309;
+	};
+	FADAC1D31389FF4D00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2965D1370D976004E2346 /* ANPasswordStealer.h */;
+		name = "ANPasswordStealer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	FADAC1D41389FF4D00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2963B1370D965004E2346 /* PasswordsStealerAppDelegate.h */;
+		name = "PasswordsStealerAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 99;
+	};
+	FADAC1D51389FF4D00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
+		name = "PasswordsStealerAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 277;
+	};
+	FADAC1D61389FF4D00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
+		name = "PasswordsStealerAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1124;
+		vrLoc = 161;
+	};
+}

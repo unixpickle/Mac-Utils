@@ -23,6 +23,7 @@
 	IBOutlet NSButton * check_shift;
 	IBOutlet NSWindow * aboutWindow;
 	NSWindowController * wc;
+	NSStatusItem * _statusItem;
 }
 
 - (void)enableControls;

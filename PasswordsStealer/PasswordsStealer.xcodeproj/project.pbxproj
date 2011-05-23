@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD2962A1370D965004E2346 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD296291370D965004E2346 /* Cocoa.framework */; };
+		FAD296341370D965004E2346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD296321370D965004E2346 /* InfoPlist.strings */; };
+		FAD296371370D965004E2346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD296361370D965004E2346 /* main.m */; };
+		FAD2963A1370D965004E2346 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAD296381370D965004E2346 /* Credits.rtf */; };
+		FAD2963D1370D965004E2346 /* PasswordsStealerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */; };
+		FAD296401370D965004E2346 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD2963E1370D965004E2346 /* MainMenu.xib */; };
+		FAD296471370D965004E2346 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD296291370D965004E2346 /* Cocoa.framework */; };
+		FAD2964F1370D965004E2346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD2964D1370D965004E2346 /* InfoPlist.strings */; };
+		FAD296521370D965004E2346 /* PasswordsStealerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FAD296511370D965004E2346 /* PasswordsStealerTests.h */; };
+		FAD296541370D965004E2346 /* PasswordsStealerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD296531370D965004E2346 /* PasswordsStealerTests.m */; };
+		FAD2965F1370D976004E2346 /* ANPasswordStealer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2965E1370D976004E2346 /* ANPasswordStealer.m */; };
+		FAD296611370DD13004E2346 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD296601370DD13004E2346 /* Security.framework */; };
+		FAD296641370E0F2004E2346 /* ANAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD296631370E0F2004E2346 /* ANAccount.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD296481370D965004E2346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD2961C1370D965004E2346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD296241370D965004E2346;
+			remoteInfo = PasswordsStealer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD296251370D965004E2346 /* PasswordsStealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordsStealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD296291370D965004E2346 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAD2962C1370D965004E2346 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAD2962D1370D965004E2346 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAD2962E1370D965004E2346 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD296311370D965004E2346 /* PasswordsStealer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordsStealer-Info.plist"; sourceTree = "<group>"; };
+		FAD296331370D965004E2346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD296351370D965004E2346 /* PasswordsStealer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordsStealer-Prefix.pch"; sourceTree = "<group>"; };
+		FAD296361370D965004E2346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD296391370D965004E2346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAD2963B1370D965004E2346 /* PasswordsStealerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordsStealerAppDelegate.h; sourceTree = "<group>"; };
+		FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordsStealerAppDelegate.m; sourceTree = "<group>"; };
+		FAD2963F1370D965004E2346 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAD296461370D965004E2346 /* PasswordsStealerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordsStealerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD2964C1370D965004E2346 /* PasswordsStealerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordsStealerTests-Info.plist"; sourceTree = "<group>"; };
+		FAD2964E1370D965004E2346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD296501370D965004E2346 /* PasswordsStealerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordsStealerTests-Prefix.pch"; sourceTree = "<group>"; };
+		FAD296511370D965004E2346 /* PasswordsStealerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordsStealerTests.h; sourceTree = "<group>"; };
+		FAD296531370D965004E2346 /* PasswordsStealerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordsStealerTests.m; sourceTree = "<group>"; };
+		FAD2965D1370D976004E2346 /* ANPasswordStealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPasswordStealer.h; sourceTree = "<group>"; };
+		FAD2965E1370D976004E2346 /* ANPasswordStealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANPasswordStealer.m; sourceTree = "<group>"; };
+		FAD296601370DD13004E2346 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAD296621370E0F2004E2346 /* ANAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAccount.h; sourceTree = "<group>"; };
+		FAD296631370E0F2004E2346 /* ANAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAccount.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD296221370D965004E2346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD296611370DD13004E2346 /* Security.framework in Frameworks */,
+				FAD2962A1370D965004E2346 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD296421370D965004E2346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD296471370D965004E2346 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD2961A1370D965004E2346 = {
+			isa = PBXGroup;
+			children = (
+				FAD2962F1370D965004E2346 /* PasswordsStealer */,
+				FAD2964A1370D965004E2346 /* PasswordsStealerTests */,
+				FAD296281370D965004E2346 /* Frameworks */,
+				FAD296261370D965004E2346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD296261370D965004E2346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD296251370D965004E2346 /* PasswordsStealer.app */,
+				FAD296461370D965004E2346 /* PasswordsStealerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD296281370D965004E2346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD296601370DD13004E2346 /* Security.framework */,
+				FAD296291370D965004E2346 /* Cocoa.framework */,
+				FAD2962B1370D965004E2346 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD2962B1370D965004E2346 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2962C1370D965004E2346 /* AppKit.framework */,
+				FAD2962D1370D965004E2346 /* CoreData.framework */,
+				FAD2962E1370D965004E2346 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAD2962F1370D965004E2346 /* PasswordsStealer */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2963B1370D965004E2346 /* PasswordsStealerAppDelegate.h */,
+				FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */,
+				FAD2965D1370D976004E2346 /* ANPasswordStealer.h */,
+				FAD2965E1370D976004E2346 /* ANPasswordStealer.m */,
+				FAD2963E1370D965004E2346 /* MainMenu.xib */,
+				FAD296301370D965004E2346 /* Supporting Files */,
+				FAD296621370E0F2004E2346 /* ANAccount.h */,
+				FAD296631370E0F2004E2346 /* ANAccount.m */,
+			);
+			path = PasswordsStealer;
+			sourceTree = "<group>";
+		};
+		FAD296301370D965004E2346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD296311370D965004E2346 /* PasswordsStealer-Info.plist */,
+				FAD296321370D965004E2346 /* InfoPlist.strings */,
+				FAD296351370D965004E2346 /* PasswordsStealer-Prefix.pch */,
+				FAD296361370D965004E2346 /* main.m */,
+				FAD296381370D965004E2346 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD2964A1370D965004E2346 /* PasswordsStealerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD296511370D965004E2346 /* PasswordsStealerTests.h */,
+				FAD296531370D965004E2346 /* PasswordsStealerTests.m */,
+				FAD2964B1370D965004E2346 /* Supporting Files */,
+			);
+			path = PasswordsStealerTests;
+			sourceTree = "<group>";
+		};
+		FAD2964B1370D965004E2346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2964C1370D965004E2346 /* PasswordsStealerTests-Info.plist */,
+				FAD2964D1370D965004E2346 /* InfoPlist.strings */,
+				FAD296501370D965004E2346 /* PasswordsStealerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD296241370D965004E2346 /* PasswordsStealer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD296571370D965004E2346 /* Build configuration list for PBXNativeTarget "PasswordsStealer" */;
+			buildPhases = (
+				FAD296211370D965004E2346 /* Sources */,
+				FAD296221370D965004E2346 /* Frameworks */,
+				FAD296231370D965004E2346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordsStealer;
+			productName = PasswordsStealer;
+			productReference = FAD296251370D965004E2346 /* PasswordsStealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD296451370D965004E2346 /* PasswordsStealerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2965A1370D965004E2346 /* Build configuration list for PBXNativeTarget "PasswordsStealerTests" */;
+			buildPhases = (
+				FAD296411370D965004E2346 /* Sources */,
+				FAD296421370D965004E2346 /* Frameworks */,
+				FAD296431370D965004E2346 /* Resources */,
+				FAD296441370D965004E2346 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD296491370D965004E2346 /* PBXTargetDependency */,
+			);
+			name = PasswordsStealerTests;
+			productName = PasswordsStealerTests;
+			productReference = FAD296461370D965004E2346 /* PasswordsStealerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD2961C1370D965004E2346 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAD2961F1370D965004E2346 /* Build configuration list for PBXProject "PasswordsStealer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD2961A1370D965004E2346;
+			productRefGroup = FAD296261370D965004E2346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD296241370D965004E2346 /* PasswordsStealer */,
+				FAD296451370D965004E2346 /* PasswordsStealerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD296231370D965004E2346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD296341370D965004E2346 /* InfoPlist.strings in Resources */,
+				FAD2963A1370D965004E2346 /* Credits.rtf in Resources */,
+				FAD296401370D965004E2346 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD296431370D965004E2346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2964F1370D965004E2346 /* InfoPlist.strings in Resources */,
+				FAD296521370D965004E2346 /* PasswordsStealerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAD296441370D965004E2346 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD296211370D965004E2346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD296371370D965004E2346 /* main.m in Sources */,
+				FAD2963D1370D965004E2346 /* PasswordsStealerAppDelegate.m in Sources */,
+				FAD2965F1370D976004E2346 /* ANPasswordStealer.m in Sources */,
+				FAD296641370E0F2004E2346 /* ANAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD296411370D965004E2346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD296541370D965004E2346 /* PasswordsStealerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD296491370D965004E2346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD296241370D965004E2346 /* PasswordsStealer */;
+			targetProxy = FAD296481370D965004E2346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD296321370D965004E2346 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD296331370D965004E2346 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD296381370D965004E2346 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD296391370D965004E2346 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAD2963E1370D965004E2346 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD2963F1370D965004E2346 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FAD2964D1370D965004E2346 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD2964E1370D965004E2346 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD296551370D965004E2346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAD296561370D965004E2346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAD296581370D965004E2346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordsStealer/PasswordsStealer-Prefix.pch";
+				INFOPLIST_FILE = "PasswordsStealer/PasswordsStealer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD296591370D965004E2346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordsStealer/PasswordsStealer-Prefix.pch";
+				INFOPLIST_FILE = "PasswordsStealer/PasswordsStealer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAD2965B1370D965004E2346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordsStealer.app/Contents/MacOS/PasswordsStealer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordsStealerTests/PasswordsStealerTests-Prefix.pch";
+				INFOPLIST_FILE = "PasswordsStealerTests/PasswordsStealerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAD2965C1370D965004E2346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordsStealer.app/Contents/MacOS/PasswordsStealer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordsStealerTests/PasswordsStealerTests-Prefix.pch";
+				INFOPLIST_FILE = "PasswordsStealerTests/PasswordsStealerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD2961F1370D965004E2346 /* Build configuration list for PBXProject "PasswordsStealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD296551370D965004E2346 /* Debug */,
+				FAD296561370D965004E2346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD296571370D965004E2346 /* Build configuration list for PBXNativeTarget "PasswordsStealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD296581370D965004E2346 /* Debug */,
+				FAD296591370D965004E2346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD2965A1370D965004E2346 /* Build configuration list for PBXNativeTarget "PasswordsStealerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2965B1370D965004E2346 /* Debug */,
+				FAD2965C1370D965004E2346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD2961C1370D965004E2346 /* Project object */;
+}

@@ -1,0 +1,293 @@
+TPasswordsStealer
+v7
+r0
+t327810892.353377
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Info.plist PasswordsStealer/PasswordsStealer-Info.plist
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch.pth PasswordsStealer/PasswordsStealer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/main.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealerAppDelegate.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANPasswordStealer.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANAccount.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer normal x86_64
+cCopyStringsFile /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/InfoPlist.strings PasswordsStealer/en.lproj/InfoPlist.strings
+cCpResource build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/Credits.rtf PasswordsStealer/en.lproj/Credits.rtf
+cCompileXIB /Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib
+cTouch /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.h
+c000000004DC0AAD500000000000003A9
+t1304472277
+s937
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m
+c000000004DC0AC0C0000000000000418
+t1304472588
+s1048
+i"ANAccount.h"
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.h
+c000000004DC0AAEB00000000000003E0
+t1304472299
+s992
+i<Foundation/Foundation.h>
+i<Security/SecKeychain.h>
+i"ANAccount.h"
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m
+c000000004DC0AC5C0000000000000E97
+t1304472668
+s3735
+i"ANPasswordStealer.h"
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealer-Prefix.pch
+c000000004DC0A1E500000000000000A0
+t1304469989
+s160
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.h
+c000000004DD9C7BC00000000000002A3
+t1306118076
+s675
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m
+c000000004DD9C78500000000000007AB
+t1306118021
+s1963
+i"PasswordsStealerAppDelegate.h"
+i"ANPasswordStealer.h"
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/Credits.rtf
+c000000004DC0A1E500000000000001B4
+t1304469989
+s436
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/InfoPlist.strings
+c000000004DC0A1E5000000000000002D
+t1304469989
+s45
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib
+c000000004DC0A939000000000002C5FC
+t1304471865
+s181756
+
+N/Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m
+c000000004DC0A1E500000000000000FF
+t1304469989
+s255
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app
+t1306118092
+s102
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Info.plist
+t1306118089
+s903
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer
+t1306118091
+s33384
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/PkgInfo
+t1306118089
+s8
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/Credits.rtf
+t1306118092
+s436
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1306118092
+s92
+
+N/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/MainMenu.nib
+t1306118092
+s41377
+
+N/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANAccount.o
+t1306118091
+s11804
+
+N/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANPasswordStealer.o
+t1306118091
+s17912
+
+N/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealer.LinkFileList
+c000000004DD9C7C90000000000000211
+t1306118089
+s529
+
+N/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealerAppDelegate.o
+t1306118091
+s28168
+
+N/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/main.o
+t1306118091
+s2440
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004CAA74040000000000003430
+t1286239236
+s13360
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/SecKeychain.h
+c000000004C23A0640000000000009632
+t1277403236
+s38450
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CAA7405000000000006611C
+t1286239237
+s418076
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch.pth
+t1306118090
+s9031616
+
+NPasswordsStealer/PasswordsStealer-Info.plist
+c000000004DC0A1E500000000000003E0
+t1304469989
+s992
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327810889#327810889#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANAccount.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327810891.102148
+e327810891.150898
+r1
+xCompileC
+xbuild/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANAccount.o
+x/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@71"Compile /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m327810891#327810891#0(0"0(0#0#63"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m8616189504#1687"    cd /Users/alex/xCode/PasswordsStealer    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -DDEBUG -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-generated-files.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-own-target-headers.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-all-target-headers.hmap -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-project-headers.hmap -F/Users/alex/xCode/PasswordsStealer/build/Debug -I/Users/alex/xCode/PasswordsStealer/build/Debug/include -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources/x86_64 -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch -c /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANAccount.m -o /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANAccount.o0#
+
+CCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANPasswordStealer.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327810891.069160
+e327810891.144089
+r1
+xCompileC
+xbuild/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANPasswordStealer.o
+x/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@79"Compile /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m327810891#327810891#0(0"0(0#0#71"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m8622651520#1703"    cd /Users/alex/xCode/PasswordsStealer    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -DDEBUG -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-generated-files.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-own-target-headers.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-all-target-headers.hmap -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-project-headers.hmap -F/Users/alex/xCode/PasswordsStealer/build/Debug -I/Users/alex/xCode/PasswordsStealer/build/Debug/include -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources/x86_64 -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch -c /Users/alex/xCode/PasswordsStealer/PasswordsStealer/ANPasswordStealer.m -o /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/ANPasswordStealer.o0#
+
+CCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealerAppDelegate.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327810890.678674
+e327810891.102051
+r1
+xCompileC
+xbuild/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealerAppDelegate.o
+x/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@89"Compile /Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m327810890#327810891#0(0"0(0#0#81"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m8612301280#1723"    cd /Users/alex/xCode/PasswordsStealer    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -DDEBUG -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-generated-files.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-own-target-headers.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-all-target-headers.hmap -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-project-headers.hmap -F/Users/alex/xCode/PasswordsStealer/build/Debug -I/Users/alex/xCode/PasswordsStealer/build/Debug/include -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources/x86_64 -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch -c /Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealerAppDelegate.m -o /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealerAppDelegate.o0#
+
+CCompileC build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/main.o /Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327810890.677661
+e327810891.068971
+r1
+xCompileC
+xbuild/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/main.o
+x/Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@66"Compile /Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m327810890#327810891#0(0"0(0#0#58"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m8623658432#1677"    cd /Users/alex/xCode/PasswordsStealer    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -DDEBUG -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-generated-files.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-own-target-headers.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-all-target-headers.hmap -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-project-headers.hmap -F/Users/alex/xCode/PasswordsStealer/build/Debug -I/Users/alex/xCode/PasswordsStealer/build/Debug/include -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources/x86_64 -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch -c /Users/alex/xCode/PasswordsStealer/PasswordsStealer/main.m -o /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib
+s327810891.886235
+e327810892.286731
+r1
+xCompileXIB
+x/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib
+lSLF07#2@49"CompileXIB PasswordsStealer/en.lproj/MainMenu.xib327810891#327810892#0(0"0(0#0#73"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib8618933184#398"    cd /Users/alex/xCode/PasswordsStealer    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/MainMenu.nib /Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/InfoPlist.strings PasswordsStealer/en.lproj/InfoPlist.strings
+s327810891.884791
+e327810892.335226
+r1
+xCopyStringsFile
+x/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/InfoPlist.strings
+xPasswordsStealer/en.lproj/InfoPlist.strings
+lSLF07#2@48"Copy PasswordsStealer/en.lproj/InfoPlist.strings327810891#327810892#0(0"0(0#0#78"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/InfoPlist.strings8620791168#388"    cd /Users/alex/xCode/PasswordsStealer    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 PasswordsStealer/en.lproj/InfoPlist.strings --outdir /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj0#
+
+CCpResource build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/Credits.rtf PasswordsStealer/en.lproj/Credits.rtf
+s327810891.885659
+e327810892.103304
+r1
+xCpResource
+xbuild/Debug/PasswordsStealer.app/Contents/Resources/en.lproj/Credits.rtf
+xPasswordsStealer/en.lproj/Credits.rtf
+lSLF07#2@42"Copy PasswordsStealer/en.lproj/Credits.rtf327810891#327810892#0(0"0(0#0#72"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/Credits.rtf8619245344#388"    cd /Users/alex/xCode/PasswordsStealer    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/PasswordsStealer/PasswordsStealer/en.lproj/Credits.rtf /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Resources/en.lproj0#
+
+CLd /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer normal x86_64
+s327810891.150999
+e327810891.884681
+r1
+xLd
+x/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer
+xnormal
+xx86_64
+lSLF07#2@104"Link /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer327810891#327810891#0(0"0(0#0#0"8623807488#624"    cd /Users/alex/xCode/PasswordsStealer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/clang -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/PasswordsStealer/build/Debug -F/Users/alex/xCode/PasswordsStealer/build/Debug -filelist /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/Objects-normal/x86_64/PasswordsStealer.LinkFileList -mmacosx-version-min=10.6 -framework Security -framework Cocoa -prebind -o /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/MacOS/PasswordsStealer0#
+
+CProcessInfoPlistFile /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Info.plist PasswordsStealer/PasswordsStealer-Info.plist
+s327810889.487493
+e327810889.519945
+r1
+xProcessInfoPlistFile
+x/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Info.plist
+xPasswordsStealer/PasswordsStealer-Info.plist
+lSLF07#2@52"Process PasswordsStealer/PasswordsStealer-Info.plist327810889#327810889#0(0"0(0#0#79"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealer-Info.plist28147987304611960#342"    cd /Users/alex/xCode/PasswordsStealer    builtin-infoPlistUtility PasswordsStealer/PasswordsStealer-Info.plist -genpkginfo /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch.pth PasswordsStealer/PasswordsStealer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327810889.520097
+e327810890.677558
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch.pth
+xPasswordsStealer/PasswordsStealer-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@55"Precompile PasswordsStealer/PasswordsStealer-Prefix.pch327810889#327810890#0(0"0(0#0#79"/Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealer-Prefix.pch8623696224#1578"    cd /Users/alex/xCode/PasswordsStealer    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -DDEBUG -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-generated-files.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-own-target-headers.hmap -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-all-target-headers.hmap -iquote /Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/PasswordsStealer-project-headers.hmap -F/Users/alex/xCode/PasswordsStealer/build/Debug -I/Users/alex/xCode/PasswordsStealer/build/Debug/include -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources/x86_64 -I/Users/alex/xCode/PasswordsStealer/build/PasswordsStealer.build/Debug/PasswordsStealer.build/DerivedSources -c /Users/alex/xCode/PasswordsStealer/PasswordsStealer/PasswordsStealer-Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasswordsStealer-Prefix-enrvmxxbwnapkgdksucsooecdjyn/PasswordsStealer-Prefix.pch.pth0#
+
+CTouch /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app
+s327810892.335314
+e327810892.353318
+r1
+xTouch
+x/Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app
+lSLF07#2@73"Touch /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app327810892#327810892#0(0"0(0#0#0"8612831776#132"    cd /Users/alex/xCode/PasswordsStealer    /usr/bin/touch -c /Users/alex/xCode/PasswordsStealer/build/Debug/PasswordsStealer.app0#
+

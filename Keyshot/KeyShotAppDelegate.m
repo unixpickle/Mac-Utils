@@ -145,7 +145,7 @@
 						keyEquivalent:@""];
 	[menuItem setTarget:self];
 	
-	return menu;
+	return [menu autorelease];
 }
 
 #pragma mark Unused (commented out)
@@ -252,7 +252,7 @@ void addToLoginItems(NSString * path, BOOL hide) {
 	[ANKeyEvent configureKeyboard];
 	[self loadFromDefaults];
 	NSMenu * menu = [self createMenu];
-	NSStatusItem * _statusItem = [[[NSStatusBar systemStatusBar]
+	_statusItem = [[[NSStatusBar systemStatusBar]
 								   statusItemWithLength:NSSquareStatusItemLength] retain];
 	[_statusItem setMenu:menu];
 	[_statusItem setHighlightMode:YES];
@@ -324,6 +324,7 @@ void addToLoginItems(NSString * path, BOOL hide) {
 - (void)dealloc {
 	[keystrokes release];
 	keystrokes = nil;
+	[_statusItem release];
 	[tv setDelegate:nil];
 	[tv setDataSource:nil];
 	[super dealloc];

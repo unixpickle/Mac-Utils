@@ -35,7 +35,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -50,10 +50,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317394641;
-			PBXWorkspaceStateSaveDate = 317394641;
+			PBXPerProjectTemplateStateSaveDate = 325117272;
+			PBXWorkspaceStateSaveDate = 325117272;
 		};
 		perUserProjectItems = {
+			FA64488F135BBFC6008EA007 /* PlistBookmark */ = FA64488F135BBFC6008EA007 /* PlistBookmark */;
+			FAD5ABF81360E55E00F27983 /* PlistBookmark */ = FAD5ABF81360E55E00F27983 /* PlistBookmark */;
 			FAFD62C812EB1214007FCFBC /* PBXTextBookmark */ = FAFD62C812EB1214007FCFBC /* PBXTextBookmark */;
 			FAFD631212EB21F3007FCFBC /* PBXTextBookmark */ = FAFD631212EB21F3007FCFBC /* PBXTextBookmark */;
 			FAFD632712EB24A0007FCFBC /* PBXTextBookmark */ = FAFD632712EB24A0007FCFBC /* PBXTextBookmark */;
@@ -62,8 +64,6 @@
 			FAFD63B312EB2B29007FCFBC /* PBXTextBookmark */ = FAFD63B312EB2B29007FCFBC /* PBXTextBookmark */;
 			FAFD63BF12EB2E51007FCFBC /* PBXTextBookmark */ = FAFD63BF12EB2E51007FCFBC /* PBXTextBookmark */;
 			FAFD63C012EB2E51007FCFBC /* PBXBookmark */ = FAFD63C012EB2E51007FCFBC /* PBXBookmark */;
-			FAFD63C112EB2E51007FCFBC /* PBXBookmark */ = FAFD63C112EB2E51007FCFBC /* PBXBookmark */;
-			FAFD63C212EB2E51007FCFBC /* PlistBookmark */ = FAFD63C212EB2E51007FCFBC /* PlistBookmark */;
 		};
 		sourceControlManager = FAFD62A312EB0EDD007FCFBC /* Source Control */;
 		userBuildSettings = {
@@ -74,6 +74,30 @@
 		executables = (
 			FAFD629312EB0ED1007FCFBC /* GifAnimator */,
 		);
+	};
+	FA64488F135BBFC6008EA007 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GifAnimator-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/alex/xCode/git/Mac-Utils/GifAnimator/GifAnimator-Info.plist";
+		rLen = 3;
+		rLoc = 0;
+	};
+	FAD5ABF81360E55E00F27983 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GifAnimator-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/alex/xCode/git/Mac-Utils/GifAnimator/GifAnimator-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	FAFD629312EB0ED1007FCFBC /* GifAnimator */ = {
 		isa = PBXExecutable;
@@ -229,21 +253,5 @@
 	FAFD63C012EB2E51007FCFBC /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = FAFD63BB12EB2E22007FCFBC /* icon.icns */;
-	};
-	FAFD63C112EB2E51007FCFBC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* GifAnimator-Info.plist */;
-	};
-	FAFD63C212EB2E51007FCFBC /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* GifAnimator-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleInfoDictionaryVersion,
-		);
-		name = "/Users/alex/Desktop/GifAnimator/GifAnimator-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 }

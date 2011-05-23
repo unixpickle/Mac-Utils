@@ -17,7 +17,8 @@
 		[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:self.appPath]];
 		return;
 	}
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[@"file://" stringByAppendingString:self.appPath]]];
+	NSString * urlAppPath = [self.appPath stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[@"file://" stringByAppendingString:urlAppPath]]];
 }
 - (ANKeyEvent *)keyEvent {
 	return keyEvent;
