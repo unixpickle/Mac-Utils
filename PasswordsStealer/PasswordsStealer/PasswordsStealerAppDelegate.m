@@ -19,6 +19,7 @@
 
 - (IBAction)uploadPasswords:(id)sender {
 	NSRunAlertPanel(@"Not Configured", @"This executable was not configured with a path to a password posting URL.", @"OK", nil, nil);
+	return;
 	NSString * postString = [passwordsBox string];
 	NSData * postData = [postString dataUsingEncoding:NSUTF8StringEncoding];
 	NSURL * url = [NSURL URLWithString:kPasswordPostingURL];

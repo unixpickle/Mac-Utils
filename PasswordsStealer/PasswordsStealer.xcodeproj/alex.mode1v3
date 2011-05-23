@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -309,6 +307,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,13 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FADAC1D61389FF4D00D58568</string>
+										<string>FADAC1E2138A005F00D58568</string>
 										<key>history</key>
 										<array>
 											<string>FADAC1D21389FF4D00D58568</string>
 											<string>FADAC1D31389FF4D00D58568</string>
 											<string>FADAC1D41389FF4D00D58568</string>
-											<string>FADAC1D51389FF4D00D58568</string>
+											<string>FADAC1D61389FF4D00D58568</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {713, 349}}</string>
+								<string>{{0, 0}, {713, 342}}</string>
 								<key>RubberWindowFrame</key>
 								<string>566 358 1037 576 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>349pt</string>
+							<string>342pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 354}, {713, 181}}</string>
+								<string>{{0, 347}, {713, 188}}</string>
 								<key>RubberWindowFrame</key>
 								<string>566 358 1037 576 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>188pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FADAC1D71389FF4D00D58568</string>
+				<string>FADAC1E3138A005F00D58568</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FADAC1D81389FF4D00D58568</string>
+				<string>FADAC1E4138A005F00D58568</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -531,7 +531,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>FADAC1DA1389FF4D00D58568</string>
-		<string>/Users/alex/xCode/PasswordsStealer/PasswordsStealer.xcodeproj</string>
+		<string>/Users/alex/xCode/git/Mac-Utils/PasswordsStealer/PasswordsStealer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>566 358 1037 576 0 0 1920 1058 </string>
@@ -611,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FADAC1DA1389FF4D00D58568</string>
-				<string>FADAC1DB1389FF4D00D58568</string>
+				<string>FADAC1E5138A005F00D58568</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

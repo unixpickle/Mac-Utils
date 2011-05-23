@@ -16,7 +16,7 @@
 					20,
 					474,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -31,15 +31,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 327810756;
-			PBXWorkspaceStateSaveDate = 327810756;
+			PBXPerProjectTemplateStateSaveDate = 327811163;
+			PBXWorkspaceStateSaveDate = 327811163;
 		};
 		perUserProjectItems = {
-			FADAC1D21389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D21389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D31389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D31389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D41389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D41389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D51389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D51389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D61389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D61389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D21389FF4D00D58568 = FADAC1D21389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D31389FF4D00D58568 = FADAC1D31389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D41389FF4D00D58568 = FADAC1D41389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D51389FF4D00D58568 = FADAC1D51389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D61389FF4D00D58568 = FADAC1D61389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1E2138A005F00D58568 /* PBXTextBookmark */ = FADAC1E2138A005F00D58568 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FADAC1CE1389FEE300D58568 /* Source Control */;
 		userBuildSettings = {
@@ -60,9 +61,9 @@
 	};
 	FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {876, 742}}";
-			sepNavSelRange = "{776, 0}";
-			sepNavVisRange = "{161, 1124}";
+			sepNavIntBoundsRect = "{{0, 0}, {876, 700}}";
+			sepNavSelRange = "{607, 0}";
+			sepNavVisRange = "{161, 1031}";
 		};
 	};
 	FAD296451370D965004E2346 /* PasswordsStealerTests */ = {
@@ -158,7 +159,7 @@
 		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
 		name = "PasswordsStealerAppDelegate.m: 24";
 		rLen = 0;
-		rLoc = 776;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 1205;
 		vrLoc = 277;
@@ -168,9 +169,19 @@
 		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
 		name = "PasswordsStealerAppDelegate.m: 24";
 		rLen = 0;
-		rLoc = 776;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 1124;
+		vrLoc = 161;
+	};
+	FADAC1E2138A005F00D58568 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
+		name = "PasswordsStealerAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 607;
+		rType = 0;
+		vrLen = 1031;
 		vrLoc = 161;
 	};
 }
