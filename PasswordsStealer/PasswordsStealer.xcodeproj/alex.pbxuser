@@ -35,12 +35,11 @@
 			PBXWorkspaceStateSaveDate = 327811163;
 		};
 		perUserProjectItems = {
-			FADAC1D21389FF4D00D58568 = FADAC1D21389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D31389FF4D00D58568 = FADAC1D31389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D41389FF4D00D58568 = FADAC1D41389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D51389FF4D00D58568 = FADAC1D51389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1D61389FF4D00D58568 = FADAC1D61389FF4D00D58568 /* PBXTextBookmark */;
-			FADAC1E2138A005F00D58568 /* PBXTextBookmark */ = FADAC1E2138A005F00D58568 /* PBXTextBookmark */;
+			FADAC1D21389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D21389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D31389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D31389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D41389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D41389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1D61389FF4D00D58568 /* PBXTextBookmark */ = FADAC1D61389FF4D00D58568 /* PBXTextBookmark */;
+			FADAC1E8138A00A900D58568 /* PBXTextBookmark */ = FADAC1E8138A00A900D58568 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FADAC1CE1389FEE300D58568 /* Source Control */;
 		userBuildSettings = {
@@ -63,7 +62,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {876, 700}}";
 			sepNavSelRange = "{607, 0}";
-			sepNavVisRange = "{161, 1031}";
+			sepNavVisRange = "{299, 1195}";
 		};
 	};
 	FAD296451370D965004E2346 /* PasswordsStealerTests */ = {
@@ -154,16 +153,6 @@
 		vrLen = 576;
 		vrLoc = 99;
 	};
-	FADAC1D51389FF4D00D58568 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
-		name = "PasswordsStealerAppDelegate.m: 24";
-		rLen = 0;
-		rLoc = 785;
-		rType = 0;
-		vrLen = 1205;
-		vrLoc = 277;
-	};
 	FADAC1D61389FF4D00D58568 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
@@ -174,14 +163,14 @@
 		vrLen = 1124;
 		vrLoc = 161;
 	};
-	FADAC1E2138A005F00D58568 /* PBXTextBookmark */ = {
+	FADAC1E8138A00A900D58568 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAD2963C1370D965004E2346 /* PasswordsStealerAppDelegate.m */;
 		name = "PasswordsStealerAppDelegate.m: 22";
 		rLen = 0;
 		rLoc = 607;
 		rType = 0;
-		vrLen = 1031;
-		vrLoc = 161;
+		vrLen = 1195;
+		vrLoc = 299;
 	};
 }

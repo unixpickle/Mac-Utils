@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA353FC213B63CF3005D5F8D /* AudioFileEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA353FC113B63CF3005D5F8D /* AudioFileEncoder.m */; };
+		FA353FC513B64928005D5F8D /* ExportWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA353FC413B64928005D5F8D /* ExportWindow.m */; };
+		FA353FCA13B6774B005D5F8D /* main.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA353FC913B6774B005D5F8D /* main.txt */; };
+		FA353FD813B69BFE005D5F8D /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA353FD713B69BFE005D5F8D /* icon.icns */; };
+		FAAA45B613B7BF4F00DD9492 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA45B513B7BF4E00DD9492 /* gear.png */; };
+		FAAA45BE13B7CA2A00DD9492 /* AudioApp.app in Resources */ = {isa = PBXBuildFile; fileRef = FAAA45BD13B7CA2A00DD9492 /* AudioApp.app */; };
+		FAAEEC1E13B61B9800D6613D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAEEC1D13B61B9800D6613D /* Cocoa.framework */; };
+		FAAEEC2813B61B9800D6613D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAAEEC2613B61B9800D6613D /* InfoPlist.strings */; };
+		FAAEEC2B13B61B9800D6613D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC2A13B61B9800D6613D /* main.m */; };
+		FAAEEC2E13B61B9800D6613D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAAEEC2C13B61B9800D6613D /* Credits.rtf */; };
+		FAAEEC3113B61B9800D6613D /* SongToExeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC3013B61B9800D6613D /* SongToExeAppDelegate.m */; };
+		FAAEEC3413B61B9900D6613D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEEC3213B61B9900D6613D /* MainMenu.xib */; };
+		FAAEEC3B13B61D2B00D6613D /* drag_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAEEC3A13B61D2A00D6613D /* drag_bg.png */; };
+		FAAEEC3E13B62EAB00D6613D /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC3D13B62EAB00D6613D /* DragView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA353FC013B63CF3005D5F8D /* AudioFileEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileEncoder.h; sourceTree = "<group>"; };
+		FA353FC113B63CF3005D5F8D /* AudioFileEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileEncoder.m; sourceTree = "<group>"; };
+		FA353FC313B64928005D5F8D /* ExportWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportWindow.h; sourceTree = "<group>"; };
+		FA353FC413B64928005D5F8D /* ExportWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportWindow.m; sourceTree = "<group>"; };
+		FA353FC913B6774B005D5F8D /* main.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.txt; sourceTree = "<group>"; };
+		FA353FD713B69BFE005D5F8D /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		FAAA45B513B7BF4E00DD9492 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		FAAA45BD13B7CA2A00DD9492 /* AudioApp.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = AudioApp.app; sourceTree = "<group>"; };
+		FAAEEC1913B61B9800D6613D /* SongToExe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongToExe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAEEC1D13B61B9800D6613D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAAEEC2013B61B9800D6613D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAAEEC2113B61B9800D6613D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAAEEC2213B61B9800D6613D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAAEEC2513B61B9800D6613D /* SongToExe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongToExe-Info.plist"; sourceTree = "<group>"; };
+		FAAEEC2713B61B9800D6613D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAAEEC2913B61B9800D6613D /* SongToExe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SongToExe-Prefix.pch"; sourceTree = "<group>"; };
+		FAAEEC2A13B61B9800D6613D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAAEEC2D13B61B9800D6613D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAAEEC2F13B61B9800D6613D /* SongToExeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongToExeAppDelegate.h; sourceTree = "<group>"; };
+		FAAEEC3013B61B9800D6613D /* SongToExeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongToExeAppDelegate.m; sourceTree = "<group>"; };
+		FAAEEC3313B61B9900D6613D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAAEEC3A13B61D2A00D6613D /* drag_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drag_bg.png; sourceTree = "<group>"; };
+		FAAEEC3C13B62EAB00D6613D /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		FAAEEC3D13B62EAB00D6613D /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAEEC1613B61B9800D6613D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAEEC1E13B61B9800D6613D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAEEC0E13B61B9800D6613D = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC2313B61B9800D6613D /* SongToExe */,
+				FAAEEC1C13B61B9800D6613D /* Frameworks */,
+				FAAEEC1A13B61B9800D6613D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAEEC1A13B61B9800D6613D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC1913B61B9800D6613D /* SongToExe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAEEC1C13B61B9800D6613D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC1D13B61B9800D6613D /* Cocoa.framework */,
+				FAAEEC1F13B61B9800D6613D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAEEC1F13B61B9800D6613D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC2013B61B9800D6613D /* AppKit.framework */,
+				FAAEEC2113B61B9800D6613D /* CoreData.framework */,
+				FAAEEC2213B61B9800D6613D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAAEEC2313B61B9800D6613D /* SongToExe */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC2A13B61B9800D6613D /* main.m */,
+				FAAEEC2F13B61B9800D6613D /* SongToExeAppDelegate.h */,
+				FAAEEC3013B61B9800D6613D /* SongToExeAppDelegate.m */,
+				FA353FC013B63CF3005D5F8D /* AudioFileEncoder.h */,
+				FA353FC113B63CF3005D5F8D /* AudioFileEncoder.m */,
+				FA353FC313B64928005D5F8D /* ExportWindow.h */,
+				FA353FC413B64928005D5F8D /* ExportWindow.m */,
+				FAAEEC3C13B62EAB00D6613D /* DragView.h */,
+				FAAEEC3D13B62EAB00D6613D /* DragView.m */,
+				FAAEEC2413B61B9800D6613D /* Supporting Files */,
+			);
+			path = SongToExe;
+			sourceTree = "<group>";
+		};
+		FAAEEC2413B61B9800D6613D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA45BD13B7CA2A00DD9492 /* AudioApp.app */,
+				FA353FD713B69BFE005D5F8D /* icon.icns */,
+				FAAA45B513B7BF4E00DD9492 /* gear.png */,
+				FAAEEC3213B61B9900D6613D /* MainMenu.xib */,
+				FA353FC913B6774B005D5F8D /* main.txt */,
+				FAAEEC3A13B61D2A00D6613D /* drag_bg.png */,
+				FAAEEC2513B61B9800D6613D /* SongToExe-Info.plist */,
+				FAAEEC2613B61B9800D6613D /* InfoPlist.strings */,
+				FAAEEC2913B61B9800D6613D /* SongToExe-Prefix.pch */,
+				FAAEEC2C13B61B9800D6613D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAEEC1813B61B9800D6613D /* SongToExe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAEEC3713B61B9900D6613D /* Build configuration list for PBXNativeTarget "SongToExe" */;
+			buildPhases = (
+				FAAEEC1513B61B9800D6613D /* Sources */,
+				FAAEEC1613B61B9800D6613D /* Frameworks */,
+				FAAEEC1713B61B9800D6613D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongToExe;
+			productName = SongToExe;
+			productReference = FAAEEC1913B61B9800D6613D /* SongToExe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAEEC1013B61B9800D6613D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAAEEC1313B61B9800D6613D /* Build configuration list for PBXProject "SongToExe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAAEEC0E13B61B9800D6613D;
+			productRefGroup = FAAEEC1A13B61B9800D6613D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAEEC1813B61B9800D6613D /* SongToExe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAEEC1713B61B9800D6613D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAEEC2813B61B9800D6613D /* InfoPlist.strings in Resources */,
+				FAAEEC2E13B61B9800D6613D /* Credits.rtf in Resources */,
+				FAAEEC3413B61B9900D6613D /* MainMenu.xib in Resources */,
+				FAAEEC3B13B61D2B00D6613D /* drag_bg.png in Resources */,
+				FA353FCA13B6774B005D5F8D /* main.txt in Resources */,
+				FA353FD813B69BFE005D5F8D /* icon.icns in Resources */,
+				FAAA45B613B7BF4F00DD9492 /* gear.png in Resources */,
+				FAAA45BE13B7CA2A00DD9492 /* AudioApp.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAEEC1513B61B9800D6613D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAEEC2B13B61B9800D6613D /* main.m in Sources */,
+				FAAEEC3113B61B9800D6613D /* SongToExeAppDelegate.m in Sources */,
+				FAAEEC3E13B62EAB00D6613D /* DragView.m in Sources */,
+				FA353FC213B63CF3005D5F8D /* AudioFileEncoder.m in Sources */,
+				FA353FC513B64928005D5F8D /* ExportWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAAEEC2613B61B9800D6613D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAEEC2713B61B9800D6613D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAAEEC2C13B61B9800D6613D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAEEC2D13B61B9800D6613D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAAEEC3213B61B9900D6613D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAEEC3313B61B9900D6613D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAEEC3513B61B9900D6613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAAEEC3613B61B9900D6613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAAEEC3813B61B9900D6613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongToExe/SongToExe-Prefix.pch";
+				INFOPLIST_FILE = "SongToExe/SongToExe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAAEEC3913B61B9900D6613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongToExe/SongToExe-Prefix.pch";
+				INFOPLIST_FILE = "SongToExe/SongToExe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAEEC1313B61B9800D6613D /* Build configuration list for PBXProject "SongToExe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAEEC3513B61B9900D6613D /* Debug */,
+				FAAEEC3613B61B9900D6613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAEEC3713B61B9900D6613D /* Build configuration list for PBXNativeTarget "SongToExe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAEEC3813B61B9900D6613D /* Debug */,
+				FAAEEC3913B61B9900D6613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAEEC1013B61B9800D6613D /* Project object */;
+}

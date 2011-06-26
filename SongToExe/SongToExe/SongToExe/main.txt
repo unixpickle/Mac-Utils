@@ -1,0 +1,37 @@
+//
+//  main.m
+//  SongToExe Compiled
+//
+//  Created by Alex Nichol on 6/20/11.
+//  Copyright 2011 Jitsik. All rights reserved.
+//
+
+#import <Cocoa/Cocoa.h>
+#import "songData.h"
+#define dataLength 0
+
+int main (int argc, const char * argv[]) {
+	BOOL loop = NO;
+	if (argc == 2) {
+		if (strcmp(argv[1], "--loop") != 0) {
+			fprintf(stderr, "Usage: %s [--loop]\n", argv[0]);
+			return 0;
+		}
+		loop = YES;
+	}
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSData * song = [NSData dataWithBytes:songData length:dataLength];
+	while (true) {
+		NSAutoreleasePool * pool1 = [[NSAutoreleasePool alloc] init];
+		NSSound * s = [[NSSound alloc] initWithData:song];
+		[s play];
+		[NSThread sleepForTimeInterval:1];
+		while ([s isPlaying]) { [NSThread sleepForTimeInterval:1]; }
+		[s release];
+		[pool1 drain];
+		if (!loop) break;
+	}
+	
+	[pool drain];
+	return 0;
+}

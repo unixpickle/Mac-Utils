@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* AudioAppAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 382}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 349}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 728}}";
+			sepNavSelRange = "{1017, 0}";
+			sepNavVisRange = "{439, 1129}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FAA76E0F13B7B67400FEA4B6 /* AudioApp */;
+		activeTarget = 8D1107260486CEB800E47090 /* AudioApp */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* AudioApp */,
+		);
+		codeSenseManager = FAA76E2413B7B68A00FEA4B6 /* Code sense */;
+		executables = (
+			FAA76E0F13B7B67400FEA4B6 /* AudioApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					551,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					511,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330811528;
+			PBXWorkspaceStateSaveDate = 330811528;
+		};
+		perUserProjectItems = {
+			FA4E92C013B7C88A00FE3EE0 /* PBXTextBookmark */ = FA4E92C013B7C88A00FE3EE0 /* PBXTextBookmark */;
+			FA4E92C613B7C8AE00FE3EE0 /* PBXTextBookmark */ = FA4E92C613B7C8AE00FE3EE0 /* PBXTextBookmark */;
+			FA4E92D113B7C8BB00FE3EE0 /* PBXTextBookmark */ = FA4E92D113B7C8BB00FE3EE0 /* PBXTextBookmark */;
+			FA4E92D413B7C98700FE3EE0 /* PBXTextBookmark */ = FA4E92D413B7C98700FE3EE0 /* PBXTextBookmark */;
+			FA4E92D513B7C98700FE3EE0 /* PBXTextBookmark */ = FA4E92D513B7C98700FE3EE0 /* PBXTextBookmark */;
+			FA4E92D613B7C98700FE3EE0 /* PlistBookmark */ = FA4E92D613B7C98700FE3EE0 /* PlistBookmark */;
+			FA4E92D713B7C98700FE3EE0 /* PlistBookmark */ = FA4E92D713B7C98700FE3EE0 /* PlistBookmark */;
+			FA4E92D813B7C98700FE3EE0 /* PlistBookmark */ = FA4E92D813B7C98700FE3EE0 /* PlistBookmark */;
+			FA4E92DB13B7C98E00FE3EE0 /* XCBuildMessageTextBookmark */ = FA4E92DB13B7C98E00FE3EE0 /* XCBuildMessageTextBookmark */;
+			FA4E92DC13B7C98E00FE3EE0 /* PBXTextBookmark */ = FA4E92DC13B7C98E00FE3EE0 /* PBXTextBookmark */;
+			FA4E92DF13B7C99300FE3EE0 /* PBXTextBookmark */ = FA4E92DF13B7C99300FE3EE0 /* PBXTextBookmark */;
+			FA4E92E013B7C99300FE3EE0 /* PlistBookmark */ = FA4E92E013B7C99300FE3EE0 /* PlistBookmark */;
+			FA4E92E113B7C99300FE3EE0 /* PlistBookmark */ = FA4E92E113B7C99300FE3EE0 /* PlistBookmark */;
+			FA4E92E813B7CA0300FE3EE0 /* PlistBookmark */ = FA4E92E813B7CA0300FE3EE0 /* PlistBookmark */;
+			FA4E92E913B7CA0300FE3EE0 /* PBXTextBookmark */ = FA4E92E913B7CA0300FE3EE0 /* PBXTextBookmark */;
+			FA4E92EA13B7CA0300FE3EE0 /* PBXTextBookmark */ = FA4E92EA13B7CA0300FE3EE0 /* PBXTextBookmark */;
+			FAA76E4813B7BCED00FEA4B6 = FAA76E4813B7BCED00FEA4B6 /* PBXBookmark */;
+			FAA76E4913B7BCED00FEA4B6 = FAA76E4913B7BCED00FEA4B6 /* PBXTextBookmark */;
+			FAA76E4A13B7BCED00FEA4B6 = FAA76E4A13B7BCED00FEA4B6 /* PlistBookmark */;
+			FAA76E4B13B7BCED00FEA4B6 = FAA76E4B13B7BCED00FEA4B6 /* PlistBookmark */;
+			FAA76E5213B7BCFA00FEA4B6 = FAA76E5213B7BCFA00FEA4B6 /* PBXTextBookmark */;
+			FAA76E5313B7BCFA00FEA4B6 = FAA76E5313B7BCFA00FEA4B6 /* PBXTextBookmark */;
+			FAA76E5513B7BD1A00FEA4B6 = FAA76E5513B7BD1A00FEA4B6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FAA76E2313B7B68A00FEA4B6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* AudioApp */ = {
+		activeExec = 0;
+		executables = (
+			FAA76E0F13B7B67400FEA4B6 /* AudioApp */,
+		);
+	};
+	FA4E92C013B7C88A00FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1488;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	FA4E92C613B7C8AE00FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 51";
+		rLen = 0;
+		rLoc = 1460;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 0;
+	};
+	FA4E92D113B7C8BB00FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 1370;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 820;
+	};
+	FA4E92D413B7C98700FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* AudioAppAppDelegate.h */;
+		name = "AudioAppAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	FA4E92D513B7C98700FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	FA4E92D613B7C98700FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* AudioApp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = "/Users/alex/Desktop/AudioApp/AudioApp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92D713B7C98700FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92D813B7C98700FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92DB13B7C98E00FE3EE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'loop'";
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 35;
+		rType = 1;
+	};
+	FA4E92DC13B7C98E00FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 865;
+	};
+	FA4E92DF13B7C99300FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1079;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 458;
+	};
+	FA4E92E013B7C99300FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92E113B7C99300FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92E813B7CA0300FE3EE0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			loop,
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FA4E92E913B7CA0300FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1079;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 439;
+	};
+	FA4E92EA13B7CA0300FE3EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 1017;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 439;
+	};
+	FAA76E0F13B7B67400FEA4B6 /* AudioApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AudioApp;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FAA76E2313B7B68A00FEA4B6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FAA76E2413B7B68A00FEA4B6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FAA76E4813B7BCED00FEA4B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FAA76E2513B7B7A800FEA4B6 /* audio.icns */;
+	};
+	FAA76E4913B7BCED00FEA4B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	FAA76E4A13B7BCED00FEA4B6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* AudioApp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = "/Users/alex/Desktop/AudioApp/AudioApp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FAA76E4B13B7BCED00FEA4B6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = FAA76E2813B7B7CD00FEA4B6 /* extrainfo.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/alex/Desktop/AudioApp/extrainfo.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FAA76E5213B7BCFA00FEA4B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* AudioAppAppDelegate.h */;
+		name = "AudioAppAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	FAA76E5313B7BCFA00FEA4B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 46";
+		rLen = 0;
+		rLoc = 1488;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 821;
+	};
+	FAA76E5513B7BD1A00FEA4B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AudioAppAppDelegate.m */;
+		name = "AudioAppAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1488;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+}
