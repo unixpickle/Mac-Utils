@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0F35191438997100D480D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F35181438997100D480D9 /* Cocoa.framework */; };
+		FA0F35231438997100D480D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA0F35211438997100D480D9 /* InfoPlist.strings */; };
+		FA0F35251438997100D480D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F35241438997100D480D9 /* main.m */; };
+		FA0F35291438997100D480D9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA0F35271438997100D480D9 /* Credits.rtf */; };
+		FA0F352C1438997100D480D9 /* iChatImagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F352B1438997100D480D9 /* iChatImagesAppDelegate.m */; };
+		FA0F352F1438997100D480D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0F352D1438997100D480D9 /* MainMenu.xib */; };
+		FA0F35371438999A00D480D9 /* ANChatImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F35361438999A00D480D9 /* ANChatImageCache.m */; };
+		FA0F353A14389A2E00D480D9 /* ANCachedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F353914389A2D00D480D9 /* ANCachedImage.m */; };
+		FA0F353C1438ACB300D480D9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA0F353B1438ACB300D480D9 /* icon.icns */; };
+		FA4EE5AD1438BDA10001843F /* reload-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE5AC1438BDA10001843F /* reload-button.png */; };
+		FA4EE5AF1438BEF30001843F /* finder.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE5AE1438BEF30001843F /* finder.png */; };
+		FA4EE5B11438BF980001843F /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE5B01438BF980001843F /* trash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0F35141438997100D480D9 /* iChatImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChatImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F35181438997100D480D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA0F351B1438997100D480D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA0F351C1438997100D480D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA0F351D1438997100D480D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA0F35201438997100D480D9 /* iChatImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChatImages-Info.plist"; sourceTree = "<group>"; };
+		FA0F35221438997100D480D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA0F35241438997100D480D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0F35261438997100D480D9 /* iChatImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChatImages-Prefix.pch"; sourceTree = "<group>"; };
+		FA0F35281438997100D480D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA0F352A1438997100D480D9 /* iChatImagesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChatImagesAppDelegate.h; sourceTree = "<group>"; };
+		FA0F352B1438997100D480D9 /* iChatImagesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChatImagesAppDelegate.m; sourceTree = "<group>"; };
+		FA0F352E1438997100D480D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA0F35351438999A00D480D9 /* ANChatImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANChatImageCache.h; sourceTree = "<group>"; };
+		FA0F35361438999A00D480D9 /* ANChatImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANChatImageCache.m; sourceTree = "<group>"; };
+		FA0F353814389A2D00D480D9 /* ANCachedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANCachedImage.h; sourceTree = "<group>"; };
+		FA0F353914389A2D00D480D9 /* ANCachedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCachedImage.m; sourceTree = "<group>"; };
+		FA0F353B1438ACB300D480D9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		FA4EE5AC1438BDA10001843F /* reload-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload-button.png"; sourceTree = "<group>"; };
+		FA4EE5AE1438BEF30001843F /* finder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finder.png; sourceTree = "<group>"; };
+		FA4EE5B01438BF980001843F /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0F35111438997100D480D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F35191438997100D480D9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0F35091438997100D480D9 = {
+			isa = PBXGroup;
+			children = (
+				FA0F351E1438997100D480D9 /* iChatImages */,
+				FA0F35171438997100D480D9 /* Frameworks */,
+				FA0F35151438997100D480D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0F35151438997100D480D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F35141438997100D480D9 /* iChatImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0F35171438997100D480D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F35181438997100D480D9 /* Cocoa.framework */,
+				FA0F351A1438997100D480D9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0F351A1438997100D480D9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F351B1438997100D480D9 /* AppKit.framework */,
+				FA0F351C1438997100D480D9 /* CoreData.framework */,
+				FA0F351D1438997100D480D9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA0F351E1438997100D480D9 /* iChatImages */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F352A1438997100D480D9 /* iChatImagesAppDelegate.h */,
+				FA0F352B1438997100D480D9 /* iChatImagesAppDelegate.m */,
+				FA0F35351438999A00D480D9 /* ANChatImageCache.h */,
+				FA0F35361438999A00D480D9 /* ANChatImageCache.m */,
+				FA0F353814389A2D00D480D9 /* ANCachedImage.h */,
+				FA0F353914389A2D00D480D9 /* ANCachedImage.m */,
+				FA0F352D1438997100D480D9 /* MainMenu.xib */,
+				FA0F351F1438997100D480D9 /* Supporting Files */,
+			);
+			path = iChatImages;
+			sourceTree = "<group>";
+		};
+		FA0F351F1438997100D480D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EE5B01438BF980001843F /* trash.png */,
+				FA4EE5AE1438BEF30001843F /* finder.png */,
+				FA4EE5AC1438BDA10001843F /* reload-button.png */,
+				FA0F353B1438ACB300D480D9 /* icon.icns */,
+				FA0F35201438997100D480D9 /* iChatImages-Info.plist */,
+				FA0F35211438997100D480D9 /* InfoPlist.strings */,
+				FA0F35241438997100D480D9 /* main.m */,
+				FA0F35261438997100D480D9 /* iChatImages-Prefix.pch */,
+				FA0F35271438997100D480D9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0F35131438997100D480D9 /* iChatImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0F35321438997100D480D9 /* Build configuration list for PBXNativeTarget "iChatImages" */;
+			buildPhases = (
+				FA0F35101438997100D480D9 /* Sources */,
+				FA0F35111438997100D480D9 /* Frameworks */,
+				FA0F35121438997100D480D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChatImages;
+			productName = iChatImages;
+			productReference = FA0F35141438997100D480D9 /* iChatImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0F350B1438997100D480D9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FA0F350E1438997100D480D9 /* Build configuration list for PBXProject "iChatImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA0F35091438997100D480D9;
+			productRefGroup = FA0F35151438997100D480D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0F35131438997100D480D9 /* iChatImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0F35121438997100D480D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F35231438997100D480D9 /* InfoPlist.strings in Resources */,
+				FA0F35291438997100D480D9 /* Credits.rtf in Resources */,
+				FA0F352F1438997100D480D9 /* MainMenu.xib in Resources */,
+				FA0F353C1438ACB300D480D9 /* icon.icns in Resources */,
+				FA4EE5AD1438BDA10001843F /* reload-button.png in Resources */,
+				FA4EE5AF1438BEF30001843F /* finder.png in Resources */,
+				FA4EE5B11438BF980001843F /* trash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0F35101438997100D480D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F35251438997100D480D9 /* main.m in Sources */,
+				FA0F352C1438997100D480D9 /* iChatImagesAppDelegate.m in Sources */,
+				FA0F35371438999A00D480D9 /* ANChatImageCache.m in Sources */,
+				FA0F353A14389A2E00D480D9 /* ANCachedImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA0F35211438997100D480D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F35221438997100D480D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA0F35271438997100D480D9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F35281438997100D480D9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA0F352D1438997100D480D9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F352E1438997100D480D9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0F35301438997100D480D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA0F35311438997100D480D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA0F35331438997100D480D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChatImages/iChatImages-Prefix.pch";
+				INFOPLIST_FILE = "iChatImages/iChatImages-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA0F35341438997100D480D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChatImages/iChatImages-Prefix.pch";
+				INFOPLIST_FILE = "iChatImages/iChatImages-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0F350E1438997100D480D9 /* Build configuration list for PBXProject "iChatImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0F35301438997100D480D9 /* Debug */,
+				FA0F35311438997100D480D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0F35321438997100D480D9 /* Build configuration list for PBXNativeTarget "iChatImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0F35331438997100D480D9 /* Debug */,
+				FA0F35341438997100D480D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0F350B1438997100D480D9 /* Project object */;
+}
